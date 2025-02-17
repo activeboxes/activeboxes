@@ -4,7 +4,6 @@ import { LogOut, SunMoon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 import { useEmbedding } from '@/components/embed-provider';
-import { useTelemetry } from '@/components/telemetry-provider';
 import { userHooks } from '@/hooks/user-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
 
@@ -19,7 +18,6 @@ import {
 } from './dropdown-menu';
 import { TextWithIcon } from './text-with-icon';
 export function UserAvatar() {
-  const { reset } = useTelemetry();
   const { embedState } = useEmbedding();
   const { data: user } = userHooks.useCurrentUser();
   const queryClient = useQueryClient();
@@ -60,7 +58,6 @@ export function UserAvatar() {
           onClick={() => {
             userHooks.invalidateCurrentUser(queryClient);
             authenticationSession.logOut();
-            reset();
           }}
           className="cursor-pointer"
         >

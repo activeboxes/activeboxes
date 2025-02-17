@@ -6,7 +6,6 @@ import { TriangleAlert } from 'lucide-react';
 import React, { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { useTelemetry } from '@/components/telemetry-provider';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -34,7 +33,6 @@ import {
   FlowOperationType,
   FlowTemplate,
   PopulatedFlow,
-  TelemetryEventName,
 } from '@activeboxes/shared';
 
 import { FormError } from '../../../components/ui/form';
@@ -76,7 +74,6 @@ const readTemplateJson = async (
 const ImportFlowDialog = (
   props: ImportFlowDialogProps & { children: React.ReactNode },
 ) => {
-  const { capture } = useTelemetry();
   const [templates, setTemplates] = useState<FlowTemplate[]>([]);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -124,16 +121,6 @@ const ImportFlowDialog = (
     },
 
     onSuccess: (flows: PopulatedFlow[]) => {
-      capture({
-        name: TelemetryEventName.FLOW_IMPORTED_USING_FILE,
-        payload: {
-          location: props.insideBuilder
-            ? 'inside the builder'
-            : 'inside dashboard',
-          multiple: flows.length > 1,
-        },
-      });
-
       toast({
         title: t(`flowsImported`, {
           flowsCount: flows.length,

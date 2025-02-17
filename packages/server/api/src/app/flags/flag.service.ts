@@ -41,7 +41,6 @@ export const flagService = {
                 ApFlagId.SHOW_COMMUNITY,
                 ApFlagId.SHOW_DOCS,
                 ApFlagId.SUPPORTED_APP_WEBHOOKS,
-                ApFlagId.TELEMETRY_ENABLED,
                 ApFlagId.TEMPLATES_PROJECT_ID,
                 ApFlagId.TERMS_OF_SERVICE_URL,
                 ApFlagId.THEME,
@@ -162,12 +161,6 @@ export const flagService = {
                 updated,
             },
             {
-                id: ApFlagId.TELEMETRY_ENABLED,
-                value: system.getBoolean(AppSystemProp.TELEMETRY_ENABLED) ?? true,
-                created,
-                updated,
-            },
-            {
                 id: ApFlagId.PUBLIC_URL,
                 value: await domainHelper.getPublicUrl({
                     path: '',
@@ -262,7 +255,6 @@ function getSupportedAppWebhooks(): string[] {
 
 export type FlagType =
     | BaseFlagStructure<ApFlagId.PUBLIC_URL, string>
-    | BaseFlagStructure<ApFlagId.TELEMETRY_ENABLED, boolean>
     | BaseFlagStructure<ApFlagId.USER_CREATED, boolean>
     | BaseFlagStructure<ApFlagId.WEBHOOK_URL_PREFIX, string>
 

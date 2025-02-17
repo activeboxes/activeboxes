@@ -19,7 +19,7 @@ import {
     PlatformId,
     PopulatedFlow,
     ProjectId,
-    SeekPage, TelemetryEventName, UserId,
+    SeekPage, UserId,
 } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { EntityManager, In, IsNull } from 'typeorm'
@@ -29,7 +29,6 @@ import { distributedLock } from '../../helper/lock'
 import { buildPaginator } from '../../helper/pagination/build-paginator'
 import { paginationHelper } from '../../helper/pagination/pagination-utils'
 import { system } from '../../helper/system/system'
-import { telemetry } from '../../helper/telemetry.utils'
 import { flowVersionService } from '../flow-version/flow-version.service'
 import { flowFolderService } from '../folder/folder.service'
 import { flowSideEffects } from './flow-service-side-effects'
@@ -76,16 +75,6 @@ export const flowService = (log: FastifyBaseLogger) => ({
                 displayName: request.displayName,
             },
         )
-
-        telemetry(log).trackProject(savedFlow.projectId, {
-            name: TelemetryEventName.CREATED_FLOW,
-            payload: {
-                flowId: savedFlow.id,
-            },
-        })
-            .catch((e) =>
-                log.error(e, '[FlowService#create] telemetry.trackProject'),
-            )
 
         return {
             ...savedFlow,
@@ -361,15 +350,6 @@ export const flowService = (log: FastifyBaseLogger) => ({
             })
 
             await emailService(log).sendExceedFailureThresholdAlert(projectId, flow.version.displayName)
-            rejectedPromiseHandler(telemetry(log).trackProject(projectId, {
-                name: TelemetryEventName.TRIGGER_FAILURES_EXCEEDED,
-                payload: {
-                    projectId,
-                    flowId,
-                    pieceName: flow.version.trigger.settings.pieceName,
-                    pieceVersion: flow.version.trigger.settings.pieceVersion,
-                },
-            }), log)
         }
 
         await flowRepo().update(flowId, {
