@@ -1,0 +1,48 @@
+{
+	"name": "@activeboxes/import-fresh-webpack",
+	"version": "3.3.0",
+	"description": "Import a module while bypassing the cache with webpack patch",
+	"license": "MIT",
+	"repository": "sindresorhus/import-fresh",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd",
+		"heapdump": "node heapdump.js"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"require",
+		"cache",
+		"uncache",
+		"uncached",
+		"module",
+		"fresh",
+		"bypass"
+	],
+	"dependencies": {
+		"parent-module": "^2.0.0",
+		"resolve-from": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^1.0.1",
+		"heapdump": "^0.3.12",
+		"tsd": "^0.31.0",
+		"xo": "^0.23.0"
+	}
+}
