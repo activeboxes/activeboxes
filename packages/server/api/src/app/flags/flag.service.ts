@@ -144,7 +144,7 @@ export const flagService = {
             },
             {
                 id: ApFlagId.PRIVATE_PIECES_ENABLED,
-                value: system.getEdition() !== ApEdition.COMMUNITY,
+                value: true,
                 created,
                 updated,
             },
