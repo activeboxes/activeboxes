@@ -54,7 +54,7 @@ const sampleData = {
     relative_position: null,
     state_id: 1,
     time_estimate: 0,
-    title: 'Activepieces Testing',
+    title: 'ActiveBoxes Testing',
     updated_at: '2023-09-01 07:03:02 UTC',
     updated_by_id: null,
     weight: null,
@@ -82,7 +82,7 @@ const sampleData = {
     iid: { previous: null, current: 32 },
     project_id: { previous: null, current: 48074457 },
     time_estimate: { previous: null, current: 0 },
-    title: { previous: null, current: 'Activepieces Testing' },
+    title: { previous: null, current: 'ActiveBoxes Testing' },
     updated_at: { previous: null, current: '2023-09-01 07:03:02 UTC' },
   },
   repository: {

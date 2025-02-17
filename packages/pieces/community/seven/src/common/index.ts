@@ -15,7 +15,7 @@ export const callSevenApi = async <T>(
       ...httpRequest.headers,
       Accept: 'application/json',
       'Content-Type': 'application/json',
-      SentWith: 'Activepieces',
+      SentWith: 'ActiveBoxes',
       'X-Api-Key': apiKey
     },
     url: `https://gateway.seven.io/api/${path}`

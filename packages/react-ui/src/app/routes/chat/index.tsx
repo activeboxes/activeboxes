@@ -68,7 +68,7 @@ export function ChatPage() {
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const botName =
-    chatUI?.props.botName ?? `${chatUI?.platformName ?? 'Activepieces'} Bot`;
+    chatUI?.props.botName ?? `${chatUI?.platformName ?? 'ActiveBoxes'} Bot`;
   const { mutate: sendMessage, isPending: isSending } = useMutation({
     mutationFn: async ({ isRetrying }: { isRetrying: boolean }) => {
       if (!flowId || !chatId) return null;

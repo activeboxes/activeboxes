@@ -22,7 +22,7 @@ export const newContact = createTrigger({
   description: 'Triggers when a new contact is created',
   sampleData: {
     Owner: {
-      name: 'Activepieces Apps',
+      name: 'ActiveBoxes Apps',
       id: '560094000000343001',
       email: 'apps@activeboxes.org',
     },
@@ -54,7 +54,7 @@ export const newContact = createTrigger({
       'd7d6bec0cbbfd9f3b84ebcd2eba41e9fa432f48560f9ed267b2e5b26eb58a07f5451e24ca9042b39f05459c41291c005b0dea6b224d375a6030f4096eb631fa3d4dcabb97393f1dc2470eb1658164f05',
     Department: 'Admin',
     Modified_By: {
-      name: 'Activepieces Apps',
+      name: 'ActiveBoxes Apps',
       id: '560094000000343001',
       email: 'apps@activeboxes.org',
     },
@@ -81,7 +81,7 @@ export const newContact = createTrigger({
     $editable: true,
     Home_Phone: null,
     Created_By: {
-      name: 'Activepieces Apps',
+      name: 'ActiveBoxes Apps',
       id: '560094000000343001',
       email: 'apps@activeboxes.org',
     },

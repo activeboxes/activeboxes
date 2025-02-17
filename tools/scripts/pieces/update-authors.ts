@@ -381,7 +381,7 @@ const contributors = [
         "login": "creed983",
     },
     {
-        "name": "Activepieces Dev",
+        "name": "ActiveBoxes Dev",
         "login": "ashrafsamhouri"
     },
     {
@@ -393,7 +393,7 @@ const contributors = [
         "login": "abuaboud"
     },
     {
-        "name": "ActivePieces",
+        "name": "ActiveBoxes",
         "login": "abuaboud"
     },
     {

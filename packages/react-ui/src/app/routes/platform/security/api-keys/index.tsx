@@ -66,7 +66,7 @@ const ApiKeysPage = () => {
       locked={!platform.apiKeysEnabled}
       lockTitle={t('Enable API Keys')}
       lockDescription={t(
-        'Create and manage API keys to access Activepieces APIs.',
+        'Create and manage API keys to access ActiveBoxes APIs.',
       )}
       lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/api-keys.mp4"
     >

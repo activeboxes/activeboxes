@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Activepieces Documentation",
+    "title": "ActiveBoxes Documentation",
     "version": "0.0.0"
   },
   "components": {

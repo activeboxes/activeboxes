@@ -8,7 +8,7 @@ To obtain your GenerateBanners public and secret API Keys, you can follow the st
 1. Go to the [GenerateBanners homepage](https://www.generatebanners.com/).
 2. Sign up or log in into your account.
 3. Go to your [account page](https://www.generatebanners.com/app/account).
-4. The public and secret API keys are now displayed, copy them one by one into the right Activepieces fields.
+4. The public and secret API keys are now displayed, copy them one by one into the right ActiveBoxes fields.
 `;
 
 export const generatebannersAuth = PieceAuth.BasicAuth({

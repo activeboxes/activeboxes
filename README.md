@@ -6,7 +6,7 @@
   >
     <img
       align="center"
-      alt="Activepieces"
+      alt="ActiveBoxes"
 src="https://github.com/activeboxes/activeboxes/assets/1812998/76c97441-c285-4480-bc75-30a0c73ed340"
       style="width:100%;"
     />
@@ -46,14 +46,14 @@ src="https://github.com/activeboxes/activeboxes/assets/1812998/76c97441-c285-448
 <br>
 <br>
 
-# 🤯 Welcome to Activepieces
+# 🤯 Welcome to ActiveBoxes
 
 Your friendliest open source all-in-one automation tool, designed to be **extensible** through a **type-safe** pieces framework written in **Typescript**.
 
 <br>
 <br>
 
-## 🔥 Why Activepieces is Different:
+## 🔥 Why ActiveBoxes is Different:
 
 - **💖 Loved by Everyone**: Intuitive interface and great experience for both technical and non-technical users with a quick learning curve.
   
@@ -96,7 +96,7 @@ Your friendliest open source all-in-one automation tool, designed to be **extens
 
 ## 🔌 Create Your Own Piece
 
-Activepieces supports integrations with Google Sheets, OpenAI, Discord, RSS, and over 200 other services. [Check out the full list of supported integrations](https://www.activeboxes.org/pieces), which is constantly expanding thanks to our community's contributions.
+ActiveBoxes supports integrations with Google Sheets, OpenAI, Discord, RSS, and over 200 other services. [Check out the full list of supported integrations](https://www.activeboxes.org/pieces), which is constantly expanding thanks to our community's contributions.
 
 As an **open ecosystem**, all integration source code is accessible in our repository. These integrations are versioned and [published](https://www.npmjs.com/search?q=%40activepieces) directly to npmjs.com upon contribution.
 
@@ -110,7 +110,7 @@ You can easily create your own integration using our TypeScript framework. For d
 
 # License
 
-Activepieces' Community Edition is released as open source under the [MIT license](https://github.com/activeboxes/activeboxes/blob/main/LICENSE) and enterprise features are released under [Commercial License](https://github.com/activeboxes/activeboxes/blob/main/packages/ee/LICENSE)
+ActiveBoxes' Community Edition is released as open source under the [MIT license](https://github.com/activeboxes/activeboxes/blob/main/LICENSE) and enterprise features are released under [Commercial License](https://github.com/activeboxes/activeboxes/blob/main/packages/ee/LICENSE)
 
 
 Read more about the feature comparison here https://www.activeboxes.org/docs/about/editions

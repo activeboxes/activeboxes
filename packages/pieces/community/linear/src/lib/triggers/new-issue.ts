@@ -65,7 +65,7 @@ export const linearNewIssue = createTrigger({
   async onEnable(context) {
     const client = makeClient(context.auth as string);
     const webhook = await client.createWebhook({
-      label: 'ActivePieces New Issue',
+      label: 'ActiveBoxes New Issue',
       url: context.webhookUrl,
       teamId: context.propsValue['team_id'],
       resourceTypes: ['Issue'],

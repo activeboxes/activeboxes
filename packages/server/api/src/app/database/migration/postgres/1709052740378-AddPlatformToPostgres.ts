@@ -88,7 +88,7 @@ async function migrateProjects(queryRunner: QueryRunner) {
             "federatedAuthProviders", "emailAuthEnabled", "auditLogEnabled",
             "showActivityLog")
             VALUES
-            ($1, current_timestamp, current_timestamp, $2, 'Activepieces',
+            ($1, current_timestamp, current_timestamp, $2, 'ActiveBoxes',
             '#6e41e2', 'https://cdn.activeboxes.org/brand/logo.svg',
             'https://cdn.activeboxes.org/brand/full-logo.png',
             'https://cdn.activeboxes.org/brand/favicon.ico', '{}',

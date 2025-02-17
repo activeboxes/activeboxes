@@ -46,7 +46,7 @@ type FormInputWithName = FormInput & {
   name: string;
 };
 
-/**We do this because it was the behaviour in previous versions of Activepieces.*/
+/**We do this because it was the behaviour in previous versions of ActiveBoxes.*/
 const putBackQuotesForInputNames = (
   value: Record<string, unknown>,
   inputs: FormInputWithName[],

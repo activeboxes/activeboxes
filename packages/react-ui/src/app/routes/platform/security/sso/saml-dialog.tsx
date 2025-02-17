@@ -134,7 +134,7 @@ Please check the following documentation: [SAML SSO](https://activeboxes.org/doc
 \`\`\`
 **Audience URI (SP Entity ID)**:
 \`\`\`text
-Activepieces
+ActiveBoxes
 \`\`\`
 `,
                 { samlAcs: samlAcs ?? '' },

@@ -19,7 +19,7 @@ export const getRedactedAudio = createAction({
     download_file_name: Property.ShortText({
       displayName: 'Download File Name',
       description:
-        'The desired file name for storing in ActivePieces. Make sure the file extension is correct.',
+        'The desired file name for storing in ActiveBoxes. Make sure the file extension is correct.',
       required: true,
       defaultValue: 'redacted-audio.mp3',
     }),

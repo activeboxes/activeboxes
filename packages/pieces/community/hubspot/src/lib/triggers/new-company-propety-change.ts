@@ -145,7 +145,7 @@ export const newCompanyPropertyChangeTrigger = createTrigger({
 			domain: 'www.activeboxes.org',
 			hs_lastmodifieddate: '2024-12-26T08:58:48.657Z',
 			hs_object_id: '27656515180',
-			name: 'Activepieces',
+			name: 'ActiveBoxes',
 		},
 		createdAt: '2024-12-26T08:36:10.463Z',
 		updatedAt: '2024-12-26T08:58:48.657Z',

@@ -126,7 +126,7 @@ export const newOrUpdatedCompanyTrigger = createTrigger({
 			industry: 'COMPUTER_SOFTWARE',
 			is_public: null,
 			lifecyclestage: 'lead',
-			name: 'Activepieces',
+			name: 'ActiveBoxes',
 			numberofemployees: '6',
 			owneremail: null,
 			ownername: null,

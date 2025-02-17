@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Contributing to Activepieces
+# Contributing to ActiveBoxes
 
 First off, thanks for taking the time to contribute! ❤️
 
