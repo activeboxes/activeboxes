@@ -1,0 +1,40 @@
+{
+  "name": "embed-sdk",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/embed-sdk/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "target": "web",
+        "compiler": "tsc",
+        "outputPath": "dist/packages/embed-sdk",
+        "main": "packages/embed-sdk/src/index.ts",
+        "tsConfig": "packages/embed-sdk/tsconfig.lib.json",
+        "assets": [],
+        "webpackConfig": "packages/embed-sdk/webpack.config.js",
+        "babelUpwardRootMode": true,
+        "statsJson": false,
+        "sourceMap": true
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false,
+          "statsJson": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/embed-sdk/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

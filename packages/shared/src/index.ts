@@ -77,6 +77,18 @@ export * from './lib/project-release/project-release.request'
 export * from './lib/project-release/project-state'
 export * from './lib/authentication/user-identity'
 export * from './lib/flows/operations/paste-operations'
+
+// EE polyfills
+export * from './lib/alert'
+export * from './lib/api-key'
+export * from './lib/custom-domains'
+export * from './lib/events'
+export * from './lib/git-repo'
+export * from './lib/issues'
+export * from './lib/otp'
+export * from './lib/project-member'
+export * from './lib/signing-key'
+
 // Look at https://github.com/sinclairzx81/typebox/issues/350
 import { TypeSystemPolicy } from '@sinclair/typebox/system'
 export * from './lib/license-keys'

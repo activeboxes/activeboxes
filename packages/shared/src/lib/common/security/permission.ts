@@ -20,6 +20,8 @@ export enum Permission {
     READ_ALERT = 'READ_ALERT',
     WRITE_PROJECT = 'WRITE_PROJECT',
     READ_PROJECT = 'READ_PROJECT',
+    WRITE_GIT_REPO = 'WRITE_GIT_REPO',
+    READ_GIT_REPO = 'READ_GIT_REPO',
 }
 
 export enum RoleType {
