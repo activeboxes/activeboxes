@@ -1,5 +1,5 @@
 import { microsoftSharePointAuth } from '../../';
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { microsoftSharePointCommon } from '../common';
 import { Client } from '@microsoft/microsoft-graph-client';
 

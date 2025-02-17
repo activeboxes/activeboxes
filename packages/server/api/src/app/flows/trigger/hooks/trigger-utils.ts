@@ -1,11 +1,11 @@
-import { TriggerBase } from '@activepieces/pieces-framework'
+import { TriggerBase } from '@activeboxes/pieces-framework'
 import {
     ActivepiecesError,
     ErrorCode,
     isNil,
     PieceTrigger,
     ProjectId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { pieceMetadataService } from '../../../pieces/piece-metadata-service'
 import { projectService } from '../../../project/project-service'

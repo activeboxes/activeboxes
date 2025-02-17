@@ -32,13 +32,13 @@ import { gitSyncHooks } from '@/features/git-sync/lib/git-sync-hooks';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
-import { GitBranchType } from '@activepieces/ee-shared';
+import { GitBranchType } from '@activeboxes/ee-shared';
 import {
   Flow,
   FlowOperationType,
   FlowVersion,
   Permission,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { MoveFlowDialog } from '../../features/flows/components/move-flow-dialog';
 import { ShareTemplateDialog } from '../../features/flows/components/share-template-dialog';

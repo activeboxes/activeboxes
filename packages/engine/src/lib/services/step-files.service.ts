@@ -1,5 +1,5 @@
-import { FilesService } from '@activepieces/pieces-framework'
-import { FileLocation, isNil, StepFileUpsertResponse } from '@activepieces/shared'
+import { FilesService } from '@activeboxes/pieces-framework'
+import { FileLocation, isNil, StepFileUpsertResponse } from '@activeboxes/shared'
 import fetchRetry from 'fetch-retry'
 import { FileSizeError, FileStoreError } from '../helper/execution-errors'
 

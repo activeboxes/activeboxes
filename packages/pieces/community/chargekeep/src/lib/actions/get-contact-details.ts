@@ -1,6 +1,6 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { chargekeepAuth } from '../..';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 
 export const getContactDetails = createAction({
   name: 'getContactDetails',

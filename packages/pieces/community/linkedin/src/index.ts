@@ -2,12 +2,12 @@ import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 import { createCompanyUpdate } from './lib/actions/create-company-update';
 import { createShareUpdate } from './lib/actions/create-share-update';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import { linkedinCommon } from './lib/common';
 
 export const linkedinAuth = PieceAuth.OAuth2({
@@ -29,7 +29,7 @@ export const linkedin = createPiece({
   description: 'Connect and network with professionals',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/linkedin.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/linkedin.png',
   categories: [PieceCategory.MARKETING],
   authors: ["aasimsani","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: linkedinAuth,

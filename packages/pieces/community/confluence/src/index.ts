@@ -1,8 +1,8 @@
-import { createPiece, PieceAuth, Property ,PiecePropValueSchema, Piece} from "@activepieces/pieces-framework";
+import { createPiece, PieceAuth, Property ,PiecePropValueSchema, Piece} from "@activeboxes/pieces-framework";
 import { getPageContent } from "./lib/actions/get-page-content";
 import { newPageTrigger } from "./lib/triggers/new-page";
-import { PieceCategory } from "@activepieces/shared";
-import { createCustomApiCallAction } from "@activepieces/pieces-common";
+import { PieceCategory } from "@activeboxes/shared";
+import { createCustomApiCallAction } from "@activeboxes/pieces-common";
 
 export const confluenceAuth = PieceAuth.CustomAuth({
   description: 'Please refer to this guide to get your api credentials: https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account',
@@ -30,7 +30,7 @@ export const confluence = createPiece({
   displayName: "Confluence",
   auth: confluenceAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/confluence.png",
+  logoUrl: "https://cdn.activeboxes.org/pieces/confluence.png",
   authors: ["geekyme"],
   actions: [getPageContent,
     createCustomApiCallAction({

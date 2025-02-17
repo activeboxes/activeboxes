@@ -1,8 +1,8 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod, propsValidation } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod, propsValidation } from '@activeboxes/pieces-common';
 import { z } from 'zod';
 import { invoiceninjaAuth } from '../..';
 

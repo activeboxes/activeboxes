@@ -1,4 +1,4 @@
-import { Project, User, UserIdentity } from '@activepieces/shared'
+import { Project, User, UserIdentity } from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import { BaseColumnSchemaPart } from '../database/database-common'
 

@@ -1,5 +1,5 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { imageToBase64 } from './lib/actions/image-to-base64.action';
 import { getMetaData } from './lib/actions/get-metadata.action';
 import { cropImage } from './lib/actions/crop-image.action';
@@ -13,7 +13,7 @@ export const imageHelper = createPiece({
 
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/image-helper.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/image-helper.png',
   authors: ["AbdullahBitar","kishanprmr","abuaboud"],
   categories: [PieceCategory.CORE],
   actions: [imageToBase64, getMetaData, cropImage, rotateImage, resizeImage, compressImage],

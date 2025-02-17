@@ -14,7 +14,7 @@ import {
     RetryFlowRequestBody,
     SeekPage,
     SERVICE_KEY_SECURITY_OPENAPI,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

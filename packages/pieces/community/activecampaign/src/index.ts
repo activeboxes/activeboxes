@@ -2,8 +2,8 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { newDealAddedOrUpdatedTrigger } from './lib/triggers/new-deal-added-or-updated';
 import { createAccountAction } from './lib/actions/accounts/create-account';
 import { updateAccountAction } from './lib/actions/accounts/update-account';
@@ -63,7 +63,7 @@ export const activecampaign = createPiece({
     'Email marketing, marketing automation, and CRM tools you need to create incredible customer experiences.',
   auth: activeCampaignAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/activecampaign.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/activecampaign.png',
   categories: [PieceCategory.MARKETING, PieceCategory.SALES_AND_CRM],
   authors: ["kishanprmr","abuaboud"],
   actions: [

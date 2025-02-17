@@ -1,5 +1,5 @@
-import { ApplicationEventName } from '@activepieces/ee-shared'
-import { JobType, LATEST_JOB_DATA_SCHEMA_VERSION, RepeatableJobType } from '@activepieces/server-shared'
+import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { JobType, LATEST_JOB_DATA_SCHEMA_VERSION, RepeatableJobType } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ErrorCode,
@@ -9,7 +9,7 @@ import {
     isNil,
     PauseType,
     ProgressUpdateType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
 import { eventsHooks } from '../../helper/application-events'

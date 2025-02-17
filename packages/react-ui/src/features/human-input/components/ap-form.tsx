@@ -33,7 +33,7 @@ import {
   HumanInputFormResultTypes,
   HumanInputFormResult,
   createKeyForFormInput,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { Checkbox } from '../../../components/ui/checkbox';
 import { humanInputApi } from '../lib/human-input-api';

@@ -5,7 +5,7 @@ import {
     PrincipalType,
     SeekPage,
     TelemetryEventName,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     FastifyPluginCallbackTypebox,

@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   createPiece,
   OAuth2PropertyValue,
   PieceAuth,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createIssueAction } from './lib/actions/create-issue-action';
 import { issuesEventTrigger } from './lib/trigger/issue-event';
 
@@ -21,7 +21,7 @@ export const gitlab = createPiece({
 
   auth: gitlabAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gitlab.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/gitlab.png',
   categories: [PieceCategory.DEVELOPER_TOOLS],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   actions: [

@@ -1,8 +1,8 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { isEmpty } from '@activepieces/shared';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { isEmpty } from '@activeboxes/shared';
 
 export const defaultValue = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'defaultValue',
   errorHandlingOptions: {
     continueOnFailure: {

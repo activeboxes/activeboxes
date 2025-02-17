@@ -1,6 +1,6 @@
-import { PiecePropValueSchema, Property, createTrigger } from '@activepieces/pieces-framework';
-import { TriggerStrategy } from '@activepieces/pieces-framework';
-import { DedupeStrategy, Polling, pollingHelper } from '@activepieces/pieces-common';
+import { PiecePropValueSchema, Property, createTrigger } from '@activeboxes/pieces-framework';
+import { TriggerStrategy } from '@activeboxes/pieces-framework';
+import { DedupeStrategy, Polling, pollingHelper } from '@activeboxes/pieces-common';
 import dayjs from 'dayjs';
 import { oneDriveAuth } from '../..';
 import { oneDriveCommon } from '../common/common';

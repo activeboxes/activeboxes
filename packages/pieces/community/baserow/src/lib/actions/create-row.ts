@@ -3,7 +3,7 @@ import {
   PiecePropValueSchema,
   Property,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { baserowAuth } from '../..';
 import { baserowCommon, makeClient } from '../common';
 import { BaserowFieldType } from '../common/constants';

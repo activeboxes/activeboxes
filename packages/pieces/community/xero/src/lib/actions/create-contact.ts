@@ -1,10 +1,10 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { props } from '../common/props';
 import { xeroAuth } from '../..';
 

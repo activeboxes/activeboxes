@@ -20,7 +20,7 @@ import {
     SeekPage,
     TriggerType,
     UserId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
 import { EntityManager } from 'typeorm'

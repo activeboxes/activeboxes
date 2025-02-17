@@ -1,7 +1,7 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { metabaseAuth } from '../..';
 import { queryMetabaseApi } from '../common';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 
 export const getQuestionPngPreview = createAction({
   name: 'getQuestionPngPreview',

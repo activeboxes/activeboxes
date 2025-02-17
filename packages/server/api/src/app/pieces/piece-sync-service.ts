@@ -1,6 +1,6 @@
-import { PieceMetadataModel, PieceMetadataModelSummary } from '@activepieces/pieces-framework'
-import { AppSystemProp, apVersionUtil } from '@activepieces/server-shared'
-import { ListVersionsResponse, PackageType, PieceSyncMode, PieceType } from '@activepieces/shared'
+import { PieceMetadataModel, PieceMetadataModelSummary } from '@activeboxes/pieces-framework'
+import { AppSystemProp, apVersionUtil } from '@activeboxes/server-shared'
+import { ListVersionsResponse, PackageType, PieceSyncMode, PieceType } from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
@@ -13,7 +13,7 @@ import { systemJobHandlers } from '../helper/system-jobs/job-handlers'
 import { PieceMetadataEntity } from './piece-metadata-entity'
 import { pieceMetadataService } from './piece-metadata-service'
 
-const CLOUD_API_URL = 'https://cloud.activepieces.com/api/v1/pieces'
+const CLOUD_API_URL = 'https://cloud.activeboxes.org/api/v1/pieces'
 const piecesRepo = repoFactory(PieceMetadataEntity)
 const syncMode = system.get<PieceSyncMode>(AppSystemProp.PIECES_SYNC_MODE)
 

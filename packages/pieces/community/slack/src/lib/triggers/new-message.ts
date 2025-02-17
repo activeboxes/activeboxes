@@ -2,7 +2,7 @@ import {
   Property,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { singleSelectChannelInfo, slackChannel } from '../common/props';
 import { slackAuth } from '../../';
 import { WebClient } from '@slack/web-api';

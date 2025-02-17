@@ -5,7 +5,7 @@ import {
 	httpClient,
 	HttpRequest,
 	AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
 	CreateTaskDateParams,
 	CreateTaskParams,

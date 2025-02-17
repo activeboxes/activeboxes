@@ -1,14 +1,14 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   googleSheetsCommon,
   labelToColumn,
 } from '../common/common';
 import { googleSheetsAuth } from '../..';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 export const findRowsAction = createAction({
   auth: googleSheetsAuth,

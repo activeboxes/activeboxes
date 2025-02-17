@@ -41,14 +41,14 @@ import {
   PieceMetadataModelSummary,
   PropertyType,
   SecretTextProperty,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   ApErrorParams,
   AppConnectionScope,
   AppConnectionWithoutSensitiveData,
   ErrorCode,
   UpsertAppConnectionRequestBody,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import {
   newConnectionUtils,

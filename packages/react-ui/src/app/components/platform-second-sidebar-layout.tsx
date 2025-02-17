@@ -18,7 +18,7 @@ import {
 
 import SidebarLayout, { SidebarItem } from '@/app/components/sidebar-layout';
 import { flagsHooks } from '@/hooks/flags-hooks';
-import { ApEdition, ApFlagId } from '@activepieces/shared';
+import { ApEdition, ApFlagId } from '@activeboxes/shared';
 
 const iconSize = 20;
 

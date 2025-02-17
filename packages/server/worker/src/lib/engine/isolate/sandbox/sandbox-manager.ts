@@ -1,4 +1,4 @@
-import { isNil } from '@activepieces/shared'
+import { isNil } from '@activeboxes/shared'
 import { Mutex } from 'async-mutex'
 import { FastifyBaseLogger } from 'fastify'
 import { IsolateSandbox } from './isolate-sandbox'

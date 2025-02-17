@@ -1,4 +1,4 @@
-import { OAuth2PropertyValue, Property } from '@activepieces/pieces-framework';
+import { OAuth2PropertyValue, Property } from '@activeboxes/pieces-framework';
 import { todoistRestClient } from './client/rest-client';
 
 const buildEmptyList = ({ placeholder }: { placeholder: string }) => {

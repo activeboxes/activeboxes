@@ -3,9 +3,9 @@ import {
   HttpMethod,
   createCustomApiCallAction,
   httpClient,
-} from '@activepieces/pieces-common';
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { airtableCreateRecordAction } from './lib/actions/create-record';
 import { airtableDeleteRecordAction } from './lib/actions/delete-record';
 import { airtableFindRecordAction } from './lib/actions/find-record';
@@ -53,7 +53,7 @@ export const airtable = createPiece({
   description: 'Low‒code platform to build apps.',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/airtable.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/airtable.png',
   authors: [
     'kanarelo',
     'TaskMagicKyle',

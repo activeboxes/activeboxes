@@ -8,7 +8,7 @@ import {
   FlowOperationType,
   StepLocationRelativeToParent,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useBuilderStateContext } from '../../builder-hooks';
 import { flowUtilConsts } from '../utils/consts';

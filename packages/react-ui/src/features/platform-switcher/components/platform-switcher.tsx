@@ -26,7 +26,7 @@ import { userHooks } from '@/hooks/user-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
 import { platformApi } from '@/lib/platforms-api';
 import { cn } from '@/lib/utils';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 import { ScrollArea } from '../../../components/ui/scroll-area';
 

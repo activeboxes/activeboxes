@@ -10,7 +10,7 @@ import {
   FlowRun,
   FlowRunStatus,
   Permission,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useAuthorization } from '../../../hooks/authorization-hooks';
 import { flowRunUtils } from '../lib/flow-run-utils';

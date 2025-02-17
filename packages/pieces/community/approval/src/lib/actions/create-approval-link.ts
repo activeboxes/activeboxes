@@ -1,4 +1,4 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 
 export const createApprovalLink = createAction({
   name: 'create_approval_links',

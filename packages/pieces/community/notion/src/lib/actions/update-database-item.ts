@@ -2,7 +2,7 @@ import {
   createAction,
   DynamicPropsValue,
   OAuth2PropertyValue,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { Client } from '@notionhq/client';
 import { NotionFieldMapping } from '../common/models';
 

@@ -1,6 +1,6 @@
 import { wedofAuth } from '../../../index';
-import { createAction, DynamicPropsValue, Property } from '@activepieces/pieces-framework';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { createAction, DynamicPropsValue, Property } from '@activeboxes/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 import { wedofCommon } from '../../common/wedof';
 
 export const createCertificationPartnerAudit = createAction({

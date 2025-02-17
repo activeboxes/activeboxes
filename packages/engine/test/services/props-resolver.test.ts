@@ -1,5 +1,5 @@
-import { ApFile, PieceAuth, Property } from '@activepieces/pieces-framework'
-import { ActionType, GenericStepOutput, StepOutputStatus, TriggerType } from '@activepieces/shared'
+import { ApFile, PieceAuth, Property } from '@activeboxes/pieces-framework'
+import { ActionType, GenericStepOutput, StepOutputStatus, TriggerType } from '@activeboxes/shared'
 import { FlowExecutorContext } from '../../src/lib/handler/context/flow-execution-context'
 import { StepExecutionPath } from '../../src/lib/handler/context/step-execution-path'
 import { propsProcessor } from '../../src/lib/variables/props-processor'
@@ -327,7 +327,7 @@ describe('Props resolver', () => {
         const input = {
             documents: [
                 {
-                    file: 'https://cdn.activepieces.com/brand/logo.svg?token=123',
+                    file: 'https://cdn.activeboxes.org/brand/logo.svg?token=123',
                 },
             ],
         }
@@ -386,7 +386,7 @@ describe('Props resolver', () => {
     })
     it('should return images for image url', async () => {
         const input = {
-            file: 'https://cdn.activepieces.com/brand/logo.svg?token=123',
+            file: 'https://cdn.activeboxes.org/brand/logo.svg?token=123',
         }
         const props = {
             file: Property.File({

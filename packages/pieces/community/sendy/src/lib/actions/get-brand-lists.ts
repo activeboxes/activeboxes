@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { getLists } from '../api';
 import { sendyAuth } from '../auth';
 

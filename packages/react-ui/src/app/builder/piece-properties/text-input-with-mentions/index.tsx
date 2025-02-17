@@ -10,7 +10,7 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import './tip-tap.css';
 import { piecesHooks } from '@/features/pieces/lib/pieces-hook';
 import { cn } from '@/lib/utils';
-import { flowStructureUtil, isNil } from '@activepieces/shared';
+import { flowStructureUtil, isNil } from '@activeboxes/shared';
 
 import { useBuilderStateContext } from '../../builder-hooks';
 

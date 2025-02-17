@@ -1,4 +1,4 @@
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 
 export const chargekeepCommon = {
   subscribeWebhook: async (

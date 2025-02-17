@@ -6,8 +6,8 @@ import { TableTitle } from '@/components/ui/table-title';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { aiProviderApi } from '@/features/platform-admin-panel/lib/ai-provider-api';
 import { userHooks } from '@/hooks/user-hooks';
-import { AI_PROVIDERS } from '@activepieces/pieces-common';
-import { PlatformRole } from '@activepieces/shared';
+import { AI_PROVIDERS } from '@activeboxes/pieces-common';
+import { PlatformRole } from '@activeboxes/shared';
 
 import LockedFeatureGuard from '../../../../components/locked-feature-guard';
 

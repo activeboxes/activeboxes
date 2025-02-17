@@ -8,7 +8,7 @@ import {
 } from '@/components/ui/tooltip';
 import { flowRunUtils } from '@/features/flow-runs/lib/flow-run-utils';
 import { cn } from '@/lib/utils';
-import { StepOutputStatus } from '@activepieces/shared';
+import { StepOutputStatus } from '@activeboxes/shared';
 
 type StepStatusIconProps = {
   status: StepOutputStatus;

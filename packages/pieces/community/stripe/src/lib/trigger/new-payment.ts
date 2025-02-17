@@ -1,5 +1,5 @@
-import { createTrigger } from '@activepieces/pieces-framework';
-import { TriggerStrategy } from '@activepieces/pieces-framework';
+import { createTrigger } from '@activeboxes/pieces-framework';
+import { TriggerStrategy } from '@activeboxes/pieces-framework';
 import { stripeCommon } from '../common';
 import { stripeAuth } from '../..';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { PieceIcon } from '@/features/pieces/components/piece-icon';
-import { ActionType, TriggerType } from '@activepieces/shared';
+import { ActionType, TriggerType } from '@activeboxes/shared';
 
 import { PieceStepMetadata, StepMetadata } from '../lib/types';
 

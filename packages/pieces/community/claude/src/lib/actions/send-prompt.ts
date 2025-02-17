@@ -1,13 +1,13 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import Anthropic from '@anthropic-ai/sdk';
 import mime from 'mime-types';
 import { claudeAuth } from '../..';
 import { TextBlock } from '@anthropic-ai/sdk/resources';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 const billingIssueMessage = `Error Occurred: 429 \n
 

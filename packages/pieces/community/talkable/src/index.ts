@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import {
   anonymizePerson,
   createEvent,

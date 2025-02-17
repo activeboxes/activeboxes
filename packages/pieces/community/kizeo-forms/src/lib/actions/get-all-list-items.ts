@@ -1,12 +1,12 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 import { endpoint, kizeoFormsCommon } from '../common';
 import { kizeoFormsAuth } from '../..';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 export const getAllListItems = createAction({
   auth: kizeoFormsAuth,

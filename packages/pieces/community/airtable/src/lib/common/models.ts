@@ -1,4 +1,4 @@
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 
 export interface AirtableBase {
   id: string;

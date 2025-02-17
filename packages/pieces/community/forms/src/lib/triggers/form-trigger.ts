@@ -2,12 +2,12 @@ import {
   Property,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   createKeyForFormInput,
   MarkdownVariant,
   USE_DRAFT_QUERY_PARAM_NAME,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 
 const markdown = `**Published Form URL:**

@@ -3,15 +3,15 @@ import {
   ListOAuth2AppRequest,
   OAuthApp,
   UpsertOAuth2AppRequest,
-} from '@activepieces/ee-shared';
-import { ApEdition, SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { ApEdition, SeekPage } from '@activeboxes/shared';
 
 export const oauthAppsApi = {
   listCloudOAuthApps(
     edition: ApEdition,
   ): Promise<Record<string, { clientId: string }>> {
     return api.get<Record<string, { clientId: string }>>(
-      'https://secrets.activepieces.com/apps',
+      'https://secrets.activeboxes.org/apps',
       {
         edition,
       },

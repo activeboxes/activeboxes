@@ -7,7 +7,7 @@ import {
   PieceMetadataModel,
   PieceMetadataModelSummary,
   PropertyType,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   AppConnectionType,
   AppConnectionWithoutSensitiveData,
@@ -15,7 +15,7 @@ import {
   assertNotNullOrUndefined,
   isNil,
   apId,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { appConnectionsApi } from './app-connections-api';
 import { globalConnectionsApi } from './global-connections-api';

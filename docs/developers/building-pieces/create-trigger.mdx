@@ -43,12 +43,12 @@ import {
   Polling,
   httpClient,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   PiecePropValueSchema,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import dayjs from 'dayjs';
 
 const polling: Polling<
@@ -59,7 +59,7 @@ const polling: Polling<
   items: async ({ auth, propsValue, lastFetchEpochMS }) => {
     const request: HttpRequest = {
       method: HttpMethod.GET,
-      url: 'https://cloud.activepieces.com/api/v1/webhooks/aHlEaNLc6vcF1nY2XJ2ed/sync',
+      url: 'https://cloud.activeboxes.org/api/v1/webhooks/aHlEaNLc6vcF1nY2XJ2ed/sync',
       headers: {
         authorization: auth,
       },
@@ -110,14 +110,14 @@ The way polling triggers usually work is as follows:
 To make the trigger readable by Activepieces, add it to the array of triggers in the piece definition.
 
 ```typescript
-import { createPiece } from '@activepieces/pieces-framework';
+import { createPiece } from '@activeboxes/pieces-framework';
 import { getIcecreamFlavor } from './lib/actions/get-icecream-flavor';
 // Don't forget to add the following import.
 import { newFlavorCreated } from './lib/triggers/new-flavor-created';
 
 export const gelato = createPiece({
   displayName: 'Gelato Tutorial',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gelato.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/gelato.png',
   authors: [],
   auth: gelatoAuth,
   actions: [getIcecreamFlavor],

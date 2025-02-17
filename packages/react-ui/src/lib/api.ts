@@ -7,11 +7,11 @@ import axios, {
 import qs from 'qs';
 
 import { authenticationSession } from '@/lib/authentication-session';
-import { ErrorCode } from '@activepieces/shared';
+import { ErrorCode } from '@activeboxes/shared';
 
 export const API_BASE_URL =
   import.meta.env.MODE === 'cloud'
-    ? 'https://cloud.activepieces.com'
+    ? 'https://cloud.activeboxes.org'
     : window.location.origin;
 export const API_URL = `${API_BASE_URL}/api`;
 

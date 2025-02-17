@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { hubspotAuth } from '../..';
 import { Client } from '@hubspot/api-client';
 

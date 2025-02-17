@@ -3,11 +3,11 @@ import {
 	createTrigger,
 	PiecePropValueSchema,
 	TriggerStrategy,
-} from '@activepieces/pieces-framework';
-import { DedupeStrategy, HttpMethod, Polling, pollingHelper } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { DedupeStrategy, HttpMethod, Polling, pollingHelper } from '@activeboxes/pieces-common';
 import { pipedriveApiCall, pipedrivePaginatedApiCall } from '../common';
 import { LeadListResponse } from '../common/types';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 import dayjs from 'dayjs';
 
 const polling: Polling<PiecePropValueSchema<typeof pipedriveAuth>, Record<string, unknown>> = {

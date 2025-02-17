@@ -1,7 +1,7 @@
 import { QueryClient, useSuspenseQuery } from '@tanstack/react-query';
 
 import { authenticationSession } from '@/lib/authentication-session';
-import { PlatformWithoutSensitiveData } from '@activepieces/shared';
+import { PlatformWithoutSensitiveData } from '@activeboxes/shared';
 
 import { platformApi } from '../lib/platforms-api';
 

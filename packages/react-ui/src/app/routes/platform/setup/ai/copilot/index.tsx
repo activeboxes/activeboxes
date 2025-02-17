@@ -8,7 +8,7 @@ import { Card } from '@/components/ui/card';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
 import { platformApi } from '@/lib/platforms-api';
-import { isNil, CopilotProviderType } from '@activepieces/shared';
+import { isNil, CopilotProviderType } from '@activeboxes/shared';
 
 import { ConfigureProviderDialog } from './configure-provider-dialog';
 
@@ -42,7 +42,7 @@ const CopilotSetup = () => {
       return {
         type: CopilotProviderType.OPENAI,
         name: 'OpenAI',
-        icon: 'https://cdn.activepieces.com/pieces/openai.png',
+        icon: 'https://cdn.activeboxes.org/pieces/openai.png',
       };
     }
 
@@ -50,7 +50,7 @@ const CopilotSetup = () => {
       return {
         type: CopilotProviderType.AZURE_OPENAI,
         name: 'Azure OpenAI',
-        icon: 'https://cdn.activepieces.com/pieces/azure.png',
+        icon: 'https://cdn.activeboxes.org/pieces/azure.png',
       };
     }
 

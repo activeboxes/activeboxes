@@ -1,11 +1,11 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { Dimension, objectToArray, ValueInputOption } from '../common/common';
 import { googleSheetsCommon } from '../common/common';
 import { googleSheetsAuth } from '../..';
 import { getWorkSheetName } from '../triggers/helpers';
 import { google } from 'googleapis';
 import { OAuth2Client } from 'googleapis-common';
-import { isString } from '@activepieces/shared';
+import { isString } from '@activeboxes/shared';
 
 export const updateRowAction = createAction({
   auth: googleSheetsAuth,

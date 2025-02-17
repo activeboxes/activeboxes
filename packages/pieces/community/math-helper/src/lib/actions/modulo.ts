@@ -2,7 +2,7 @@ import {
   createAction,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 export const modulo = createAction({
   name: 'modulo_math',

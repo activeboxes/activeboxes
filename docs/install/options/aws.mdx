@@ -10,9 +10,9 @@ Pulumi is an IaC solution akin to Terraform or CloudFormation that lets you depl
 ## Deploy from Pulumi Cloud
 
 If you're already familiar with Pulumi Cloud and have [integrated their services with your AWS account](https://www.pulumi.com/docs/pulumi-cloud/deployments/oidc/aws/#configuring-openid-connect-for-aws), you can use the button below to deploy Activepieces in a few clicks. 
-The template will deploy the latest Activepieces image that's available on [Docker Hub](https://hub.docker.com/r/activepieces/activepieces).
+The template will deploy the latest Activepieces image that's available on [Docker Hub](https://hub.docker.com/r/activeboxes/activeboxes).
 
-[![Deploy with Pulumi](https://get.pulumi.com/new/button.svg)](https://app.pulumi.com/new?template=https://github.com/activepieces/activepieces/tree/main/deploy/pulumi)
+[![Deploy with Pulumi](https://get.pulumi.com/new/button.svg)](https://app.pulumi.com/new?template=https://github.com/activeboxes/activeboxes/tree/main/deploy/pulumi)
 
 ## Deploy from a local environment
 
@@ -20,7 +20,7 @@ Or, if you're currently using an S3 bucket to maintain your Pulumi state, you ca
 
 ```bash
 $ mkdir deploy-activepieces && cd deploy-activepieces 
-$ pulumi new https://github.com/activepieces/activepieces/tree/main/deploy/pulumi
+$ pulumi new https://github.com/activeboxes/activeboxes/tree/main/deploy/pulumi
 $ pulumi up
 ```
 
@@ -34,7 +34,7 @@ The configuration options that are presented during stack configuration will all
 * Fully qualified domain name with SSL. Note that the hosted zone must already be configured in Route 53. 
 Opting out of this will mean relying on using the application load balancer's url over standard HTTP to access your Activepieces deployment.
 
-For a full list of all the currently available configuration options, take a look at the [Activepieces Pulumi template file on GitHub](https://github.com/activepieces/activepieces/tree/main/deploy/pulumi/Pulumi.yaml).
+For a full list of all the currently available configuration options, take a look at the [Activepieces Pulumi template file on GitHub](https://github.com/activeboxes/activeboxes/tree/main/deploy/pulumi/Pulumi.yaml).
 
 ## Setting up Pulumi for the first time
 
@@ -65,7 +65,7 @@ pulumi login s3://pulumi-state?region=us-east-1
 
 ```bash
 $ mkdir deploy-activepieces && cd deploy-activepieces 
-$ pulumi new https://github.com/activepieces/activepieces/tree/main/deploy/pulumi
+$ pulumi new https://github.com/activeboxes/activeboxes/tree/main/deploy/pulumi
 ```
 
 This step will prompt you to create you stack and to populate a series of config options, such as whether or not to provision a PostgreSQL RDS instance or use SQLite3.
@@ -105,7 +105,7 @@ To deploy a locally built image instead of using the official Docker Hub image, 
 1. Clone the Activepieces repo locally:
 
 ```bash
-git clone https://github.com/activepieces/activepieces
+git clone https://github.com/activeboxes/activeboxes
 ```
 2. Move into the `deploy/pulumi` folder & install the necessary npm packages:
 

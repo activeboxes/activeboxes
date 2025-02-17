@@ -2,13 +2,13 @@ import {
   createPiece,
   OAuth2PropertyValue,
   PieceAuth,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { createEventAction } from './lib/actions/create-event';
 import { listEventsAction } from './lib/actions/list-events';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import { outlookCalendarCommon } from './lib/common/common';
 import { deleteEventAction } from './lib/actions/delete-event';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 
 export const outlookCalendarAuth = PieceAuth.OAuth2({
   description: 'Authentication for Microsoft Outlook',
@@ -23,7 +23,7 @@ export const microsoftOutlookCalendar = createPiece({
   description: 'Calendar software by Microsoft',
   auth: outlookCalendarAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/microsoft-outlook.png",
+  logoUrl: "https://cdn.activeboxes.org/pieces/microsoft-outlook.png",
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ['antonyvigouret'],
   actions: [

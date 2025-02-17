@@ -1,17 +1,17 @@
 import {
   createCustomApiCallAction,
   HttpError,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { kimaiCreateTimesheetAction } from './lib/actions/create-timesheet';
 import { makeClient } from './lib/common';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 export const kimaiAuth = PieceAuth.CustomAuth({
   description: `
@@ -91,7 +91,7 @@ export const kimai = createPiece({
 
   auth: kimaiAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kimai.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/kimai.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["facferreira","kishanprmr","MoShizzle","abuaboud"],
   actions: [

@@ -1,9 +1,9 @@
-import { ApFile, Property } from '@activepieces/pieces-framework';
+import { ApFile, Property } from '@activeboxes/pieces-framework';
 import {
   HttpMethod,
   httpClient,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 import FormData from 'form-data';
 

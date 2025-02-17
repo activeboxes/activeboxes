@@ -2,7 +2,7 @@ import {
   createAction,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 export const addition = createAction({
   name: 'addition_math',

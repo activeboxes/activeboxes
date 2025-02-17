@@ -1,4 +1,4 @@
-import { rejectedPromiseHandler } from '@activepieces/server-shared'
+import { rejectedPromiseHandler } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ErrorCode,
@@ -7,7 +7,7 @@ import {
     ProjectId,
     TriggerHookType,
     TriggerPayload,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { engineApiService } from '../../api/server-api.service'
 import { engineRunner } from '../../engine'

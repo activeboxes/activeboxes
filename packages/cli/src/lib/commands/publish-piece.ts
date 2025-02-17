@@ -33,7 +33,7 @@ export const publishPieceCommand = new Command('publish')
                 type: 'input',
                 name: 'apiUrl',
                 message: 'Enter the API URL',
-                placeholder: 'https://cloud.activepieces.com/api',
+                placeholder: 'https://cloud.activeboxes.org/api',
             },
             {
                 type: 'list',

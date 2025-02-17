@@ -29,7 +29,7 @@ import {
   StepLocationRelativeToParent,
   Action,
   isFlowStateTerminal,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { flowRunUtils } from '../../features/flow-runs/lib/flow-run-utils';
 import { AskAiButtonOperations } from '../../features/pieces/lib/types';

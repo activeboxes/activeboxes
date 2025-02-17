@@ -25,7 +25,7 @@ import {
   FlowOperationType,
   TriggerType,
   supportUrl,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { cn } from '../../../lib/utils';
 

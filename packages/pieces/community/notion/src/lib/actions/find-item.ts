@@ -1,5 +1,5 @@
 import { notionAuth } from '../../';
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { notionCommon } from '../common';
 import { Client } from '@notionhq/client';
 

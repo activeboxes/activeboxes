@@ -2,10 +2,10 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceCategory } from '@activeboxes/shared';
 import { createMember } from './lib/actions/create-member';
 import { createPost } from './lib/actions/create-post';
 import { findMember } from './lib/actions/find-member';
@@ -51,7 +51,7 @@ export const ghostcms = createPiece({
 
   auth: ghostAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/ghostcms.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/ghostcms.png',
   categories: [PieceCategory.MARKETING],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

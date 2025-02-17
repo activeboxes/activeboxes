@@ -38,8 +38,8 @@ import {
   createAction,
   Property,
   PieceAuth,
-} from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { gelatoAuth } from '../..';
 
 export const getIcecreamFlavor = createAction({
@@ -51,7 +51,7 @@ export const getIcecreamFlavor = createAction({
   async run(context) {
     const res = await httpClient.sendRequest<string[]>({
       method: HttpMethod.GET,
-      url: 'https://cloud.activepieces.com/api/v1/webhooks/RGjv57ex3RAHOgs0YK6Ja/sync',
+      url: 'https://cloud.activeboxes.org/api/v1/webhooks/RGjv57ex3RAHOgs0YK6Ja/sync',
       headers: {
         Authorization: context.auth, // Pass API key in headers
       },
@@ -76,13 +76,13 @@ The `run` function utilizes the httpClient.sendRequest function to make a GET re
 To make the action readable by Activepieces, add it to the array of actions in the piece definition.
 
 ```typescript
-import { createPiece } from '@activepieces/pieces-framework';
+import { createPiece } from '@activeboxes/pieces-framework';
 // Don't forget to add the following import.
 import { getIcecreamFlavor } from './lib/actions/get-icecream-flavor';
 
 export const gelato = createPiece({
   displayName: 'Gelato',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gelato.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/gelato.png',
   authors: [],
   auth: gelatoAuth,
   // Add the action here.

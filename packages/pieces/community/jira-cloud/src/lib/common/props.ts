@@ -1,7 +1,7 @@
 import { getIssueTypes, getProjects, getUsers, sendJiraRequest } from '.';
-import { DropdownOption, PiecePropValueSchema, Property } from '@activepieces/pieces-framework';
+import { DropdownOption, PiecePropValueSchema, Property } from '@activeboxes/pieces-framework';
 import { JiraAuth, jiraCloudAuth } from '../../auth';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 
 export function getProjectIdDropdown(data?: DropdownParams) {
 	return Property.Dropdown({

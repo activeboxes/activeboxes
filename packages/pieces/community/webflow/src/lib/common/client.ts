@@ -4,7 +4,7 @@ import {
 	HttpMethod,
 	HttpRequest,
 	QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export class WebflowApiClient {
 	constructor(private accessToken: string) {}

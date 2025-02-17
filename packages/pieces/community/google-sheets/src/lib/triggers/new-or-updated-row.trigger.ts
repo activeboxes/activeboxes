@@ -1,4 +1,4 @@
-import { isEmpty, isNil } from '@activepieces/shared';
+import { isEmpty, isNil } from '@activeboxes/shared';
 import { googleSheetsAuth } from '../../';
 import { columnToLabel, googleSheetsCommon, labelToColumn } from '../common/common';
 import {
@@ -21,7 +21,7 @@ import {
 	Property,
 	PiecePropValueSchema,
 	DropdownOption,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 import crypto from 'crypto';
 

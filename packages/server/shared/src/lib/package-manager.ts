@@ -1,6 +1,6 @@
 import fs from 'fs/promises'
 import fsPath from 'path'
-import { isEmpty } from '@activepieces/shared'
+import { isEmpty } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { enrichErrorContext } from './exception-handler'
 import { exec } from './exec'

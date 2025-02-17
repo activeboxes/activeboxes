@@ -7,7 +7,7 @@ import {
     isNil,
     ScheduleOptions,
     ScheduleType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { EntityManager } from 'typeorm'
 import { flowVersionService } from '../flow-version/flow-version.service'

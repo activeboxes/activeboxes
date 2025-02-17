@@ -1,8 +1,8 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
 import { textToSpeech } from './lib/actions/text-to-speech-action';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import { ElevenLabsClient } from 'elevenlabs';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 
 const markdownDescription = `
 Follow these instructions to get your API Key:
@@ -38,7 +38,7 @@ export const elevenlabs = createPiece({
   displayName: 'ElevenLabs',
   auth: elevenlabsAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/elevenlabs.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/elevenlabs.png',
   authors: ['pfernandez98'],
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   description: 'AI Voice Generator & Text to Speech',

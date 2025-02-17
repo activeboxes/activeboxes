@@ -2,8 +2,8 @@ import { api } from '@/lib/api';
 import {
   ListPlatformProjectMembersRequestQuery,
   ProjectMemberWithUser,
-} from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const platformProjectMembersApi = {
   list(request: ListPlatformProjectMembersRequestQuery) {

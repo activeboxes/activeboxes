@@ -1,10 +1,10 @@
 import { straicoAuth } from '../../index';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   HttpMethod,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 import { baseUrl } from '../common/common';
 

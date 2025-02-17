@@ -49,14 +49,14 @@ inkeepScript.addEventListener("load", function () {
         },
         {
           name: "Community",
-          url: "https://community.activepieces.com/",
+          url: "https://community.activeboxes.org/",
           icon: {
             builtIn: "IoPeopleOutline",
           },
         },
         {
           name: "GitHub",
-          url: "https://github.com/activepieces/activepieces",
+          url: "https://github.com/activeboxes/activeboxes",
           icon: {
             builtIn: "FaGithub",
           },

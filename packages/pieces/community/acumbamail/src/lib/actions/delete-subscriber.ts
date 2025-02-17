@@ -1,11 +1,11 @@
 import { acumbamailAuth } from '../..';
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { acumbamailCommon } from '../common';
 import {
   HttpRequest,
   HttpMethod,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const removeSubscribeAction = createAction({
   auth: acumbamailAuth,

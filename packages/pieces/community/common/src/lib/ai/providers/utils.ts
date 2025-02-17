@@ -1,11 +1,11 @@
-import { DynamicProp } from '@activepieces/pieces-framework';
+import { DynamicProp } from '@activeboxes/pieces-framework';
 import {
   AIChatCompletion,
   AIChatCompletionsCreateParams,
   AIImageCompletion,
   AIImageGenerateParams,
 } from '../index';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 import { ReturnType } from '@sinclair/typebox';
 
 export function authHeader(options: AuthHeaderOptions): AuthHeader {

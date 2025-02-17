@@ -34,8 +34,8 @@ import {
   ApplicationEvent,
   ApplicationEventName,
   summarizeApplicationEvent,
-} from '@activepieces/ee-shared';
-import { isNil } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { isNil } from '@activeboxes/shared';
 
 export default function AuditLogsPage() {
   const { platform } = platformHooks.useCurrentPlatform();

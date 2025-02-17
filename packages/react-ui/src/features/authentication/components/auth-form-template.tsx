@@ -12,7 +12,7 @@ import {
 import {
   ApFlagId,
   ThirdPartyAuthnProvidersToShowMap,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { HorizontalSeparatorWithText } from '../../../components/ui/separator';
 import { flagsHooks } from '../../../hooks/flags-hooks';

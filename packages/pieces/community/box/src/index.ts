@@ -2,10 +2,10 @@ import {
   createPiece,
   OAuth2PropertyValue,
   PieceAuth,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceCategory } from '@activeboxes/shared';
 import { common } from './lib/common';
 import { newComment } from './lib/triggers/new-comment';
 import { newFile } from './lib/triggers/new-file';
@@ -24,7 +24,7 @@ export const box = createPiece({
 
   auth: boxAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/box.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/box.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

@@ -3,7 +3,7 @@ import {
   CreateOtpRequestBody,
   ResetPasswordRequestBody,
   VerifyEmailRequestBody,
-} from '@activepieces/ee-shared';
+} from '@activeboxes/ee-shared';
 import {
   AuthenticationResponse,
   ClaimTokenRequest,
@@ -14,7 +14,7 @@ import {
   SwitchPlatformRequest,
   SwitchProjectRequest,
   ThirdPartyAuthnProviderEnum,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const authenticationApi = {
   signIn(request: SignInRequest) {

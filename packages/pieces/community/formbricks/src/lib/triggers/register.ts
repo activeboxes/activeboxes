@@ -3,12 +3,12 @@ import {
   Property,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpRequest,
   HttpMethod,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { formBricksAuth } from '../..';
 
 export const formBricksRegisterTrigger = ({

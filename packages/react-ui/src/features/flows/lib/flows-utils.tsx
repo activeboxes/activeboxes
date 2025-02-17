@@ -8,7 +8,7 @@ import {
   FlowVersion,
   PopulatedFlow,
   TriggerType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { flowsApi } from './flows-api';
 

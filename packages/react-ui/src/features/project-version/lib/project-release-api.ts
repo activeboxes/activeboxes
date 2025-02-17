@@ -5,7 +5,7 @@ import {
   CreateProjectReleaseRequestBody,
   ProjectRelease,
   DiffReleaseRequest,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const projectReleaseApi = {
   async get(releaseId: string) {

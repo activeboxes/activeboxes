@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { intercomAuth } from '../..';
 import { commonProps, intercomClient } from '../common';
 import { ReplyToConversationMessageType } from 'intercom-client';

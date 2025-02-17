@@ -1,4 +1,4 @@
-import { assertNotNullOrUndefined } from '@activepieces/shared'
+import { assertNotNullOrUndefined } from '@activeboxes/shared'
 import axios from 'axios'
 
 export const systemConstants = {
@@ -176,7 +176,7 @@ export const apVersionUtil = {
                 return cachedVersion
             }
             const response = await axios.get<PackageJson>(
-                'https://raw.githubusercontent.com/activepieces/activepieces/main/package.json',
+                'https://raw.githubusercontent.com/activeboxes/activeboxes/main/package.json',
                 {
                     timeout: 5000,
                 },

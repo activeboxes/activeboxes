@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'path'
-import { fileExists, memoryLock, threadSafeMkdir } from '@activepieces/server-shared'
-import {  isNil } from '@activepieces/shared'
+import { fileExists, memoryLock, threadSafeMkdir } from '@activeboxes/server-shared'
+import {  isNil } from '@activeboxes/shared'
 import writeFileAtomic from 'write-file-atomic'
 
 type CacheMap = Record<string, string>

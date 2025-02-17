@@ -4,7 +4,7 @@ import {
     PlatformRole,
     PrincipalType,
     ProjectRole,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger, FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
 import { initializeDatabase } from '../../../../src/app/database'

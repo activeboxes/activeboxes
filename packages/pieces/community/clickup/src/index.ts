@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createClickupTaskComment } from './lib/actions/comments/create-task-comment';
 import { getClickupTaskComments } from './lib/actions/comments/get-task-comments';
 import { getClickupAccessibleCustomFields } from './lib/actions/custom-fields/get-accessible-custom-fields';
@@ -35,7 +35,7 @@ export const clickup = createPiece({
   displayName: 'ClickUp',
   description: 'All-in-one productivity platform',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/clickup.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/clickup.png',
   categories: [PieceCategory.PRODUCTIVITY],
   auth: clickupAuth,
   actions: [

@@ -19,7 +19,7 @@ import {
   WebsocketClientEvent,
   WebsocketServerEvent,
   AskCopilotTool,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { Textarea } from '../../../components/ui/textarea';
 import { CORE_STEP_METADATA } from '../../../features/pieces/lib/pieces-api';

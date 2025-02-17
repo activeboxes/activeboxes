@@ -1,5 +1,5 @@
-import { ApFile, createAction, Property } from '@activepieces/pieces-framework';
-import { AI, aiProps } from '@activepieces/pieces-common';
+import { ApFile, createAction, Property } from '@activeboxes/pieces-framework';
+import { AI, aiProps } from '@activeboxes/pieces-common';
 
 export const checkModeration = createAction({
   name: 'checkModeration',

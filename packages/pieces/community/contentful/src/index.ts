@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import {
   ContentfulCreateRecordAction,
   ContentfulGetRecordAction,
@@ -14,7 +14,7 @@ export const contentful = createPiece({
 
   auth: ContentfulAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/contentful.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/contentful.png',
   categories: [PieceCategory.MARKETING],
   authors: ["cyrilselasi","kishanprmr","MoShizzle","abuaboud"],
   actions: [

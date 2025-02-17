@@ -15,7 +15,7 @@ import {
   FlowOperationType,
   FlowVersionState,
   Permission,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useBuilderStateContext } from '../builder-hooks';
 

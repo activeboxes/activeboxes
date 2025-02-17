@@ -16,7 +16,7 @@ import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { signingKeyApi } from '@/features/platform-admin-panel/lib/signing-key-api'; // Update to the correct API endpoint
 import { platformHooks } from '@/hooks/platform-hooks';
 import { formatUtils } from '@/lib/utils';
-import { SigningKey } from '@activepieces/ee-shared';
+import { SigningKey } from '@activeboxes/ee-shared';
 
 const SigningKeysPage = () => {
   const { data, isLoading, refetch } = useQuery({
@@ -79,7 +79,7 @@ const SigningKeysPage = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                   className="font-medium text-primary underline underline-offset-4"
-                  to="https://www.activepieces.com/docs/embedding/provision-users"
+                  to="https://www.activeboxes.org/docs/embedding/provision-users"
                 >
                   JavaScript SDK
                 </Link>{' '}

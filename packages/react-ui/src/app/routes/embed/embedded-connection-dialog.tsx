@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-import { AppConnectionWithoutSensitiveData } from '@activepieces/shared';
+import { AppConnectionWithoutSensitiveData } from '@activeboxes/shared';
 import {
   ActivepiecesClientConnectionNameIsInvalid,
   ActivepiecesClientEventName,

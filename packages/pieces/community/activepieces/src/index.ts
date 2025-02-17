@@ -2,15 +2,15 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { createProject } from './lib/actions/create-project';
 import { listProject } from './lib/actions/list-project';
 import { updateProject } from './lib/actions/update-project';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 
 const markdown = `
 Activepieces Platform API is available under the Platform Edition.
-(https://www.activepieces.com/docs/admin-console/overview)
+(https://www.activeboxes.org/docs/admin-console/overview)
 
 **Note**: The API Key is available in the Platform Dashboard.
 
@@ -23,7 +23,7 @@ export const activePieceAuth = PieceAuth.CustomAuth({
     baseApiUrl: Property.ShortText({
       displayName: 'Base URL',
       required: true,
-      defaultValue: 'https://cloud.activepieces.com/api/v1',
+      defaultValue: 'https://cloud.activeboxes.org/api/v1',
     }),
     apiKey: PieceAuth.SecretText({
       displayName: 'API Key',
@@ -37,7 +37,7 @@ export const activepieces = createPiece({
   description: 'Open source no-code business automation',
   auth: activePieceAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/activepieces.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/activepieces.png',
   authors: ['doskyft', 'abuaboud', 'AdamSelene'],
   actions: [
     createProject,

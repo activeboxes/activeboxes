@@ -1,4 +1,4 @@
-import { QueryParams } from '@activepieces/pieces-common';
+import { QueryParams } from '@activeboxes/pieces-common';
 
 export interface ActionResponse {
   success: boolean;

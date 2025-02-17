@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { googleContactsAddContactAction } from './lib/action/create-contact';
 import { googleContactsUpdateContactAction } from './lib/action/update-contact';
 import { googleContactsSearchContactsAction } from './lib/action/search-contact';
@@ -22,7 +22,7 @@ export const googleContactsAuth = PieceAuth.OAuth2({
 
 export const googleContacts = createPiece({
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-contacts.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/google-contacts.png',
   categories: [PieceCategory.SALES_AND_CRM],
   actions: [
     googleContactsAddContactAction,

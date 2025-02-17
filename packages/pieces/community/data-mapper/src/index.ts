@@ -1,5 +1,5 @@
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { advancedMapping } from './lib/actions/advanced-mapping';
 
 export const dataMapper = createPiece({
@@ -7,7 +7,7 @@ export const dataMapper = createPiece({
   description: 'tools to manipulate data structure',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/data-mapper.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/data-mapper.png',
   auth: PieceAuth.None(),
   categories: [PieceCategory.CORE],
   authors: ["kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],

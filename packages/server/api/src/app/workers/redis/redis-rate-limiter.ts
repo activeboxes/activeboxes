@@ -1,5 +1,5 @@
-import { AppSystemProp, JobType, OneTimeJobData, QueueName, WebhookJobData } from '@activepieces/server-shared'
-import { apId, assertNotNullOrUndefined, assertNull, isNil } from '@activepieces/shared'
+import { AppSystemProp, JobType, OneTimeJobData, QueueName, WebhookJobData } from '@activeboxes/server-shared'
+import { apId, assertNotNullOrUndefined, assertNull, isNil } from '@activeboxes/shared'
 import { Job, Queue, Worker } from 'bullmq'
 import dayjs from 'dayjs'
 

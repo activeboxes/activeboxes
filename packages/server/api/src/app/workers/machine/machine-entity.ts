@@ -1,5 +1,5 @@
 
-import { WorkerMachine } from '@activepieces/shared'
+import { WorkerMachine } from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import {
     BaseColumnSchemaPart,

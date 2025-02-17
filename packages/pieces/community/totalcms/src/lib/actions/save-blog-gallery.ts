@@ -1,11 +1,11 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { saveBlogGallery } from '../api';
 import { cmsAuth } from '../auth';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 export const saveBlogGalleryAction = createAction({
   name: 'save_blog_gallery',

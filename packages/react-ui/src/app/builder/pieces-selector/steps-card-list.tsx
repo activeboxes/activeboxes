@@ -14,7 +14,7 @@ import {
   StepMetadata,
   HandleSelectCallback,
 } from '@/features/pieces/lib/types';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 type StepsCardListProps = {
   selectedPieceMetadata: StepMetadata | undefined;

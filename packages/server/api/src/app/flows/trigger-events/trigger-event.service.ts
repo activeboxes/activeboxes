@@ -1,4 +1,4 @@
-import { UserInteractionJobType } from '@activepieces/server-shared'
+import { UserInteractionJobType } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     apId,
@@ -16,7 +16,7 @@ import {
     TriggerEventWithPayload,
     TriggerHookType,
     TriggerType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { EngineHelperResponse, EngineHelperTriggerResult } from 'server-worker'
 import { repoFactory } from '../../core/db/repo-factory'

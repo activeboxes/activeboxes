@@ -1,5 +1,5 @@
-import { Property } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { Property } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { CAPTAIN_DATA_BASE_URL, CaptainDataAuthType } from '..';
 
 export const workflowProp = Property.Dropdown({

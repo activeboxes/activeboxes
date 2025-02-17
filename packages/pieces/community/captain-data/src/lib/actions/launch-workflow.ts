@@ -2,8 +2,8 @@ import {
   createAction,
   DynamicPropsValue,
   Property,
-} from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import {
   CAPTAIN_DATA_BASE_URL,
   captainDataAuth,
@@ -12,7 +12,7 @@ import {
 import { workflowProp } from '../common';
 
 export const launchWorkflow = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'launchWorkflow',
   displayName: 'Launch a workflow',
   description: '',

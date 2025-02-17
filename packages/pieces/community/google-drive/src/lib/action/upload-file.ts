@@ -1,9 +1,9 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMethod,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import FormData from 'form-data';
 import { googleDriveAuth } from '../../';
 import mime from 'mime-types';

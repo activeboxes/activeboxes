@@ -1,9 +1,9 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   DUST_BASE_URL,
   assistantProp,
@@ -16,7 +16,7 @@ import { dustAuth } from '../..';
 import mime from 'mime-types';
 
 export const createConversation = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'createConversation',
   displayName: 'Create conversation',
   description: 'Create a new conversation with a specific Dust assistant',

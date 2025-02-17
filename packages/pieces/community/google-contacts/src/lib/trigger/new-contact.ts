@@ -2,12 +2,12 @@ import {
   createTrigger,
   OAuth2PropertyValue,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   Polling,
   DedupeStrategy,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { googleContactsAuth } from '../../';
 import { google } from 'googleapis';
 import { OAuth2Client } from 'googleapis-common';

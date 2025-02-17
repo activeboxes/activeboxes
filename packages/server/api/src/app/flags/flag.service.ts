@@ -1,5 +1,5 @@
-import { AppSystemProp, apVersionUtil, webhookSecretsUtils } from '@activepieces/server-shared'
-import { ApEdition, ApFlagId, ExecutionMode, Flag, isNil } from '@activepieces/shared'
+import { AppSystemProp, apVersionUtil, webhookSecretsUtils } from '@activeboxes/server-shared'
+import { ApEdition, ApFlagId, ExecutionMode, Flag, isNil } from '@activeboxes/shared'
 import { In } from 'typeorm'
 import { repoFactory } from '../core/db/repo-factory'
 import { federatedAuthnService } from '../ee/authentication/federated-authn/federated-authn-service'
@@ -151,13 +151,13 @@ export const flagService = {
             },
             {
                 id: ApFlagId.PRIVACY_POLICY_URL,
-                value: 'https://www.activepieces.com/privacy',
+                value: 'https://www.activeboxes.org/privacy',
                 created,
                 updated,
             },
             {
                 id: ApFlagId.TERMS_OF_SERVICE_URL,
-                value: 'https://www.activepieces.com/terms',
+                value: 'https://www.activeboxes.org/terms',
                 created,
                 updated,
             },

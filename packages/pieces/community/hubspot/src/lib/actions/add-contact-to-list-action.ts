@@ -1,7 +1,7 @@
 import { staticListsDropdown } from '../common/props';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { hubspotAuth } from '../../';
-import { AuthenticationType, httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { AuthenticationType, httpClient, HttpMethod } from '@activeboxes/pieces-common';
 
 export const hubSpotListsAddContactAction = createAction({
 	auth: hubspotAuth,

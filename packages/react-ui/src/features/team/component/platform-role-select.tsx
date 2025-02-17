@@ -12,7 +12,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { PlatformRole } from '@activepieces/shared';
+import { PlatformRole } from '@activeboxes/shared';
 
 type PlatformRoleSelectProps = {
   form: UseFormReturn<any>;

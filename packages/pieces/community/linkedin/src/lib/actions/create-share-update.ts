@@ -1,10 +1,10 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { Image, linkedinCommon, santizeText } from '../common';
 import jwt, { JwtPayload } from 'jsonwebtoken';
 import { linkedinAuth } from '../..';

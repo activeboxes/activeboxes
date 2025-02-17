@@ -1,6 +1,6 @@
-import { createCustomApiCallAction, httpClient, HttpMethod } from '@activepieces/pieces-common';
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction, httpClient, HttpMethod } from '@activeboxes/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { smartScraper } from './lib/actions/smart-scraper';
 import { localScraper } from './lib/actions/local-scraper';
 import { markdownify } from './lib/actions/markdownify';
@@ -47,7 +47,7 @@ export const scrapegraphai = createPiece({
   displayName: 'ScrapeGraphAI',
   description: 'AI-powered web scraping and content extraction.',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/scrapegraphai.jpg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/scrapegraphai.jpg',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["OsamaHaikal"],
   auth: scrapegraphaiAuth,

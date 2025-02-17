@@ -1,8 +1,8 @@
 import { hubspotAuth } from '../../';
 
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 
-import { MarkdownVariant } from '@activepieces/shared';
+import { MarkdownVariant } from '@activeboxes/shared';
 import { OBJECT_TYPE } from '../common/constants';
 import {
 	getDefaultPropertiesForObject,

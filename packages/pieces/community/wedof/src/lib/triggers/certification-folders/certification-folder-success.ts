@@ -1,7 +1,7 @@
 
 import { wedofAuth } from '../../..';
-import { createTrigger, TriggerStrategy } from '@activepieces/pieces-framework';
-import { httpClient ,HttpMethod } from '@activepieces/pieces-common';
+import { createTrigger, TriggerStrategy } from '@activeboxes/pieces-framework';
+import { httpClient ,HttpMethod } from '@activeboxes/pieces-common';
 import { wedofCommon } from '../../common/wedof';
 
 export const certificationFolderSuccess = createTrigger({

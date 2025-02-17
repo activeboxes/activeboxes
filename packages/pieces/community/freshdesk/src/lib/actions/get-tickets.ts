@@ -1,5 +1,5 @@
-import { createAction } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createAction } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { freshdeskAuth } from '../..';
 
 export const getTickets = createAction({

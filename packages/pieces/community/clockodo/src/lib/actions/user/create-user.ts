@@ -1,5 +1,5 @@
 import { clockodoCommon, emptyToNull, makeClient } from '../../common';
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { clockodoAuth } from '../../../';
 
 export default createAction({

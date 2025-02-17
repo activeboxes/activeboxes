@@ -4,7 +4,7 @@ import {
   HandleSelectCallback,
   StepMetadataWithSuggestions,
 } from '@/features/pieces/lib/types';
-import { ActionType, TriggerType } from '@activepieces/shared';
+import { ActionType, TriggerType } from '@activeboxes/shared';
 
 import { getCoreActions } from '../../../features/pieces/lib/pieces-hook';
 

@@ -24,7 +24,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
-import { AppConnectionWithoutSensitiveData } from '@activepieces/shared';
+import { AppConnectionWithoutSensitiveData } from '@activeboxes/shared';
 
 import { appConnectionsApi } from '../lib/app-connections-api';
 import {

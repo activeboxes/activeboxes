@@ -1,10 +1,10 @@
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMessageBody,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { DustAuthType } from '..';
 
 export const DUST_BASE_URL = 'https://dust.tt/api/v1/w';

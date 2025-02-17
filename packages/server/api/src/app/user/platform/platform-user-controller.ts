@@ -6,7 +6,7 @@ import {
     SeekPage,
     UpdateUserRequestBody,
     UserWithMetaInformation,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

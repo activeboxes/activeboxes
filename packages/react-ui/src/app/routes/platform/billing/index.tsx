@@ -19,7 +19,7 @@ import {
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { formatUtils } from '@/lib/utils';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 import { platformBillingApi } from './api/billing-api';
 import { TasksLimitDialog } from './dialogs/tasks';

@@ -1,6 +1,6 @@
 import { jwtDecode } from 'jwt-decode';
 
-import { AuthenticationResponse, isNil, Principal } from '@activepieces/shared';
+import { AuthenticationResponse, isNil, Principal } from '@activeboxes/shared';
 
 import { authenticationApi } from './authentication-api';
 

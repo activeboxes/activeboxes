@@ -1,5 +1,5 @@
-import { InputPropertyMap, PieceAuthProperty, PieceProperty, PiecePropertyMap, PropertyType, StaticPropsValue } from '@activepieces/pieces-framework'
-import { AUTHENTICATION_PROPERTY_NAME, isNil, isObject } from '@activepieces/shared'
+import { InputPropertyMap, PieceAuthProperty, PieceProperty, PiecePropertyMap, PropertyType, StaticPropsValue } from '@activeboxes/pieces-framework'
+import { AUTHENTICATION_PROPERTY_NAME, isNil, isObject } from '@activeboxes/shared'
 import { z } from 'zod'
 import { processors } from './processors'
 

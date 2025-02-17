@@ -30,7 +30,7 @@ import {
   TriggerTestStrategy,
   isNil,
   parseToJsonIfPossible,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useBuilderStateContext } from '../builder-hooks';
 

@@ -1,4 +1,4 @@
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 import { flowluCommon } from '.';
 
 export const flowluProps = {

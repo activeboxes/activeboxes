@@ -1,5 +1,5 @@
 import { pipedriveAuth } from '../../index';
-import { createAction, PiecePropValueSchema, Property } from '@activepieces/pieces-framework';
+import { createAction, PiecePropValueSchema, Property } from '@activeboxes/pieces-framework';
 import {
 	fetchDealsOptions,
 	fetchOrganizationsOptions,
@@ -8,7 +8,7 @@ import {
 	ownerIdProp,
 } from '../common/props';
 import { pipedriveApiCall } from '../common';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 
 export const addFollowerAction = createAction({
 	auth: pipedriveAuth,

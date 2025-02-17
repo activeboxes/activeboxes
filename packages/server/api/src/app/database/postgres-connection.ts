@@ -1,6 +1,6 @@
 import { TlsOptions } from 'node:tls'
-import { AppSystemProp } from '@activepieces/server-shared'
-import { ApEdition, ApEnvironment, isNil } from '@activepieces/shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
+import { ApEdition, ApEnvironment, isNil } from '@activeboxes/shared'
 import { DataSource, MigrationInterface } from 'typeorm'
 import { MakeStripeSubscriptionNullable1685053959806 } from '../ee/database/migrations/postgres/1685053959806-MakeStripeSubscriptionNullable'
 import { AddTemplates1685538145476 } from '../ee/database/migrations/postgres/1685538145476-addTemplates'

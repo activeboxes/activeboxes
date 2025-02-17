@@ -1,11 +1,11 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   HttpRequest,
   HttpMethod,
   AuthenticationType,
   httpClient,
   QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { googleContactsCommon } from '../common';
 import { googleContactsAuth } from '../../';
 

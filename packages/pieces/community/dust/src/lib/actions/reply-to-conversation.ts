@@ -1,9 +1,9 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { dustAuth } from '../..';
 import {
   assistantProp,
@@ -15,7 +15,7 @@ import {
 } from '../common';
 
 export const replyToConversation = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'replyToConversation',
   displayName: 'Reply to conversation',
   description: 'Send reply to existing conversation',

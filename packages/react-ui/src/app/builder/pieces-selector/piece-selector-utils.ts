@@ -11,7 +11,7 @@ import {
   PiecePropertyMap,
   PropertyType,
   TriggerBase,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   Action,
   ActionType,
@@ -30,7 +30,7 @@ import {
   isNil,
   Platform,
   flowStructureUtil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { formUtils } from '../piece-properties/form-utils';
 
@@ -97,14 +97,14 @@ const isPopularPieces = (
     return false;
   }
   const popularPieces = [
-    '@activepieces/piece-gmail',
-    '@activepieces/piece-google-sheets',
-    '@activepieces/piece-openai',
-    '@activepieces/piece-schedule',
-    '@activepieces/piece-webhook',
-    '@activepieces/piece-http',
-    '@activepieces/piece-forms',
-    '@activepieces/piece-slack',
+    '@activeboxes/piece-gmail',
+    '@activeboxes/piece-google-sheets',
+    '@activeboxes/piece-openai',
+    '@activeboxes/piece-schedule',
+    '@activeboxes/piece-webhook',
+    '@activeboxes/piece-http',
+    '@activeboxes/piece-forms',
+    '@activeboxes/piece-slack',
   ];
   const pinnedPieces = platform.pinnedPieces ?? [];
   return [...popularPieces, ...pinnedPieces].includes(

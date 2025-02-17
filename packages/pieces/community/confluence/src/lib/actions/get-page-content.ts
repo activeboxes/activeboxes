@@ -3,8 +3,8 @@ import {
 	Property,
 	DynamicPropsValue,
 	PiecePropValueSchema,
-} from '@activepieces/pieces-framework';
-import { HttpMethod } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { confluenceAuth } from '../..';
 import { confluenceApiCall } from '../common';
 

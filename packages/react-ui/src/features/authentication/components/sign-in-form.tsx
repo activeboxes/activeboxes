@@ -21,7 +21,7 @@ import {
   ErrorCode,
   isNil,
   SignInRequest,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 const SignInSchema = Type.Object({
   email: Type.String({

@@ -1,5 +1,5 @@
-import { PieceMetadata, PieceMetadataModel } from '@activepieces/pieces-framework'
-import { AppSystemProp, UserInteractionJobType } from '@activepieces/server-shared'
+import { PieceMetadata, PieceMetadataModel } from '@activeboxes/pieces-framework'
+import { AppSystemProp, UserInteractionJobType } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     AddPieceRequestBody,
@@ -18,7 +18,7 @@ import {
     PieceType,
     PlatformId,
     ProjectId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { EngineHelperExtractPieceInformation, EngineHelperResponse } from 'server-worker'
 import { fileService } from '../../file/file.service'

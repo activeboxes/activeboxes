@@ -91,13 +91,13 @@ const generateIndexTsFile = async (pieceName: string, pieceType: string) => {
     .join('');
 
   const indexTemplate = `
-    import { createPiece, PieceAuth } from "@activepieces/pieces-framework";
+    import { createPiece, PieceAuth } from "@activeboxes/pieces-framework";
 
     export const ${pieceNameCamelCase} = createPiece({
       displayName: "${capitalizeFirstLetter(pieceName)}",
       auth: PieceAuth.None(),
       minimumSupportedRelease: '0.36.1',
-      logoUrl: "https://cdn.activepieces.com/pieces/${pieceName}.png",
+      logoUrl: "https://cdn.activeboxes.org/pieces/${pieceName}.png",
       authors: [],
       actions: [],
       triggers: [],
@@ -197,7 +197,7 @@ export const createPieceCommand = new Command('create')
         type: 'input',
         name: 'packageName',
         message: 'Enter the package name:',
-        default: (answers: any) => `@activepieces/piece-${answers.pieceName}`,
+        default: (answers: any) => `@activeboxes/piece-${answers.pieceName}`,
         when: (answers: any) => answers.pieceName !== undefined,
       },
       {

@@ -1,4 +1,4 @@
-import { PieceCategory, PieceOrderBy, PieceSortBy, PlatformId, SuggestionType } from '@activepieces/shared'
+import { PieceCategory, PieceOrderBy, PieceSortBy, PlatformId, SuggestionType } from '@activeboxes/shared'
 import { PieceMetadataSchema } from '../../piece-metadata-entity'
 import { filterPiecesBasedOnEmbedding, filterPiecesBasedUser } from './piece-filtering'
 import { sortAndOrderPieces } from './piece-sorting'

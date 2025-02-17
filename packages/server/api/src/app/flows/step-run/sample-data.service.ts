@@ -1,4 +1,4 @@
-import { UserInteractionJobType } from '@activepieces/server-shared'
+import { UserInteractionJobType } from '@activeboxes/server-shared'
 import {
     Action,
     apId,
@@ -14,7 +14,7 @@ import {
     SaveSampleDataResponse,
     StepRunResponse,
     Trigger,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { EngineHelperActionResult, EngineHelperResponse } from 'server-worker'
 import { fileRepo, fileService } from '../../file/file.service'

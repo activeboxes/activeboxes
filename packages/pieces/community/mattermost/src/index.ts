@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   PieceAuth,
   Property,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { sendMessage } from './lib/actions/send-message';
 
 const markdownDescription = `
@@ -35,7 +35,7 @@ export const mattermost = createPiece({
   displayName: 'Mattermost',
   description: 'Open-source, self-hosted Slack alternative',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/mattermost.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/mattermost.png',
   minimumSupportedRelease: '0.30.0',
   categories: [PieceCategory.COMMUNICATION],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],

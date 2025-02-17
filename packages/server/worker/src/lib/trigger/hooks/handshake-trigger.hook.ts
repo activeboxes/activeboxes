@@ -1,7 +1,7 @@
 import {
     WebhookHandshakeStrategy,
     WebhookResponse,
-} from '@activepieces/pieces-framework'
+} from '@activeboxes/pieces-framework'
 import {
     FlowVersion,
     isNil,
@@ -9,7 +9,7 @@ import {
     ProjectId,
     TriggerHookType,
     TriggerPayload,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { engineApiService } from '../../api/server-api.service'
 import { engineRunner } from '../../engine'

@@ -1,5 +1,5 @@
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { telegramBotAuth } from '../..';
 import { telegramCommons } from '../common';
 

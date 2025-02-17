@@ -1,4 +1,4 @@
-import { isNil } from '@activepieces/shared'
+import { isNil } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 
 

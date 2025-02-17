@@ -4,7 +4,7 @@ import {
   UpdateProjectRoleRequestBody,
   ProjectRole,
   SeekPage,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const projectRoleApi = {
   async get(id: string) {

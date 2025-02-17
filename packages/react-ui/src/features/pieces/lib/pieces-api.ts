@@ -7,7 +7,7 @@ import {
   PieceMetadataModel,
   PieceMetadataModelSummary,
   PiecePropertyMap,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   Action,
   ActionType,
@@ -20,7 +20,7 @@ import {
   spreadIfDefined,
   Trigger,
   TriggerType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { PieceStepMetadata, StepMetadata } from './types';
 
@@ -30,25 +30,25 @@ export const CORE_STEP_METADATA: Record<
 > = {
   [ActionType.CODE]: {
     displayName: t('Code'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/code.svg',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/code.svg',
     description: t('Powerful Node.js & TypeScript code with npm'),
     type: ActionType.CODE as const,
   },
   [ActionType.LOOP_ON_ITEMS]: {
     displayName: t('Loop on Items'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/loop.svg',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/loop.svg',
     description: 'Iterate over a list of items',
     type: ActionType.LOOP_ON_ITEMS as const,
   },
   [ActionType.ROUTER]: {
     displayName: 'Router',
-    logoUrl: 'https://cdn.activepieces.com/pieces/branch.svg',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/branch.svg',
     description: t('Split your flow into branches depending on condition(s)'),
     type: ActionType.ROUTER,
   },
   [TriggerType.EMPTY]: {
     displayName: t('Empty Trigger'),
-    logoUrl: 'https://cdn.activepieces.com/pieces/empty-trigger.svg',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/empty-trigger.svg',
     description: t('Empty Trigger'),
     type: TriggerType.EMPTY as const,
   },

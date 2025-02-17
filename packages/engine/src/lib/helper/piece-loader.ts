@@ -1,5 +1,5 @@
-import { Action, Piece, Trigger } from '@activepieces/pieces-framework'
-import { ActivepiecesError, ErrorCode, ExecutePropsOptions, extractPieceFromModule, getPackageAliasForPiece, isNil } from '@activepieces/shared'
+import { Action, Piece, Trigger } from '@activeboxes/pieces-framework'
+import { ActivepiecesError, ErrorCode, ExecutePropsOptions, extractPieceFromModule, getPackageAliasForPiece, isNil } from '@activeboxes/shared'
 
 
 const loadPieceOrThrow = async (

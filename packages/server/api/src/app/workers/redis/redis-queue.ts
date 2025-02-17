@@ -1,5 +1,5 @@
-import { exceptionHandler, JobType, QueueName } from '@activepieces/server-shared'
-import { ActivepiecesError, ApId, ErrorCode, isNil } from '@activepieces/shared'
+import { exceptionHandler, JobType, QueueName } from '@activeboxes/server-shared'
+import { ActivepiecesError, ApId, ErrorCode, isNil } from '@activeboxes/shared'
 import { DefaultJobOptions, Queue } from 'bullmq'
 import { FastifyBaseLogger } from 'fastify'
 import { createRedisClient } from '../../database/redis-connection'

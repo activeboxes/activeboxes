@@ -3,8 +3,8 @@ import {
   ConfigureRepoRequest,
   GitRepo,
   PushGitRepoRequest,
-} from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const gitSyncApi = {
   async get(projectId: string): Promise<GitRepo | null> {

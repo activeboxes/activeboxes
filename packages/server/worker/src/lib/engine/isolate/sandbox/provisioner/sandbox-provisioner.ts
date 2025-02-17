@@ -1,6 +1,6 @@
 import path from 'path'
-import { enrichErrorContext } from '@activepieces/server-shared'
-import { PiecePackage, PieceType } from '@activepieces/shared'
+import { enrichErrorContext } from '@activeboxes/server-shared'
+import { PiecePackage, PieceType } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { CodeArtifact } from '../../../engine-runner'
 import { executionFiles } from '../../../execution-files'

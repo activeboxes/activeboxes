@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { flowStructureUtil, FlowVersion } from '@activepieces/shared';
+import { flowStructureUtil, FlowVersion } from '@activeboxes/shared';
 
 import { sampleDataApi } from './sample-data-api';
 

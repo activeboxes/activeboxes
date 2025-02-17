@@ -4,7 +4,7 @@ import { Navigate, useParams, useSearchParams } from 'react-router-dom';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
 import { determineDefaultRoute } from '@/lib/utils';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 import { authenticationSession } from '../../lib/authentication-session';
 import { LoadingScreen } from '../components/loading-screen';

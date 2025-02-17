@@ -15,7 +15,7 @@ import {
   ChatUIResponse,
   ErrorCode,
   FileResponseInterface,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { MultiMediaMessage } from './chat-message';
 export const Messages = Type.Array(

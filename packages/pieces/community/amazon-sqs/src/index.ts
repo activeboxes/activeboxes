@@ -1,5 +1,5 @@
 
-import { createPiece, PieceAuth, Property } from "@activepieces/pieces-framework";
+import { createPiece, PieceAuth, Property } from "@activeboxes/pieces-framework";
 import { SQS } from 'aws-sdk';
 import { sendMessage } from "./lib/actions/send-message";
 
@@ -168,7 +168,7 @@ export const awsSqs = createPiece({
   displayName: "Amazon SQS",
   auth: amazonSqsAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: "https://cdn.activepieces.com/pieces/aws-sqs.png",
+  logoUrl: "https://cdn.activeboxes.org/pieces/aws-sqs.png",
   authors: ["abuaboud"],
   actions: [sendMessage],
   triggers: [],

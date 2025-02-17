@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 import {
   FlowOperationType,
   StepLocationRelativeToParent,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { BuilderState } from '../../builder-hooks';
 import { ApButtonData } from '../utils/types';

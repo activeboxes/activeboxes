@@ -3,7 +3,7 @@
   "logo": {
     "light": "./resources/logo/light.svg",
     "dark": "./resources/logo/dark.svg",
-    "href": "https://www.activepieces.com"
+    "href": "https://www.activeboxes.org"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -22,7 +22,7 @@
   },
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://www.activepieces.com/plans"
+    "url": "https://www.activeboxes.org/plans"
   },
   "feedback": {
     "suggestEdit": true,
@@ -31,11 +31,11 @@
   "topbarLinks": [
     {
       "name": "GitHub",
-      "url": "https://github.com/activepieces/activepieces"
+      "url": "https://github.com/activeboxes/activeboxes"
     },
     {
       "name": "Pieces",
-      "url": "https://www.activepieces.com/pieces"
+      "url": "https://www.activeboxes.org/pieces"
     }
   ],
   "tabs": [
@@ -440,8 +440,8 @@
     }
   },
   "footerSocials": {
-    "website": "https://www.activepieces.com",
-    "github": "https://github.com/activepieces/activepieces",
+    "website": "https://www.activeboxes.org",
+    "github": "https://github.com/activeboxes/activeboxes",
     "discord": "https://discord.gg/2jUXBKDdP8"
   },
   "redirects": [

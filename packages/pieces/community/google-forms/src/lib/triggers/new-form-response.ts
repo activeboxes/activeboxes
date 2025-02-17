@@ -4,12 +4,12 @@ import {
   HttpMethod,
   Polling,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   createTrigger,
   OAuth2PropertyValue,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import dayjs from 'dayjs';
 import { googleFormsCommon } from '../common/common';
 import { googleFormsAuth } from '../../';

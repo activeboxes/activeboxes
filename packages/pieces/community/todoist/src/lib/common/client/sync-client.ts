@@ -3,8 +3,8 @@ import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
-import { isNotUndefined, pickBy } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { isNotUndefined, pickBy } from '@activeboxes/shared';
 import { TodoistCompletedListResponse } from '../models';
 
 const API = 'https://api.todoist.com/sync/v9';

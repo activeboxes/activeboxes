@@ -3,7 +3,7 @@ import { OnStartContext, ActionContext, TestOrRunHookContext, TriggerHookContext
 import { TriggerBase } from '../piece-metadata';
 import { InputPropertyMap } from '../property';
 import { PieceAuthProperty } from '../property/authentication';
-import { isNil, TriggerTestStrategy } from '@activepieces/shared';
+import { isNil, TriggerTestStrategy } from '@activeboxes/shared';
 
 export const DEDUPE_KEY_PROPERTY = '_dedupe_key'
 

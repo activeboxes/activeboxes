@@ -1,6 +1,6 @@
-import { ApFile, createAction, Property } from '@activepieces/pieces-framework';
-import { isNil, MarkdownVariant } from '@activepieces/shared';
-import { AI, AIChatRole, aiProps, AIFunctionArgumentDefinition } from '@activepieces/pieces-common';
+import { ApFile, createAction, Property } from '@activeboxes/pieces-framework';
+import { isNil, MarkdownVariant } from '@activeboxes/shared';
+import { AI, AIChatRole, aiProps, AIFunctionArgumentDefinition } from '@activeboxes/pieces-common';
 import Ajv from 'ajv';
 
 export const extractStructuredData = createAction({

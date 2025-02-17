@@ -2,15 +2,15 @@ import {
   Property,
   OAuth2PropertyValue,
   PiecePropValueSchema,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMethod,
   AuthenticationType,
   HttpRequest,
   getAccessTokenOrThrow,
-} from '@activepieces/pieces-common';
-import { isNil, isString } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { isNil, isString } from '@activeboxes/shared';
 import { google } from 'googleapis';
 import { OAuth2Client } from 'googleapis-common';
 import { googleSheetsAuth } from '../../';

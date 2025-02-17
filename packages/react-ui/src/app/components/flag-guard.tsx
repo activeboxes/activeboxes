@@ -1,5 +1,5 @@
 import { flagsHooks } from '@/hooks/flags-hooks';
-import { ApFlagId } from '@activepieces/shared';
+import { ApFlagId } from '@activeboxes/shared';
 
 type FlagGuardProps = {
   children: React.ReactNode;

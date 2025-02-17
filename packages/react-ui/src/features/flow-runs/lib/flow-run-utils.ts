@@ -20,7 +20,7 @@ import {
   StepOutput,
   StepOutputStatus,
   Trigger,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const flowRunUtils = {
   findFailedStepInOutput,

@@ -4,15 +4,15 @@ import {
   Store,
   StoreScope,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { googleSheetsAuth } from '../..';
 import {
   googleSheetsCommon,
 } from '../common/common';
-import { isNil } from '@activepieces/shared';
-import { HttpError } from '@activepieces/pieces-common';
+import { isNil } from '@activeboxes/shared';
+import { HttpError } from '@activeboxes/pieces-common';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 import { getWorkSheetGridSize } from '../triggers/helpers';
 
 async function getRows(

@@ -2,7 +2,7 @@ import {
     AppConnection,
     AppConnectionStatus,
     User,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import {
     ARRAY_COLUMN_TYPE,

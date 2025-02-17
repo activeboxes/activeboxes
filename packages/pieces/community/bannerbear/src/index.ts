@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { bannerbearCreateImageAction } from './lib/actions/create-image';
 
 export const bannerbearAuth = PieceAuth.SecretText({
@@ -14,7 +14,7 @@ export const bannerbear = createPiece({
   description: 'Automate image generation',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bannerbear.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/bannerbear.png',
   categories: [PieceCategory.MARKETING],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   auth: bannerbearAuth,

@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { zoomCreateMeeting } from './lib/actions/create-meeting';
 import { zoomCreateMeetingRegistrant } from './lib/actions/create-meeting-registrant';
 
@@ -27,7 +27,7 @@ export const zoom = createPiece({
   description: 'Video conferencing, web conferencing, webinars, screen sharing',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/zoom.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/zoom.png',
   categories: [PieceCategory.COMMUNICATION],
   actions: [
     zoomCreateMeeting,

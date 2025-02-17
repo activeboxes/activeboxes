@@ -1,8 +1,8 @@
 import {
   createPiece,
   PieceAuth,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { makeCallAction } from './lib/actions/make-call';
 import { getCallDetailsAction } from './lib/actions/get-call-details';
 
@@ -25,7 +25,7 @@ export const kallabotAuth = PieceAuth.SecretText({
 export const kallabotAi = createPiece({
   displayName: 'Kallabot',
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/kallabot-ai.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/kallabot-ai.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ['abdulrahmanmajid'],
   auth: kallabotAuth,

@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createContact } from './lib/actions/create-contact';
 import { createList } from './lib/actions/create-list';
 import { unsubscribe } from './lib/actions/unsubscribe-contact';
@@ -17,7 +17,7 @@ export const sendfox = createPiece({
 
   auth: sendfoxAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/sendfox.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/sendfox.png',
   categories: [PieceCategory.MARKETING],
   authors: ["Salem-Alaa","kishanprmr","MoShizzle","abuaboud"],
   actions: [

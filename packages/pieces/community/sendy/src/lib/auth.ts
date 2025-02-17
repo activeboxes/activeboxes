@@ -1,10 +1,10 @@
 import {
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { getLists } from './api';
 import { z } from 'zod';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 
 export type SendyAuthType = { apiKey: string; domain: string; brandId: string };
 

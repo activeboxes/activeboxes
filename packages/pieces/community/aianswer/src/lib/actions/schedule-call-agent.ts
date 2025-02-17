@@ -1,6 +1,6 @@
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { aiAnswerAuth } from '../..';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { aiAnswerConfig } from '../common/models';
 
 export const scheduleCallAgent = createAction({

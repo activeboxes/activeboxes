@@ -44,7 +44,7 @@ import {
   AppConnectionWithoutSensitiveData,
   Permission,
   PlatformRole,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 function AppConnectionsPage() {
   const [refresh, setRefresh] = useState(0);

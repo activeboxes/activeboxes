@@ -1,11 +1,11 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2AuthorizationMethod,
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { appendToPage } from './lib/actions/append-to-page';
 import { createDatabaseItem } from './lib/actions/create-database-item';
 import { createPage } from './lib/actions/create-page';
@@ -29,7 +29,7 @@ export const notionAuth = PieceAuth.OAuth2({
 export const notion = createPiece({
   displayName: 'Notion',
   description: 'The all-in-one workspace',
-  logoUrl: 'https://cdn.activepieces.com/pieces/notion.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/notion.png',
   categories: [PieceCategory.PRODUCTIVITY],
   minimumSupportedRelease: '0.30.0',
   authors: [

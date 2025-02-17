@@ -1,13 +1,13 @@
 import {
   Property,
   BasicAuthPropertyValue,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   HttpMethod,
   HttpMessageBody,
   httpClient,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const twilioCommon = {
   phone_number: Property.Dropdown({

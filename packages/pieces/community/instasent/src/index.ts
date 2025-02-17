@@ -1,11 +1,11 @@
-import { createPiece, PieceAuth } from "@activepieces/pieces-framework";
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createPiece, PieceAuth } from "@activeboxes/pieces-framework";
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { deleteContact } from './lib/actions/delete-contact';
 import { addOrUpdateContact } from './lib/actions/add-or-update-contact';
 import { createEvent } from "./lib/actions/create-event";
 import { BASE_URL } from "./lib/common/constants";
 import { InstasentAuthType } from './lib/common/types';
-import { PieceCategory } from "@activepieces/shared";
+import { PieceCategory } from "@activeboxes/shared";
 
 export const getBaseUrl = (auth: { projectId: string, datasourceId: string }) => {
     return `${BASE_URL}/project/${auth.projectId}/datasource/${auth.datasourceId}`;
@@ -75,7 +75,7 @@ export const instasentAuth = PieceAuth.CustomAuth({
 export const instasent = createPiece({
     displayName: "Instasent",
     minimumSupportedRelease: '0.30.0',
-    logoUrl: "https://cdn.activepieces.com/pieces/instasent.jpg",
+    logoUrl: "https://cdn.activeboxes.org/pieces/instasent.jpg",
     categories:[PieceCategory.MARKETING],
     authors: ["dev-instasent", "https://github.com/dev-instasent"],
     auth: instasentAuth,

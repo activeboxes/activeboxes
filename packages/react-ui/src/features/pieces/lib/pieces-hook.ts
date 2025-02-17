@@ -4,14 +4,14 @@ import { t } from 'i18next';
 import {
   PieceMetadataModel,
   PieceMetadataModelSummary,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   Action,
   ActionType,
   SuggestionType,
   Trigger,
   TriggerType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { INTERNAL_ERROR_TOAST, toast } from '../../../components/ui/use-toast';
 

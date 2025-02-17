@@ -3,8 +3,8 @@ import {
   TriggerStrategy,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
-import { DedupeStrategy, Polling, pollingHelper } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { DedupeStrategy, Polling, pollingHelper } from '@activeboxes/pieces-common';
 import { rabbitmqAuth } from '../../index';
 import { rabbitmqConnect } from '../common';
 import dayjs from 'dayjs';

@@ -1,5 +1,5 @@
-import { AI, aiProps } from '@activepieces/pieces-common';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { AI, aiProps } from '@activeboxes/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 
 export const generateImage = createAction({
   name: 'generateImage',

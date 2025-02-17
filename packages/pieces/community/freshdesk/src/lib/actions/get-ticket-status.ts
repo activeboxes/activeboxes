@@ -1,7 +1,7 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { freshdeskAuth } from '../..';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 export const getTicketStatus = createAction({
   auth: freshdeskAuth,

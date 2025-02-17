@@ -1,4 +1,4 @@
-import { PropertyType } from '@activepieces/pieces-framework'
+import { PropertyType } from '@activeboxes/pieces-framework'
 import {
     ActivepiecesError,
     AppConnection,
@@ -9,7 +9,7 @@ import {
     ErrorCode,
     OAuth2GrantType,
     PlatformId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { isAxiosError } from 'axios'
 import { FastifyBaseLogger } from 'fastify'
 import { pieceMetadataService } from '../../../pieces/piece-metadata-service'

@@ -87,7 +87,7 @@ COPY --from=build /usr/src/app/packages packages
 # Copy frontend files to Nginx document root directory from build stage
 COPY --from=build /usr/src/app/dist/packages/react-ui /usr/share/nginx/html/
 
-LABEL service=activepieces
+LABEL service=activeboxes
 
 # Set up entrypoint script
 COPY docker-entrypoint.sh .

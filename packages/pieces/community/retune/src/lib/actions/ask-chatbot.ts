@@ -1,6 +1,6 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { retuneAuth } from '../../index';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 
 export const askChatbot = createAction({
   auth: retuneAuth,

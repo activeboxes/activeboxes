@@ -1,7 +1,7 @@
 import {
   DynamicPropsValue,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { airtableCommon } from '../common';
 import { airtableAuth } from '../../index';
 

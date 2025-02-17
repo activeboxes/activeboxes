@@ -19,7 +19,7 @@ import {
   CopilotProviderType,
   CopilotSettings,
   OpenAiProvider,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 type ConfigureProviderDialogProps = {
   open: boolean;
@@ -135,7 +135,7 @@ export const ConfigureProviderDialog = ({
                 className="flex items-center gap-2 cursor-pointer text-sm"
               >
                 <img
-                  src="https://cdn.activepieces.com/pieces/openai.png"
+                  src="https://cdn.activeboxes.org/pieces/openai.png"
                   alt="OpenAI"
                   className="w-4 h-4"
                 />
@@ -152,7 +152,7 @@ export const ConfigureProviderDialog = ({
                 className="flex items-center gap-2 cursor-pointer text-sm"
               >
                 <img
-                  src="https://cdn.activepieces.com/pieces/azure-openai.png"
+                  src="https://cdn.activeboxes.org/pieces/azure-openai.png"
                   alt="Azure OpenAI"
                   className="w-4 h-4"
                 />

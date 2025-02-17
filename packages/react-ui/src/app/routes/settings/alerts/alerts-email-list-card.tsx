@@ -20,8 +20,8 @@ import { INTERNAL_ERROR_TOAST, useToast } from '@/components/ui/use-toast';
 import { alertsApi } from '@/features/alerts/lib/alerts-api';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
-import { Alert } from '@activepieces/ee-shared';
-import { Permission } from '@activepieces/shared';
+import { Alert } from '@activeboxes/ee-shared';
+import { Permission } from '@activeboxes/shared';
 
 import { AddAlertEmailDialog } from './add-alert-email-dialog';
 

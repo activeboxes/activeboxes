@@ -1,6 +1,6 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { generateRazorpayAuthHeader, RazorpayCredentials } from '../common/utils';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { razorpayAuth } from '../..';
 
 

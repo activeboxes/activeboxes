@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createReply } from './lib/actions/create-reply';
 import { newReview } from './lib/triggers/new-review';
 
@@ -20,7 +20,7 @@ export const googleBusiness = createPiece({
   displayName: 'Google My Business',
   description: 'Manage your business on Google',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-business.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/google-business.png',
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.MARKETING],
   actions: [

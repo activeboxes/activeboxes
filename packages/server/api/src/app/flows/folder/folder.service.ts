@@ -9,7 +9,7 @@ import {
     FolderId,
     isNil, ProjectId,
     UpdateFolderRequest,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { repoFactory } from '../../core/db/repo-factory'
 import { buildPaginator } from '../../helper/pagination/build-paginator'

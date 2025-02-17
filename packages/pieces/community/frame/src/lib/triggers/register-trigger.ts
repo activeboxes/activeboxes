@@ -2,13 +2,13 @@ import {
   Property,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpRequest,
   HttpMethod,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { frameAuth } from '../..';
 
 export const frameRegisterTrigger = ({

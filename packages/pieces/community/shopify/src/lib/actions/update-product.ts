@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { shopifyAuth } from '../..';
 import { updateProduct } from '../common';
 import { ShopifyImage, ShopifyProductStatuses } from '../common/types';

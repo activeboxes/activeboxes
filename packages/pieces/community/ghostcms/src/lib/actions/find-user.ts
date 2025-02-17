@@ -1,5 +1,5 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 
 import { ghostAuth } from '../..';
 import { common } from '../common';

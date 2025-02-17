@@ -1,4 +1,4 @@
-import { ApiKey } from '@activepieces/ee-shared'
+import { ApiKey } from '@activeboxes/ee-shared'
 import {
     ActivepiecesError,
     EndpointScope,
@@ -9,7 +9,7 @@ import {
     PrincipalType,
     Project,
     ProjectId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 import { nanoid } from 'nanoid'
 import { AppConnectionEntity } from '../../../app-connection/app-connection.entity'

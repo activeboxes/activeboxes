@@ -3,7 +3,7 @@ import {
   HttpMethod,
   AuthenticationType,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const stripeCommon = {
   baseUrl: 'https://api.stripe.com/v1',

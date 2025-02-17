@@ -2,8 +2,8 @@ import {
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
-import { Property, createAction } from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-common';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import FormData from 'form-data';
 import { acumbamailAuth } from '../../';
 import { acumbamailCommon } from '../common';

@@ -1,4 +1,4 @@
-import { TriggerStrategy, createTrigger } from '@activepieces/pieces-framework';
+import { TriggerStrategy, createTrigger } from '@activeboxes/pieces-framework';
 import { slackAuth } from '../../';
 import { WebClient } from '@slack/web-api';
 

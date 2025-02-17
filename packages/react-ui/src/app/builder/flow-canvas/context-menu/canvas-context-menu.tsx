@@ -4,7 +4,7 @@ import {
   ContextMenuTrigger,
 } from '@/components/ui/context-menu';
 import { ShortcutProps } from '@/components/ui/shortcut';
-import { Action } from '@activepieces/shared';
+import { Action } from '@activeboxes/shared';
 
 import { BuilderState } from '../../builder-hooks';
 

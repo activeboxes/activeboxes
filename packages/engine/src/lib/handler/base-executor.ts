@@ -1,4 +1,4 @@
-import { Action } from '@activepieces/shared'
+import { Action } from '@activeboxes/shared'
 import { EngineConstants } from './context/engine-constants'
 import { FlowExecutorContext } from './context/flow-execution-context'
 

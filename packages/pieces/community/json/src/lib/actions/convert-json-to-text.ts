@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 
 export const convertJsonToText = createAction({
   name: 'convert_json_to_text',

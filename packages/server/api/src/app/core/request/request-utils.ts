@@ -1,4 +1,4 @@
-import { isObject } from '@activepieces/shared'
+import { isObject } from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 
 export const requestUtils = {

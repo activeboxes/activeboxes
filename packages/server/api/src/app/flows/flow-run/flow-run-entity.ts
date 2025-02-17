@@ -3,7 +3,7 @@ import {
     Flow,
     FlowRun,
     Project,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import {
     ApIdSchema,

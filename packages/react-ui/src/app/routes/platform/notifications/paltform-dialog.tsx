@@ -12,7 +12,7 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { authenticationSession } from '@/lib/authentication-session';
-import { PlatformRole } from '@activepieces/shared';
+import { PlatformRole } from '@activeboxes/shared';
 
 import { Message } from './hooks/notifictions-hooks';
 

@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { dropboxCopyFile } from './lib/actions/copy-file';
 import { dropboxCopyFolder } from './lib/actions/copy-folder';
 import { dropboxCreateNewFolder } from './lib/actions/create-new-folder';
@@ -35,7 +35,7 @@ export const dropboxAuth = PieceAuth.OAuth2({
 
 export const dropbox = createPiece({
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/dropbox.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/dropbox.png',
   actions: [
     dropboxSearch,
     dropboxCreateNewTextFile,

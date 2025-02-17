@@ -27,4 +27,4 @@ volumes:
   redis_data_dev:
 
 networks:
-  activepieces_dev:
+  activeboxes_dev:

@@ -14,7 +14,7 @@ import {
 } from '@/components/ui/tooltip';
 import { projectHooks } from '@/hooks/project-hooks';
 import { formatUtils } from '@/lib/utils';
-import { ApFlagId, isNil } from '@activepieces/shared';
+import { ApFlagId, isNil } from '@activeboxes/shared';
 
 import { FlagGuard } from './flag-guard';
 

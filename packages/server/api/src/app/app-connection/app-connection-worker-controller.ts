@@ -7,7 +7,7 @@ import {
     GetAppConnectionForWorkerRequestQuery,
     isNil,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
 } from '@fastify/type-provider-typebox'

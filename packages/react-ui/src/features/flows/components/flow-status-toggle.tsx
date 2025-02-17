@@ -13,7 +13,7 @@ import {
   Permission,
   PopulatedFlow,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { Switch } from '../../../components/ui/switch';
 import {

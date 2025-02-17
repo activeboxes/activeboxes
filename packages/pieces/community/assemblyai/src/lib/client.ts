@@ -1,7 +1,7 @@
 import {
   ActionContext,
   SecretTextProperty,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { AssemblyAI } from 'assemblyai';
 import packageJson from '../../package.json';
 

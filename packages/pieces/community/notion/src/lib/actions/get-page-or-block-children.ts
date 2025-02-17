@@ -3,7 +3,7 @@ import {
   DynamicPropsValue,
   OAuth2PropertyValue,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { NotionToMarkdown } from 'notion-to-md';
 import { notionAuth } from '../..';
 import { Client, collectPaginatedAPI, isFullBlock } from '@notionhq/client';

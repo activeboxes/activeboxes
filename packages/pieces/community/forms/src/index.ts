@@ -1,5 +1,5 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { onChatSubmission } from './lib/triggers/chat-trigger';
 import { onFormSubmission } from './lib/triggers/form-trigger';
 import { returnResponse } from './lib/actions/return-response';
@@ -10,7 +10,7 @@ export const forms = createPiece({
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.37.6',
   categories: [PieceCategory.CORE],
-  logoUrl: 'https://cdn.activepieces.com/pieces/human-input.svg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/human-input.svg',
   authors: ['anasbarg', 'MoShizzle', 'abuaboud'],
   actions: [returnResponse],
   triggers: [onFormSubmission, onChatSubmission],

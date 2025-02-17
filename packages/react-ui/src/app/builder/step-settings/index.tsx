@@ -22,7 +22,7 @@ import {
   debounce,
   flowStructureUtil,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { PieceCardInfo } from '../../../features/pieces/components/piece-card';
 import { ActionErrorHandlingForm } from '../piece-properties/action-error-handling';

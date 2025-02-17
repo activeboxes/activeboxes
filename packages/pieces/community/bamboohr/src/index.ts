@@ -2,8 +2,8 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 
 export const bambooHrAuth = PieceAuth.CustomAuth({
   required: true,
@@ -27,7 +27,7 @@ export const bambooHr = createPiece({
   displayName: 'BambooHR',
   auth: bambooHrAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/bamboohr.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/bamboohr.png',
   authors: ['AdamSelene'],
   actions: [
     createCustomApiCallAction({

@@ -24,7 +24,7 @@ import {
   FlowOperationType,
   flowStructureUtil,
   StepLocationRelativeToParent,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import {
   copySelectedNodes,

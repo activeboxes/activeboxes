@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { ApEdition, AppConnectionType } from '@activepieces/shared';
+import { ApEdition, AppConnectionType } from '@activeboxes/shared';
 
 import { oauthAppsApi } from './oauth2-apps-api';
 

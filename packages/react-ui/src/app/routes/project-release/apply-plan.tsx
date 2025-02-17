@@ -11,7 +11,7 @@ import {
   DiffReleaseRequest,
   isNil,
   ProjectReleaseType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { CreateReleaseDialog } from './create-release-dialog';
 

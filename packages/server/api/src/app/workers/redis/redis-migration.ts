@@ -1,5 +1,5 @@
-import { LATEST_JOB_DATA_SCHEMA_VERSION, QueueName, RepeatableJobType, ScheduledJobData } from '@activepieces/server-shared'
-import { ExecutionType, isNil, RunEnvironment, ScheduleType } from '@activepieces/shared'
+import { LATEST_JOB_DATA_SCHEMA_VERSION, QueueName, RepeatableJobType, ScheduledJobData } from '@activeboxes/server-shared'
+import { ExecutionType, isNil, RunEnvironment, ScheduleType } from '@activeboxes/shared'
 import { Job, RepeatableJob } from 'bullmq'
 import { FastifyBaseLogger } from 'fastify'
 import { flowRepo } from '../../flows/flow/flow.repo'

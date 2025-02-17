@@ -2,15 +2,15 @@ import {
   createPiece,
   PieceAuth,
   OAuth2PropertyValue,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createFolderAction } from './lib/actions/create-folder';
 import { createListAction } from './lib/actions/create-list';
 import { createListItemAction } from './lib/actions/create-list-item';
 import { updateListItemAction } from './lib/actions/update-list-item';
 import { deleteListItemAction } from './lib/actions/delete-list-item';
 import { findListItemAction } from './lib/actions/search-list-item';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 
 export const microsoftSharePointAuth = PieceAuth.OAuth2({
   description: 'Authentication for Microsoft SharePoint',
@@ -31,7 +31,7 @@ export const microsoftSharePoint = createPiece({
   displayName: 'Microsoft SharePoint',
   auth: microsoftSharePointAuth,
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-sharepoint.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/microsoft-sharepoint.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ['kishanprmr'],
   actions: [

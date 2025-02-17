@@ -5,13 +5,13 @@ import {
 	DynamicPropsValue,
 	OAuth2PropertyValue,
 	Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { Dimension, googleSheetsCommon, objectToArray, ValueInputOption,columnToLabel } from '../common/common';
-import { getAccessTokenOrThrow } from '@activepieces/pieces-common';
+import { getAccessTokenOrThrow } from '@activeboxes/pieces-common';
 import { getWorkSheetName, getWorkSheetGridSize } from '../triggers/helpers';
 import { google, sheets_v4 } from 'googleapis';
 import { OAuth2Client } from 'googleapis-common';
-import { MarkdownVariant } from '@activepieces/shared';
+import { MarkdownVariant } from '@activeboxes/shared';
 import {parse} from 'csv-parse/sync';
 
 

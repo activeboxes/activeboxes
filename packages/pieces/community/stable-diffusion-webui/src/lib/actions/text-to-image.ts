@@ -1,12 +1,12 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { randomBytes } from 'node:crypto';
 import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { stableDiffusionAuth, StableDiffusionAuthType } from '../../index';
-import { kebabCase } from '@activepieces/shared';
+import { kebabCase } from '@activeboxes/shared';
 
 export const textToImage = createAction({
   name: 'textToImage',

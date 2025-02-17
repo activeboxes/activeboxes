@@ -1,4 +1,4 @@
-import { createAction, OAuth2PropertyValue, Property } from '@activepieces/pieces-framework';
+import { createAction, OAuth2PropertyValue, Property } from '@activeboxes/pieces-framework';
 import {
   addNoteToContact,
   getContacts,

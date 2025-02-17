@@ -1,4 +1,4 @@
-import { SignInRequest, SignUpRequest } from '@activepieces/shared'
+import { SignInRequest, SignUpRequest } from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 
 export const createMockSignUpRequest = (

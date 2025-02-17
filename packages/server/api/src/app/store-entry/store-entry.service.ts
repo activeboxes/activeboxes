@@ -4,7 +4,7 @@ import {
     PutStoreEntryRequest,
     sanitizeObjectForPostgresql,
     StoreEntry,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { repoFactory } from '../core/db/repo-factory'
 import { StoreEntryEntity } from './store-entry-entity'
 

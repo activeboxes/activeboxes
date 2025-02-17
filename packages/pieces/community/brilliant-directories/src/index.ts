@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createNewUser } from './lib/actions/create-new-user';
 
 export const brilliantDirectoriesAuth = PieceAuth.CustomAuth({
@@ -37,7 +37,7 @@ export const brilliantDirectories = createPiece({
 
   auth: brilliantDirectoriesAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/brilliant-directories.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/brilliant-directories.png',
   categories: [],
   authors: ["ShayPunter","dennisrongo","kishanprmr","MoShizzle","abuaboud"],
   actions: [

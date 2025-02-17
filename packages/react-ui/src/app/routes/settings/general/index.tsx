@@ -29,7 +29,7 @@ import {
   Permission,
   PlatformRole,
   ProjectWithLimits,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export default function GeneralPage() {
   const queryClient = useQueryClient();

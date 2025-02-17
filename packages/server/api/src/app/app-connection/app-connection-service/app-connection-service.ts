@@ -1,4 +1,4 @@
-import { AppSystemProp, exceptionHandler, UserInteractionJobType } from '@activepieces/server-shared'
+import { AppSystemProp, exceptionHandler, UserInteractionJobType } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ApEnvironment,
@@ -23,7 +23,7 @@ import {
     SeekPage,
     spreadIfDefined,
     UpsertAppConnectionRequestBody,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
 import { EngineHelperResponse, EngineHelperValidateAuthResult } from 'server-worker'

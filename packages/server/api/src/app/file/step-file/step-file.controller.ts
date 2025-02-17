@@ -1,4 +1,4 @@
-import { AppSystemProp } from '@activepieces/server-shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ALL_PRINCIPAL_TYPES,
@@ -8,7 +8,7 @@ import {
     FileType,
     PrincipalType,
     StepFileUpsertRequest,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
 import { Type } from '@sinclair/typebox'
 import { FastifyBaseLogger } from 'fastify'

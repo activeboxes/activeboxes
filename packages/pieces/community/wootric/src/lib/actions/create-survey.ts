@@ -1,6 +1,6 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { wootricAuth, WOOTRIC_API_URL } from '../../';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 
 export const sendSurvey = async (surveyRequestPayload: object) => {
   const EMAIL_SURVEY = `${WOOTRIC_API_URL}/v1/email_survey`;

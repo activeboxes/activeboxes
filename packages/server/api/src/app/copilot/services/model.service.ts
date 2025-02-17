@@ -1,4 +1,4 @@
-import { ActivepiecesError, CopilotProviderType, CopilotSettings, ErrorCode, isNil } from '@activepieces/shared'
+import { ActivepiecesError, CopilotProviderType, CopilotSettings, ErrorCode, isNil } from '@activeboxes/shared'
 import { createAzure } from '@ai-sdk/azure'
 import { createOpenAI } from '@ai-sdk/openai'
 import { LanguageModel } from 'ai'

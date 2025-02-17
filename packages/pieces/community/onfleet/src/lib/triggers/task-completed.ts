@@ -2,7 +2,7 @@ import {
   TriggerStrategy,
   WebhookHandshakeStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { common, OnfleetWebhookTriggers } from '../common';
 import { onfleetAuth } from '../..';
 

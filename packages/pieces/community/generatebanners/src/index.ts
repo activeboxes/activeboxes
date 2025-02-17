@@ -1,5 +1,5 @@
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { renderTemplate } from './lib/actions/renderTemplate.action';
 
 const markdownDescription = `
@@ -27,7 +27,7 @@ export const generatebanners = createPiece({
   description: 'Image generation API for banners and social media posts',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/generatebanners.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/generatebanners.png',
   categories: [PieceCategory.CONTENT_AND_FILES],
   authors: ["tpatel","kishanprmr","khaledmashaly","abuaboud"],
   auth: generatebannersAuth,

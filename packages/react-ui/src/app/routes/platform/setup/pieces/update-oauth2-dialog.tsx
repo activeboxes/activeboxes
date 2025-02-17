@@ -26,8 +26,8 @@ import {
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { oauthAppsApi } from '@/features/connections/lib/oauth2-apps-api';
 import { oauth2AppsHooks } from '@/features/connections/lib/oauth2-apps-hooks';
-import { UpsertOAuth2AppRequest } from '@activepieces/ee-shared';
-import { isNil } from '@activepieces/shared';
+import { UpsertOAuth2AppRequest } from '@activeboxes/ee-shared';
+import { isNil } from '@activeboxes/shared';
 
 type ConfigurePieceOAuth2DialogProps = {
   pieceName: string;

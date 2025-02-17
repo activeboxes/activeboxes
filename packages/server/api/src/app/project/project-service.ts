@@ -11,7 +11,7 @@ import {
     ProjectId,
     spreadIfDefined,
     UserId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FindOptionsWhere, ILike, In, IsNull, Not } from 'typeorm'
 import { repoFactory } from '../core/db/repo-factory'
 import { projectMemberService } from '../ee/project-members/project-member.service'

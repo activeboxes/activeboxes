@@ -1,12 +1,12 @@
 import { mailchimpCommon } from '../common';
 import crypto from 'crypto';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   HttpRequest,
   HttpMethod,
   httpClient,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { mailchimpAuth } from '../..';
 
 export const addSubscriberToTag = createAction({

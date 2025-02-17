@@ -1,4 +1,4 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { googleSearchConsoleAuth, createAuthClient } from '../../';
 
 export const listSites = createAction({

@@ -19,7 +19,7 @@ import {
   NotificationStatus,
   Permission,
   ProjectWithLimits,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { AlertOption } from './alert-option';
 

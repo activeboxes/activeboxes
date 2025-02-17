@@ -16,7 +16,7 @@ import {
   FlowVersion,
   isNil,
   Step,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import {
   doesSelectionRectangleExist,

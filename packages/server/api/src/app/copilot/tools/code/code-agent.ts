@@ -1,4 +1,4 @@
-import { ActivepiecesError, ErrorCode, isNil } from '@activepieces/shared'
+import { ActivepiecesError, ErrorCode, isNil } from '@activeboxes/shared'
 import { generateObject } from 'ai'
 import { FastifyBaseLogger } from 'fastify'
 import { modelService } from '../../services/model.service'

@@ -7,7 +7,7 @@ import {
   SeekPage,
   UpdateConnectionValueRequestBody,
   UpsertAppConnectionRequestBody,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const appConnectionsApi = {
   list(

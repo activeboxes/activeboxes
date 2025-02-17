@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { newResponse } from './lib/triggers/new-form-response';
 
 export const googleFormsAuth = PieceAuth.OAuth2({
@@ -22,7 +22,7 @@ export const googleForms = createPiece({
   description: 'Receive form responses from Google Forms',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-forms.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/google-forms.png',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud","Startouf"],
   auth: googleFormsAuth,

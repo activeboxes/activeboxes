@@ -1,4 +1,4 @@
-import { Principal } from '@activepieces/shared'
+import { Principal } from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 import { AccessTokenAuthnHandler } from './authn/access-token-authn-handler'
 import { AnonymousAuthnHandler } from './authn/anonymous-authn-handler'

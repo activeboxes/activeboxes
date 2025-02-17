@@ -1,4 +1,4 @@
-import { AppSystemProp, fileCompressor } from '@activepieces/server-shared'
+import { AppSystemProp, fileCompressor } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     apId,
@@ -11,7 +11,7 @@ import {
     FileType,
     isNil,
     ProjectId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
 import { In, LessThanOrEqual } from 'typeorm'

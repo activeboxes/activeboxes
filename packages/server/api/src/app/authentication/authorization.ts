@@ -3,7 +3,7 @@ import {
     ErrorCode,
     isNil,
     isObject,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { preSerializationHookHandler } from 'fastify'
 
 export function extractResourceName(url: string): string | undefined {

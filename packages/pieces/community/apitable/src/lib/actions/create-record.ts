@@ -2,7 +2,7 @@ import {
   DynamicPropsValue,
   PiecePropValueSchema,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { APITableCommon, createNewFields, makeClient } from '../common';
 import { APITableAuth } from '../../index';
 

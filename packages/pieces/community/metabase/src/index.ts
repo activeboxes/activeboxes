@@ -2,11 +2,11 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { getQuestion } from './lib/actions/get-question';
 import { getQuestionPngPreview } from './lib/actions/get-png-rendering';
 import { queryMetabaseApi } from './lib/common';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 
 export const metabaseAuth = PieceAuth.CustomAuth({
   description: 'Metabase authentication requires a username and password.',
@@ -50,7 +50,7 @@ export const metabase = createPiece({
 
   auth: metabaseAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/metabase.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/metabase.png',
   authors: ['AdamSelene', 'abuaboud', 'valentin-mourtialon'],
   actions: [getQuestion, getQuestionPngPreview],
   triggers: [],

@@ -37,7 +37,7 @@ import {
   FlowRunStatus,
   isFailedState,
   Permission,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useNewWindow } from '../../../components/embed-provider';
 import { TableTitle } from '../../../components/ui/table-title';

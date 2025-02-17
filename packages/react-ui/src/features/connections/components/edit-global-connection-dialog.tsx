@@ -18,7 +18,7 @@ import { Form, FormField, FormItem, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
-import { AppConnectionWithoutSensitiveData } from '@activepieces/shared';
+import { AppConnectionWithoutSensitiveData } from '@activeboxes/shared';
 
 import { AssignConnectionToProjectsControl } from '../../../components/ui/assign-global-connection-to-projects';
 import { globalConnectionsApi } from '../lib/global-connections-api';

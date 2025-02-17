@@ -2,8 +2,8 @@ import {
   DynamicPropsValue,
   Property,
   createAction,
-} from '@activepieces/pieces-framework';
-import { StopResponse } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { StopResponse } from '@activeboxes/shared';
 import { StatusCodes } from 'http-status-codes';
 
 enum ResponseType {

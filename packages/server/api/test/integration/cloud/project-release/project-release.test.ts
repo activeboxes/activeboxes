@@ -1,7 +1,7 @@
 import {
     CreateProjectReleaseRequestBody,
     ProjectReleaseType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import { FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'

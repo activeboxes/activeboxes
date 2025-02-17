@@ -1,11 +1,11 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { harvestAuth } from '../..';
 import {
   getAccessTokenOrThrow,
   HttpMethod,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { callHarvestApi, filterDynamicFields } from '../common';
-import { propsValidation } from '@activepieces/pieces-common';
+import { propsValidation } from '@activeboxes/pieces-common';
 import { z } from 'zod';
 
 export const getTasks = createAction({

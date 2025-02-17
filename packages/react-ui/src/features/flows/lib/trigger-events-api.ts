@@ -4,7 +4,7 @@ import {
   SeekPage,
   TestPollingTriggerRequest,
   TriggerEventWithPayload,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const triggerEventsApi = {
   pollTrigger(request: TestPollingTriggerRequest) {

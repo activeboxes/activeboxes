@@ -7,8 +7,8 @@ import { useFormContext, useWatch } from 'react-hook-form';
 import { useBuilderStateContext } from '@/app/builder/builder-hooks';
 import { SearchableSelect } from '@/components/custom/searchable-select';
 import { piecesApi } from '@/features/pieces/lib/pieces-api';
-import { DropdownState } from '@activepieces/pieces-framework';
-import { Action, isNil, Trigger } from '@activepieces/shared';
+import { DropdownState } from '@activeboxes/pieces-framework';
+import { Action, isNil, Trigger } from '@activeboxes/shared';
 
 import { MultiSelectPieceProperty } from '../../../components/custom/multi-select-piece-property';
 

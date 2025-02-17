@@ -1,5 +1,5 @@
 import { Octokit } from 'octokit';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { githubAuth } from '../../';
 import { githubCommon } from '../common';
 

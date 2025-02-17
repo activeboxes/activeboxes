@@ -1,5 +1,5 @@
-import { PiecesSource, threadSafeMkdir } from '@activepieces/server-shared'
-import { PiecePackage, PieceType } from '@activepieces/shared'
+import { PiecesSource, threadSafeMkdir } from '@activeboxes/server-shared'
+import { PiecePackage, PieceType } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { pieceManager } from '../piece-manager'
 import { codeBuilder } from '../utils/code-builder'

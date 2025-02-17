@@ -11,7 +11,7 @@ import {
   flowStructureUtil,
   isNil,
   Trigger,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { ScrollArea } from '../../../components/ui/scroll-area';
 import { BuilderState, useBuilderStateContext } from '../builder-hooks';

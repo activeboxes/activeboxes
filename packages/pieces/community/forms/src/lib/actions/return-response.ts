@@ -1,5 +1,5 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
-import { FileResponseInterface, HumanInputFormResult, HumanInputFormResultTypes } from '@activepieces/shared';
+import { Property, createAction } from '@activeboxes/pieces-framework';
+import { FileResponseInterface, HumanInputFormResult, HumanInputFormResultTypes } from '@activeboxes/shared';
 import { StatusCodes } from 'http-status-codes';
 import mime from 'mime-types';
 

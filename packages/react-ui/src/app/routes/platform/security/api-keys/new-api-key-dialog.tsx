@@ -28,7 +28,7 @@ import { apiKeyApi } from '@/features/platform-admin-panel/lib/api-key-api';
 import {
   ApiKeyResponseWithValue,
   CreateApiKeyRequest,
-} from '@activepieces/ee-shared';
+} from '@activeboxes/ee-shared';
 
 type NewApiKeyDialogProps = {
   children: React.ReactNode;

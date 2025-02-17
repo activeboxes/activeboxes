@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import {
   createBulkJob,
   getBulkJobInfo,
@@ -7,7 +7,7 @@ import {
   uploadToBulkJob,
 } from '../common';
 
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { salesforceAuth } from '../..';
 
 export const upsertByExternalIdBulk = createAction({

@@ -1,11 +1,11 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { slackSendMessage } from '../common/utils';
 import { slackAuth } from '../..';
 import {
   assertNotNullOrUndefined,
   ExecutionType,
   PauseType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 import {
   profilePicture,
   singleSelectChannelInfo,

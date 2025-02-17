@@ -1,6 +1,6 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
 import { askAi } from './lib/actions/ask-ai';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 import { summarizeText } from './lib/actions/summarize-text';
 
 export const activepiecesAi = createPiece({
@@ -11,7 +11,7 @@ export const activepiecesAi = createPiece({
     PieceCategory.ARTIFICIAL_INTELLIGENCE,
     PieceCategory.UNIVERSAL_AI,
   ],
-  logoUrl: 'https://cdn.activepieces.com/pieces/text-ai.svg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/text-ai.svg',
   authors: ['anasbarg'],
   actions: [askAi, summarizeText],
   triggers: [],

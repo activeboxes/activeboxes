@@ -1,7 +1,7 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { sendfoxAuth } from '../../index';
 import { callsendfoxApi, sendfoxCommon } from '../../common';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 
 export const createContact = createAction({
   name: 'create-contact',

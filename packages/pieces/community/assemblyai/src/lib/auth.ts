@@ -1,5 +1,5 @@
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
-import { PieceAuth } from '@activepieces/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
+import { PieceAuth } from '@activeboxes/pieces-framework';
 import { baseUrl } from './client';
 
 export const assemblyaiAuth = PieceAuth.SecretText({

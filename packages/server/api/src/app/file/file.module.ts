@@ -1,5 +1,5 @@
-import { rejectedPromiseHandler } from '@activepieces/server-shared'
-import { FileType } from '@activepieces/shared'
+import { rejectedPromiseHandler } from '@activeboxes/server-shared'
+import { FileType } from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
 import { entitiesMustBeOwnedByCurrentProject } from '../authentication/authorization'
 import { systemJobsSchedule } from '../helper/system-jobs'
