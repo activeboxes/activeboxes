@@ -1,4 +1,4 @@
-import { ApiKey } from '@activeboxes/ee-shared'
+import { ApiKey } from '@activeboxes/shared'
 import {
     ActivepiecesError,
     EndpointScope,
@@ -15,8 +15,8 @@ import { nanoid } from 'nanoid'
 import { AppConnectionEntity } from '../../../app-connection/app-connection.entity'
 import { extractResourceName } from '../../../authentication/authorization'
 import { databaseConnection } from '../../../database/database-connection'
-import { apiKeyService } from '../../../ee/api-keys/api-key-service'
-import { ProjectMemberEntity } from '../../../ee/project-members/project-member.entity'
+import { apiKeyService } from '../../../api-keys/api-key-service'
+import { ProjectMemberEntity } from '../../../project-members/project-member.entity'
 import { FlowEntity } from '../../../flows/flow/flow.entity'
 import { FolderEntity } from '../../../flows/folder/folder.entity'
 import { projectService } from '../../../project/project-service'

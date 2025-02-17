@@ -5,7 +5,7 @@ import {
     Type,
 } from '@fastify/type-provider-typebox'
 import { StatusCodes } from 'http-status-codes'
-import { BillingUsageType, usageService } from '../ee/platform-billing/usage/usage-service'
+import { BillingUsageType, usageService } from '../platform-billing/usage/usage-service'
 import { projectService } from '../project/project-service'
 import { aiProviderService } from './ai-provider.service'
 

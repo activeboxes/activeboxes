@@ -1,7 +1,7 @@
 
 import { faker } from '@faker-js/faker'
 import { nanoid } from 'nanoid'
-import { projectDiffService } from '../../../../../../src/app/ee/project-release/project-state/project-diff.service'
+import { projectDiffService } from '../../../../../../src/app/project-release/project-state/project-diff.service'
 import { flowGenerator } from '../../../../../helpers/flow-generator'
 
 describe('Project Diff Service', () => {

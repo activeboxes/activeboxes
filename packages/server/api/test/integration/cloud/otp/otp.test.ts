@@ -1,9 +1,9 @@
-import { OtpType } from '@activeboxes/ee-shared'
+import { OtpType } from '@activeboxes/shared'
 import { FastifyBaseLogger, FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
 import { initializeDatabase } from '../../../../src/app/database'
 import { databaseConnection } from '../../../../src/app/database/database-connection'
-import * as emailServiceFile from '../../../../src/app/ee/helper/email/email-service'
+import * as emailServiceFile from '../../../../src/app/helper/email/email-service'
 import { setupServer } from '../../../../src/app/server'
 import { mockAndSaveBasicSetup } from '../../../helpers/mocks'
 

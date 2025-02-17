@@ -1,15 +1,15 @@
 import {
     ApiKeyResponseWithValue,
     UpdateProjectMemberRoleRequestBody,
-} from '@activeboxes/ee-shared'
+} from '@activeboxes/shared'
 import { DefaultProjectRole, Permission, Platform, PlatformRole, PrincipalType, Project, ProjectRole, RoleType, User } from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import { FastifyBaseLogger, FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
 import { initializeDatabase } from '../../../../src/app/database'
 import { databaseConnection } from '../../../../src/app/database/database-connection'
-import { emailService } from '../../../../src/app/ee/helper/email/email-service'
-import { stripeHelper } from '../../../../src/app/ee/platform-billing/stripe-helper'
+import { emailService } from '../../../../src/app/helper/email/email-service'
+import { stripeHelper } from '../../../../src/app/platform-billing/stripe-helper'
 import { setupServer } from '../../../../src/app/server'
 import { generateMockToken } from '../../../helpers/auth'
 import {

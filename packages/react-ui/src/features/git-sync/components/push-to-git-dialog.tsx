@@ -28,7 +28,7 @@ import {
   GitBranchType,
   GitPushOperationType,
   PushGitRepoRequest,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { assertNotNullOrUndefined } from '@activeboxes/shared';
 
 import { gitSyncApi } from '../lib/git-sync-api';

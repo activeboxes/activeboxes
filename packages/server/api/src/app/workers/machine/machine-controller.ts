@@ -1,8 +1,8 @@
 import { AppSystemProp, WorkerSystemProp } from '@activeboxes/server-shared'
 import { PrincipalType, WorkerMachineHealthcheckRequest, WorkerMachineHealthcheckResponse, WorkerPrincipal } from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
-import { platformMustBeOwnedByCurrentUser } from '../../ee/authentication/ee-authorization'
-import { domainHelper } from '../../ee/custom-domains/domain-helper'
+import { platformMustBeOwnedByCurrentUser } from '../../authentication/ee-authorization'
+import { domainHelper } from '../../custom-domains/domain-helper'
 import { system } from '../../helper/system/system'
 import { machineService } from './machine-service'
 

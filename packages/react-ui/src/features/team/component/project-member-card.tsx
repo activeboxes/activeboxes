@@ -5,7 +5,7 @@ import { Trash } from 'lucide-react';
 import { PermissionNeededTooltip } from '@/components/ui/permission-needed-tooltip';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
-import { ProjectMemberWithUser } from '@activeboxes/ee-shared';
+import { ProjectMemberWithUser } from '@activeboxes/shared';
 import { Permission } from '@activeboxes/shared';
 
 import { ConfirmationDeleteDialog } from '../../../components/delete-dialog';

@@ -3,7 +3,7 @@ import {
   ListOAuth2AppRequest,
   OAuthApp,
   UpsertOAuth2AppRequest,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { ApEdition, SeekPage } from '@activeboxes/shared';
 
 export const oauthAppsApi = {

@@ -30,7 +30,7 @@ import {
   ActivepiecesClientEventName,
   ActivepiecesVendorEventName,
   ActivepiecesVendorRouteChanged,
-} from 'ee-embed-sdk';
+} from '@activeboxes/embed-sdk';
 
 import { AllowOnlyLoggedInUserOnlyGuard } from '../components/allow-logged-in-user-only-guard';
 import { DashboardContainer } from '../components/dashboard-container';

@@ -3,7 +3,7 @@ import {
   Alert,
   CreateAlertParams,
   ListAlertsParams,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { SeekPage } from '@activeboxes/shared';
 
 export const alertsApi = {

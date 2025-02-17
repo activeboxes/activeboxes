@@ -12,8 +12,8 @@ import {
     Type,
 } from '@fastify/type-provider-typebox'
 import { StatusCodes } from 'http-status-codes'
-import { platformMustBeOwnedByCurrentUser } from '../ee/authentication/ee-authorization'
-import { smtpEmailSender } from '../ee/helper/email/email-sender/smtp-email-sender'
+import { platformMustBeOwnedByCurrentUser } from '../authentication/ee-authorization'
+import { smtpEmailSender } from '../helper/email/email-sender/smtp-email-sender'
 import { userService } from '../user/user-service'
 import { platformService } from './platform.service'
 import { platformUtils } from './platform.utils'

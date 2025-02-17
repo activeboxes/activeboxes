@@ -1,7 +1,7 @@
 import { FastifyBaseLogger, FastifyInstance } from 'fastify'
 import { initializeDatabase } from '../../../../src/app/database'
 import { databaseConnection } from '../../../../src/app/database/database-connection'
-import { platformProjectService } from '../../../../src/app/ee/projects/platform-project-service'
+import { platformProjectService } from '../../../../src/app/projects/platform-project-service'
 import { setupServer } from '../../../../src/app/server'
 import { createMockFile, createMockFlow, createMockFlowRun, createMockFlowVersion, createMockPieceMetadata, mockAndSaveBasicSetup } from '../../../helpers/mocks'
 

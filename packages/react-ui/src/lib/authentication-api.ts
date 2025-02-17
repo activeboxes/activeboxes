@@ -3,7 +3,7 @@ import {
   CreateOtpRequestBody,
   ResetPasswordRequestBody,
   VerifyEmailRequestBody,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import {
   AuthenticationResponse,
   ClaimTokenRequest,

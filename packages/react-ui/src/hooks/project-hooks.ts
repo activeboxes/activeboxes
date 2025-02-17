@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 import { useToast } from '@/components/ui/use-toast';
 import { api } from '@/lib/api';
 import { authenticationSession } from '@/lib/authentication-session';
-import { UpdateProjectPlatformRequest } from '@activeboxes/ee-shared';
+import { UpdateProjectPlatformRequest } from '@activeboxes/shared';
 import {
   ApEdition,
   ApFlagId,

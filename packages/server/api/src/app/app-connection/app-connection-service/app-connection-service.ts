@@ -30,7 +30,7 @@ import { EngineHelperResponse, EngineHelperValidateAuthResult } from 'server-wor
 import { Equal, FindOperator, FindOptionsWhere, ILike, In } from 'typeorm'
 import { repoFactory } from '../../core/db/repo-factory'
 import { APArrayContains } from '../../database/database-connection'
-import { projectMemberService } from '../../ee/project-members/project-member.service'
+import { projectMemberService } from '../../project-members/project-member.service'
 import { encryptUtils } from '../../helper/encryption'
 import { distributedLock } from '../../helper/lock'
 import { buildPaginator } from '../../helper/pagination/build-paginator'

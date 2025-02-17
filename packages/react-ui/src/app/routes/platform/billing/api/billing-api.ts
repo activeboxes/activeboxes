@@ -2,7 +2,7 @@ import { api } from '@/lib/api';
 import {
   PlatformBilling,
   PlatformBillingResponse,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 
 export const platformBillingApi = {
   getSubscription() {

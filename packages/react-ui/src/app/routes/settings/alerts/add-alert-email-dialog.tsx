@@ -31,7 +31,7 @@ import { useAuthorization } from '@/hooks/authorization-hooks';
 import { api } from '@/lib/api';
 import { authenticationSession } from '@/lib/authentication-session';
 import { formatUtils } from '@/lib/utils';
-import { Alert, AlertChannel } from '@activeboxes/ee-shared';
+import { Alert, AlertChannel } from '@activeboxes/shared';
 import { Permission } from '@activeboxes/shared';
 
 const FormSchema = Type.Object({

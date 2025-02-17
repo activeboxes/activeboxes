@@ -1,4 +1,4 @@
-import { OtpState, OtpType } from '@activeboxes/ee-shared'
+import { OtpState, OtpType } from '@activeboxes/shared'
 import { UserStatus } from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyInstance } from 'fastify'

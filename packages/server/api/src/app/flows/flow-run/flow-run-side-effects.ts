@@ -1,4 +1,4 @@
-import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { ApplicationEventName } from '@activeboxes/shared'
 import { JobType, LATEST_JOB_DATA_SCHEMA_VERSION, RepeatableJobType } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,

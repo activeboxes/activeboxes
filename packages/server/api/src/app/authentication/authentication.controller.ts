@@ -1,4 +1,4 @@
-import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { ApplicationEventName } from '@activeboxes/shared'
 import { AppSystemProp, networkUtils } from '@activeboxes/server-shared'
 import {
     ALL_PRINCIPAL_TYPES,

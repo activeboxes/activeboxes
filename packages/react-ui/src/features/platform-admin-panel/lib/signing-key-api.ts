@@ -4,7 +4,7 @@ import {
   AddSigningKeyResponse,
   SigningKey,
   SigningKeyId,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { SeekPage } from '@activeboxes/shared';
 
 export const signingKeyApi = {

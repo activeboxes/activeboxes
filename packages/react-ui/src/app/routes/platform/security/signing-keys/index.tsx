@@ -16,7 +16,7 @@ import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { signingKeyApi } from '@/features/platform-admin-panel/lib/signing-key-api'; // Update to the correct API endpoint
 import { platformHooks } from '@/hooks/platform-hooks';
 import { formatUtils } from '@/lib/utils';
-import { SigningKey } from '@activeboxes/ee-shared';
+import { SigningKey } from '@activeboxes/shared';
 
 const SigningKeysPage = () => {
   const { data, isLoading, refetch } = useQuery({

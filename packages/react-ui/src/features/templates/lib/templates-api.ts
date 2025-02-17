@@ -1,5 +1,5 @@
 import { api } from '@/lib/api';
-import { CreateFlowTemplateRequest } from '@activeboxes/ee-shared';
+import { CreateFlowTemplateRequest } from '@activeboxes/shared';
 import {
   FlowTemplate,
   ListFlowTemplatesRequest,

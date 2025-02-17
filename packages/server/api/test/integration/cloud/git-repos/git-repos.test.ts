@@ -1,4 +1,4 @@
-import { GitBranchType } from '@activeboxes/ee-shared'
+import { GitBranchType } from '@activeboxes/shared'
 import { PrincipalType } from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import { FastifyInstance } from 'fastify'

@@ -8,7 +8,7 @@ import {
 } from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'
-import { domainHelper } from '../../ee/custom-domains/domain-helper'
+import { domainHelper } from '../../custom-domains/domain-helper'
 import { jwtUtils } from '../../helper/jwt-utils'
 import { system } from '../../helper/system/system'
 import { fileService } from '../file.service'

@@ -24,7 +24,7 @@ import { useAuthorization } from '@/hooks/authorization-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
 import { formatUtils } from '@/lib/utils';
-import { PopulatedIssue } from '@activeboxes/ee-shared';
+import { PopulatedIssue } from '@activeboxes/shared';
 import { FlowRunStatus, Permission } from '@activeboxes/shared';
 
 import { useNewWindow } from '../../../components/embed-provider';
