@@ -9,6 +9,7 @@ import { HttpMethod } from '../core/http-method';
 import { HttpRequest } from '../core/http-request';
 import { HttpResponse } from '../core/http-response';
 import { HttpRequestBody } from '../core/http-request-body';
+import * as https from 'node:https';
 
 export class AxiosHttpClient extends BaseHttpClient {
   constructor(
@@ -22,13 +23,18 @@ export class AxiosHttpClient extends BaseHttpClient {
     request: HttpRequest<HttpRequestBody>
   ): Promise<HttpResponse<ResponseBody>> {
     try {
-      process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
       const { urlWithoutQueryParams, queryParams: urlQueryParams } = this.getUrl(request);
       const headers = this.getHeaders(request);
       const axiosRequestMethod = this.getAxiosRequestMethod(request.method);
       const timeout = request.timeout ? request.timeout : 0;
       const queryParams = request.queryParams || {}
       const responseType = request.responseType || 'json';
+
+      const axiosInstance = axios.create({
+        httpsAgent: new https.Agent({
+          rejectUnauthorized: request.rejectUnauthorized,
+        })
+      });
 
       for (const [key, value] of urlQueryParams) {
         queryParams[key] = value
@@ -45,7 +51,7 @@ export class AxiosHttpClient extends BaseHttpClient {
       };
 
       if (request.retries && request.retries > 0) {
-        axiosRetry(axios, {
+        axiosRetry(axiosInstance, {
           retries: request.retries,
           retryDelay: axiosRetry.exponentialDelay,
           retryCondition: (error) => {
@@ -54,7 +60,7 @@ export class AxiosHttpClient extends BaseHttpClient {
         });
       }
 
-      const response = await axios.request(config);
+      const response = await axiosInstance.request(config);
 
       return {
         status: response.status,
