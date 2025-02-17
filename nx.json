@@ -98,7 +98,6 @@
       }
     }
   },
-  "nxCloudAccessToken": "Y2Y3YzhhNjYtZWI4OC00M2Y0LWIwY2ItMWJhNTBjYzA3ZDA0fHJlYWQtb25seQ==",
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
@@ -129,5 +128,6 @@
       "preVersionCommand": "npx nx run-many -t build"
     }
   },
-  "useLegacyCache": true
+  "useLegacyCache": true,
+  "neverConnectToCloud": true
 }
