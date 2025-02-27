@@ -754,6 +754,9 @@
       ],
       "@activeboxes/server-shared": ["packages/server/shared/src/index.ts"],
       "@activeboxes/shared": ["packages/shared/src/index.ts"],
+      "@activeboxes/import-fresh-webpack": [
+        "import-fresh-webpack/index"
+      ],
       "Aminos": ["packages/pieces/community/Aminos/src/index.ts"],
       "activeboxes/piece-microsoft-dynamics-365-business-central": [
         "packages/pieces/community/microsoft-dynamics-365-business-central/src/index.ts"
