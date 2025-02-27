@@ -17,6 +17,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@activeboxes/embed-sdk" : ["packages/embed-sdk/src/index.ts"],
       "@activeboxes/engine": ["packages/engine/src/main.ts"],
       "@activeboxes/piece-activecampaign": [
         "packages/pieces/community/activecampaign/src/index.ts"
