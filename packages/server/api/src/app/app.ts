@@ -18,44 +18,9 @@ import { rateLimitModule } from './core/security/rate-limit'
 import { securityHandlerChain } from './core/security/security-handler-chain'
 import { getRedisConnection } from './database/redis-connection'
 import { alertsModule } from './ee/alerts/alerts-module'
-import { analyticsModule } from './ee/analytics/analytics.module'
-import { apiKeyModule } from './ee/api-keys/api-key-module'
-import { platformOAuth2Service } from './ee/app-connections/platform-oauth2-service'
-import { appCredentialModule } from './ee/app-credentials/app-credentials.module'
-import { auditEventModule } from './ee/audit-logs/audit-event-module'
-import { auditLogService } from './ee/audit-logs/audit-event-service'
-import { enterpriseLocalAuthnModule } from './ee/authentication/enterprise-local-authn/enterprise-local-authn-module'
-import { federatedAuthModule } from './ee/authentication/federated-authn/federated-authn-module'
-import { otpModule } from './ee/authentication/otp/otp-module'
 import { rbacMiddleware } from './ee/authentication/project-role/rbac-middleware'
-import { authnSsoSamlModule } from './ee/authentication/saml-authn/authn-sso-saml-module'
-import { appSumoModule } from './ee/billing/appsumo/appsumo.module'
-import { connectionKeyModule } from './ee/connection-keys/connection-key.module'
-import { customDomainModule } from './ee/custom-domains/custom-domain.module'
 import { domainHelper } from './ee/custom-domains/domain-helper'
-import { enterpriseFlagsHooks } from './ee/flags/enterprise-flags.hooks'
-import { platformRunHooks } from './ee/flow-run/cloud-flow-run-hooks'
-import { platformFlowTemplateModule } from './ee/flow-template/platform-flow-template.module'
-import { globalConnectionModule } from './ee/global-connections/global-connection-module'
-import { emailService } from './ee/helper/email/email-service'
 import { issuesModule } from './ee/issues/issues-module'
-import { licenseKeysModule } from './ee/license-keys/license-keys-module'
-import { managedAuthnModule } from './ee/managed-authn/managed-authn-module'
-import { oauthAppModule } from './ee/oauth-apps/oauth-app.module'
-import { adminPieceModule } from './ee/pieces/admin-piece-module'
-import { enterprisePieceMetadataServiceHooks } from './ee/pieces/filters/enterprise-piece-metadata-service-hooks'
-import { platformPieceModule } from './ee/pieces/platform-piece-module'
-import { adminPlatformPieceModule } from './ee/platform/admin-platform.controller'
-import { platformBillingModule } from './ee/platform-billing/platform-billing.module'
-import { platformProjectMemberModule } from './ee/project-members/platform-project-members/platform-project-member.module'
-import { projectMemberModule } from './ee/project-members/project-member.module'
-import { gitRepoModule } from './ee/project-release/git-sync/git-sync.module'
-import { projectReleaseModule } from './ee/project-release/project-release.module'
-import { projectRoleModule } from './ee/project-role/project-role.module'
-import { projectEnterpriseHooks } from './ee/projects/ee-project-hooks'
-import { platformProjectModule } from './ee/projects/platform-project-module'
-import { signingKeyModule } from './ee/signing-key/signing-key-module'
-import { usageTrackerModule } from './ee/usage-tracker/usage-tracker-module'
 import { userModule } from './ee/users/user.module'
 import { fileModule } from './file/file.module'
 import { flagModule } from './flags/flag.module'
@@ -223,7 +188,6 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
     await app.register(invitationModule)
     await app.register(workerModule)
     await app.register(aiProviderModule)
-    await app.register(licenseKeysModule)
     await app.register(userModule)
 
     app.get(
@@ -252,84 +216,9 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
 
     await validateEnvPropsOnStartup(app.log)
 
-    const edition = system.getEdition()
-    app.log.info({
-        edition,
-    }, 'ActiveBoxes Edition')
-    switch (edition) {
-        case ApEdition.CLOUD:
-            await app.register(appCredentialModule)
-            await app.register(connectionKeyModule)
-            await app.register(platformProjectModule)
-            await app.register(platformBillingModule)
-            await app.register(projectMemberModule)
-            await app.register(platformProjectMemberModule)
-            await app.register(appSumoModule)
-            await app.register(adminPieceModule)
-            await app.register(customDomainModule)
-            await app.register(signingKeyModule)
-            await app.register(authnSsoSamlModule)
-            await app.register(managedAuthnModule)
-            await app.register(oauthAppModule)
-            await app.register(platformPieceModule)
-            await app.register(otpModule)
-            await app.register(enterpriseLocalAuthnModule)
-            await app.register(federatedAuthModule)
-            await app.register(apiKeyModule)
-            await app.register(platformFlowTemplateModule)
-            await app.register(gitRepoModule)
-            await app.register(auditEventModule)
-            await app.register(usageTrackerModule)
-            await app.register(adminPlatformPieceModule)
-            await app.register(analyticsModule)
-            await app.register(projectRoleModule)
-            await app.register(projectReleaseModule)
-            await app.register(globalConnectionModule)
-            setPlatformOAuthService(platformOAuth2Service(app.log))
-            projectHooks.set(projectEnterpriseHooks)
-            eventsHooks.set(auditLogService)
-            flowRunHooks.set(platformRunHooks)
-            flagHooks.set(enterpriseFlagsHooks)
-            pieceMetadataServiceHooks.set(enterprisePieceMetadataServiceHooks)
-            systemJobHandlers.registerJobHandler(SystemJobName.ISSUES_REMINDER, emailService(app.log).sendReminderJobHandler)
-            exceptionHandler.initializeSentry(system.get(AppSystemProp.SENTRY_DSN))
-            break
-        case ApEdition.ENTERPRISE:
-            await app.register(customDomainModule)
-            await app.register(platformProjectModule)
-            await app.register(projectMemberModule)
-            await app.register(platformProjectMemberModule)
-            await app.register(signingKeyModule)
-            await app.register(authnSsoSamlModule)
-            await app.register(managedAuthnModule)
-            await app.register(oauthAppModule)
-            await app.register(platformPieceModule)
-            await app.register(otpModule)
-            await app.register(enterpriseLocalAuthnModule)
-            await app.register(federatedAuthModule)
-            await app.register(apiKeyModule)
-            await app.register(platformFlowTemplateModule)
-            await app.register(gitRepoModule)
-            await app.register(auditEventModule)
-            await app.register(usageTrackerModule)
-            await app.register(analyticsModule)
-            await app.register(projectRoleModule)
-            await app.register(projectReleaseModule)
-            await app.register(globalConnectionModule)
-            systemJobHandlers.registerJobHandler(SystemJobName.ISSUES_REMINDER, emailService(app.log).sendReminderJobHandler)
-            setPlatformOAuthService(platformOAuth2Service(app.log))
-            projectHooks.set(projectEnterpriseHooks)
-            eventsHooks.set(auditLogService)
-            flowRunHooks.set(platformRunHooks)
-            pieceMetadataServiceHooks.set(enterprisePieceMetadataServiceHooks)
-            flagHooks.set(enterpriseFlagsHooks)
-            break
-        case ApEdition.COMMUNITY:
             await app.register(projectModule)
             await app.register(communityPiecesModule)
             await app.register(communityFlowTemplateModule)
-            break
-    }
 
     app.addHook('onClose', async () => {
         app.log.info('Shutting down')
