@@ -14,7 +14,7 @@ export const newDealNoteTrigger = createTrigger({
 	async onEnable(context) {
 		const client = makeClient(context.auth);
 		const res = await client.subscribeWebhook({
-			name: `Activepieces New Deal Note Hook`,
+			name: `ActiveBoxes New Deal Note Hook`,
 			url: context.webhookUrl,
 			events: ['deal_note_add'],
 			sources: WEBHOOK_SOURCES,

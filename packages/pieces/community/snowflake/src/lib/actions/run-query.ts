@@ -2,7 +2,7 @@ import { createAction, Property } from '@activeboxes/pieces-framework';
 import snowflake from 'snowflake-sdk';
 import { snowflakeAuth } from '../../index';
 
-const DEFAULT_APPLICATION_NAME = 'ActivePieces';
+const DEFAULT_APPLICATION_NAME = 'ActiveBoxes';
 const DEFAULT_QUERY_TIMEOUT = 30000;
 
 export const runQuery = createAction({

@@ -10,7 +10,7 @@ const markdown = `
 - Go to the "Messaging API" section.
 - In the webhook settings, paste this URL: 
   \`{{webhookUrl}}\`
-- Publish Activepieces flow first then click "Verify" button
+- Publish ActiveBoxes flow first then click "Verify" button
 `;
 
 export const newMessage = createTrigger({

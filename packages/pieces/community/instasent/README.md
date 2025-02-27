@@ -1,7 +1,7 @@
 # Instasent
 
 ## Description
-Instasent piece for ActivePieces. Enables integration with Instasent's Ingest API for managing contacts and tracking events in your data source. This API allows organizations to consolidate customer data and track interactions, enabling advanced audience segmentation and personalized marketing.
+Instasent piece for ActiveBoxes. Enables integration with Instasent's Ingest API for managing contacts and tracking events in your data source. This API allows organizations to consolidate customer data and track interactions, enabling advanced audience segmentation and personalized marketing.
 
 ### Key Features
 - **Contact Management**: Create, update, and delete contacts in your audience
@@ -15,7 +15,7 @@ This piece requires:
 - **Datasource ID**: Your data source identifier within the project
 - **API Key**: Bearer token for authentication (specific to the data source)
 
-To generate your authentication data go to your project and add an ActivePieces data source, if it's not available you can create an Instasent API data source instead.
+To generate your authentication data go to your project and add an ActiveBoxes data source, if it's not available you can create an Instasent API data source instead.
 
 ## Actions
 

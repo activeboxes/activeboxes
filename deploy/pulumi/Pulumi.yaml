@@ -1,9 +1,9 @@
 runtime: nodejs
 name: activepieces
-description: A Pulumi template to deploy Activepieces in a development or production configuration.
+description: A Pulumi template to deploy ActiveBoxes in a development or production configuration.
 stack: activepieces-dev
 template:
-  description: Deploy Activepieces into into an ECS Fargate instance & optionally add Postgres, Redis and a DNS registration with SSL.  
+  description: Deploy ActiveBoxes into into an ECS Fargate instance & optionally add Postgres, Redis and a DNS registration with SSL.  
   config:
     aws:region:
       description: The AWS region to deploy into

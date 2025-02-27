@@ -15,7 +15,7 @@ export const campaignLinkClickedTrigger = createTrigger({
 	async onEnable(context) {
 		const client = makeClient(context.auth);
 		const res = await client.subscribeWebhook({
-			name: `Activepieces Deal Task Completed Hook`,
+			name: `ActiveBoxes Deal Task Completed Hook`,
 			url: context.webhookUrl,
 			events: ['click'],
 			sources: WEBHOOK_SOURCES,

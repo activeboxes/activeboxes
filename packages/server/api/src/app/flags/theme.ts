@@ -65,7 +65,7 @@ export function generateTheme({
 
 export const defaultTheme = generateTheme({
     primaryColor: '#6e41e2',
-    websiteName: 'Activepieces',
+    websiteName: 'ActiveBoxes',
     fullLogoUrl: 'https://cdn.activeboxes.org/brand/full-logo.png',
     favIconUrl: 'https://cdn.activeboxes.org/brand/favicon.ico',
     logoIconUrl: 'https://cdn.activeboxes.org/brand/logo.svg',

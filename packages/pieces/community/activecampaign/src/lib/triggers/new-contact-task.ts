@@ -14,7 +14,7 @@ export const newContactTaskTrigger = createTrigger({
 	async onEnable(context) {
 		const client = makeClient(context.auth);
 		const res = await client.subscribeWebhook({
-			name: `Activepieces New Contact Task Hook`,
+			name: `ActiveBoxes New Contact Task Hook`,
 			url: context.webhookUrl,
 			events: ['contact_task_add'],
 			sources: WEBHOOK_SOURCES,

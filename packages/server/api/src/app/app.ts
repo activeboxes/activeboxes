@@ -142,7 +142,7 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
                 },
             },
             info: {
-                title: 'Activepieces Documentation',
+                title: 'ActiveBoxes Documentation',
                 version: '0.0.0',
             },
             externalDocs: {
@@ -255,7 +255,7 @@ export const setupApp = async (app: FastifyInstance): Promise<FastifyInstance> =
     const edition = system.getEdition()
     app.log.info({
         edition,
-    }, 'Activepieces Edition')
+    }, 'ActiveBoxes Edition')
     switch (edition) {
         case ApEdition.CLOUD:
             await app.register(appCredentialModule)
@@ -361,12 +361,12 @@ async function getAdapter() {
 export async function appPostBoot(app: FastifyInstance): Promise<void> {
 
     app.log.info(`
-             _____   _______   _____  __      __  ______   _____    _____   ______    _____   ______    _____
-    /\\      / ____| |__   __| |_   _| \\ \\    / / |  ____| |  __ \\  |_   _| |  ____|  / ____| |  ____|  / ____|
-   /  \\    | |         | |      | |    \\ \\  / /  | |__    | |__) |   | |   | |__    | |      | |__    | (___
-  / /\\ \\   | |         | |      | |     \\ \\/ /   |  __|   |  ___/    | |   |  __|   | |      |  __|    \\___ \\
- / ____ \\  | |____     | |     _| |_     \\  /    | |____  | |       _| |_  | |____  | |____  | |____   ____) |
-/_/    \\_\\  \\_____|    |_|    |_____|     \\/     |______| |_|      |_____| |______|  \\_____| |______| |_____/
+  ___       _   _          ______
+ / _ \\     | | (_)         | ___ \\
+/ /_\\ \\ ___| |_ ___   _____| |_/ / _____  _____  ___
+|  _  |/ __| __| \\ \\ / / _ \\ ___ \\/ _ \\ \\/ / _ \\/ __|
+| | | | (__| |_| |\\ V /  __/ |_/ / (_) >  <  __/\\__ \\
+\\_| |_/\\___|\\__|_| \\_/ \\___\\____/ \\___/_/\\_\\___||___/
 
 The application started on ${domainHelper.getPublicApiUrl({ path: '' })}, as specified by the AP_FRONTEND_URL variables.`)
 

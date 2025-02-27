@@ -84,7 +84,7 @@ export const createEvent = createAction({
                             required: param.required
                         });
                     } else {
-                        // Convert API parameter specs to ActivePieces properties
+                        // Convert API parameter specs to ActiveBoxes properties
                         switch (param.dataType) {
                             case 'bool':
                                 props[param.parameter] = Property.StaticDropdown({

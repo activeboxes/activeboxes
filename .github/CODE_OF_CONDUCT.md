@@ -2,20 +2,20 @@ The primary source of the Code of Conduct is here.
 
 ## 1. Purpose
 
-A primary goal of the Activepieces community is to support you and your business in the development, use and implementation of Activepieces. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all.
+A primary goal of the ActiveBoxes community is to support you and your business in the development, use and implementation of ActiveBoxes. It’s to be inclusive and add value to the largest number of participants, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all.
 
 This code of conduct outlines our expectations for all those who participate in our community, whether in-person or online, as well as the consequences for unacceptable behavior.
 
-Your participation is contingent upon following these guidelines in all Activepieces activities, including but not limited to:
+Your participation is contingent upon following these guidelines in all ActiveBoxes activities, including but not limited to:
 
-* Using Activepieces community resources.
-* Working with other Activepiecesians and other Activepieces community participants whether virtually or co-located.
-* Representing Activepieces at public events.
-* Representing Activepieces in social media (official accounts, personal accounts, Facebook pages and groups).
-* Participating in Activepieces sprints and training events.
-* Participating in Activepieces-related forums, mailing lists, wikis, websites, chat channels, bugs, group or person-to-person meetings, and Activepieces-related correspondence.
+* Using ActiveBoxes community resources.
+* Working with other Activepiecesians and other ActiveBoxes community participants whether virtually or co-located.
+* Representing ActiveBoxes at public events.
+* Representing ActiveBoxes in social media (official accounts, personal accounts, Facebook pages and groups).
+* Participating in ActiveBoxes sprints and training events.
+* Participating in ActiveBoxes-related forums, mailing lists, wikis, websites, chat channels, bugs, group or person-to-person meetings, and ActiveBoxes-related correspondence.
 
-We invite all those who participate in Activepieces activities online to help us create safe and positive experiences for everyone, everywhere.
+We invite all those who participate in ActiveBoxes activities online to help us create safe and positive experiences for everyone, everywhere.
 
 
 ## 2. Open Source & Culture Citizenship
@@ -40,7 +40,7 @@ The following behaviors are expected and requested of all community members:
 * Guide conversations toward issue resolution.
 * Refrain from demeaning, discriminatory, or harassing behavior and speech.
 
-Alert Activepieces team members if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+Alert ActiveBoxes team members if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 
 ## 5. Unacceptable Behavior
 
@@ -53,7 +53,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 * **Unwelcome Sexual Attention or Physical Contact** Unwelcome sexual attention or unwelcome physical contact is not acceptable. This includes sexualized comments, jokes or imagery in interactions, communications or presentation materials, as well as inappropriate touching, groping, or sexual advances. This includes touching a person without permission, including sensitive areas such as their hair, pregnant stomach, mobility device (wheelchair, scooter, etc) or tattoos. This also includes physically blocking or intimidating another person. Physical contact or simulated physical contact (such as emojis like “kiss”) without affirmative consent is not acceptable. This includes sharing or distribution of sexualized images or text.
 * **Disruptive Behavior** Sustained disruption of events, forums, or meetings, including talks and presentations, will not be tolerated. This includes spamming community discussions with the solicitation of unwanted products or services.
 * **Influencing Disruptive Behavior** We will treat influencing or leading such activities the same way we treat the activities themselves, and thus the same consequences apply.
-* **Corporate Promotions** Sharing of demo/trial/landing page links and other corporate promotions are never permitted unless explicitly requested by a community member. The only exceptions are that the moderated [Commercial forum category](https://forum.Activepieces.org/c/commercial) may be used to promote opportunities which may be relevant for members of the community (for example job opportunities, freelance gigs) and Activepieces Community Partners may promote their products and services on their partners page.
+* **Corporate Promotions** Sharing of demo/trial/landing page links and other corporate promotions are never permitted unless explicitly requested by a community member. The only exceptions are that the moderated [Commercial forum category](https://forum.ActiveBoxes.org/c/commercial) may be used to promote opportunities which may be relevant for members of the community (for example job opportunities, freelance gigs) and ActiveBoxes Community Partners may promote their products and services on their partners page.
 * **Scraping contacts** by name or any other personally identifiable information for unsolicited communication is never acceptable in any form. 
 
 ## 6. Consequences of Unacceptable Behavior
@@ -71,19 +71,19 @@ If a community member engages in unacceptable behavior, we may take any action d
 
 
 ## 7. Reporting Guidelines
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify us as soon as possible by emailing info@activeboxes.org, or contacting a Activepieces team member on the specific platform.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify us as soon as possible by emailing info@activeboxes.org, or contacting a ActiveBoxes team member on the specific platform.
 
 Processes for dealing with breaches of the Code of Conduct can be found [here][coc-breaches].
 
 ## 8. Addressing Grievances
-Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the Activepieces team at info@activeboxes.org with your appeal and the team will review the situation.
+Only permanent resolutions (such as bans) may be appealed. To appeal a decision, contact the ActiveBoxes team at info@activeboxes.org with your appeal and the team will review the situation.
 
 ## 9. Scope
 We expect all community participants (contributors, moderators and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community affairs.
 
-While this code of conduct is specifically aimed at Activepieces’s official resources and community, we recognize that it is possible for actions taken outside of Activepieces’s official online or in person spaces to have a deep impact on community health. 
+While this code of conduct is specifically aimed at ActiveBoxes’s official resources and community, we recognize that it is possible for actions taken outside of ActiveBoxes’s official online or in person spaces to have a deep impact on community health. 
 
-Resources or incidents which break this code of conduct for any reason in a non-Activepieces community location will be considered in the same way as resources or incidents from owned channels, and subject to the same sanctions. 
+Resources or incidents which break this code of conduct for any reason in a non-ActiveBoxes community location will be considered in the same way as resources or incidents from owned channels, and subject to the same sanctions. 
 
 ## 10. Contact info
 For more information, please contact info@activeboxes.org.

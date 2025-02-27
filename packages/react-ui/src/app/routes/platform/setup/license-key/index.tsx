@@ -40,7 +40,7 @@ const LICENSE_PROPS_MAP = {
   embeddingEnabled: 'Embedding',
   managePiecesEnabled: 'Manage Pieces',
   manageTemplatesEnabled: 'Manage Templates',
-  customAppearanceEnabled: 'Brand Activepieces',
+  customAppearanceEnabled: 'Brand ActiveBoxes',
   manageProjectsEnabled: 'Manage Projects',
   projectRolesEnabled: 'Project Roles',
   customDomainsEnabled: 'Custom Domains',

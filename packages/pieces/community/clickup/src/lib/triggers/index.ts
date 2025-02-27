@@ -84,7 +84,7 @@ export const triggers = [
           source: null,
           user: {
             id: 55053258,
-            username: 'Activepieces Apps',
+            username: 'ActiveBoxes Apps',
             email: 'apps@activeboxes.org',
             color: '#aa2fff',
             initials: 'AA',
@@ -117,7 +117,7 @@ export const triggers = [
           source: null,
           user: {
             id: 55053258,
-            username: 'Activepieces Apps',
+            username: 'ActiveBoxes Apps',
             email: 'apps@activeboxes.org',
             color: '#aa2fff',
             initials: 'AA',
@@ -161,7 +161,7 @@ export const triggers = [
           source: null,
           user: {
             id: 55053258,
-            username: 'Activepieces Apps',
+            username: 'ActiveBoxes Apps',
             email: 'apps@activeboxes.org',
             color: '#aa2fff',
             initials: 'AA',
@@ -200,7 +200,7 @@ export const triggers = [
           source: null,
           user: {
             id: 55053258,
-            username: 'Activepieces Apps',
+            username: 'ActiveBoxes Apps',
             email: 'apps@activeboxes.org',
             color: '#aa2fff',
             initials: 'AA',

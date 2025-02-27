@@ -180,7 +180,7 @@ const InstallPieceDialog = ({
           <DialogDescription>
             <ApMarkdown
               markdown={
-                'Use this to install a [custom piece]("https://www.activeboxes.org/docs/developers/building-pieces/create-action") that you (or someone else) created. Once the piece is installed, you can use it in the flow builder.\n\nWarning: Make sure you trust the author as the piece will have access to your flow data and it might not be compatible with the current version of Activepieces.'
+                'Use this to install a [custom piece]("https://www.activeboxes.org/docs/developers/building-pieces/create-action") that you (or someone else) created. Once the piece is installed, you can use it in the flow builder.\n\nWarning: Make sure you trust the author as the piece will have access to your flow data and it might not be compatible with the current version of ActiveBoxes.'
               }
             />
           </DialogDescription>

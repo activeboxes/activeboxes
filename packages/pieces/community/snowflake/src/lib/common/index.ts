@@ -6,7 +6,7 @@ import {
 import { snowflakeAuth } from '../..';
 import snowflake from 'snowflake-sdk';
 
-const DEFAULT_APPLICATION_NAME = 'ActivePieces';
+const DEFAULT_APPLICATION_NAME = 'ActiveBoxes';
 const DEFAULT_QUERY_TIMEOUT = 30000;
 
 export function configureConnection(

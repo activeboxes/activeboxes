@@ -14,7 +14,7 @@ export const newDealTaskTrigger = createTrigger({
 	async onEnable(context) {
 		const client = makeClient(context.auth);
 		const res = await client.subscribeWebhook({
-			name: `Activepieces New Deal Task Hook`,
+			name: `ActiveBoxes New Deal Task Hook`,
 			url: context.webhookUrl,
 			events: ['deal_task_add'],
 			sources: WEBHOOK_SOURCES,

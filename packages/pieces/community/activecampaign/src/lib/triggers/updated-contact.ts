@@ -14,7 +14,7 @@ export const updatedContactTrigger = createTrigger({
 	async onEnable(context) {
 		const client = makeClient(context.auth);
 		const res = await client.subscribeWebhook({
-			name: `Activepieces Updated Contact Hook`,
+			name: `ActiveBoxes Updated Contact Hook`,
 			url: context.webhookUrl,
 			events: ['update'],
 			sources: WEBHOOK_SOURCES,
