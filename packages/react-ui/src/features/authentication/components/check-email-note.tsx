@@ -4,7 +4,7 @@ import { MailCheck } from 'lucide-react';
 
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { authenticationApi } from '@/lib/authentication-api';
-import { CreateOtpRequestBody, OtpType } from '@activeboxes/ee-shared';
+import { CreateOtpRequestBody, OtpType } from '@activeboxes/shared';
 
 const CheckEmailNote = ({ email, type }: CreateOtpRequestBody) => {
   const { mutate: resendVerification } = useMutation({

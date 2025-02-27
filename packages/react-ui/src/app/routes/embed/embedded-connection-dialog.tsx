@@ -7,7 +7,7 @@ import {
   ActivepiecesNewConnectionDialogClosed,
   connectionNameRegex,
   NEW_CONNECTION_QUERY_PARAMS,
-} from 'ee-embed-sdk';
+} from '@activeboxes/embed-sdk';
 
 import { appConnectionsHooks } from '../../../features/connections/lib/app-connections-hooks';
 import { piecesHooks } from '../../../features/pieces/lib/pieces-hook';

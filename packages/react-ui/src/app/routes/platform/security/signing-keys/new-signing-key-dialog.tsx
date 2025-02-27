@@ -22,7 +22,7 @@ import { signingKeyApi } from '@/features/platform-admin-panel/lib/signing-key-a
 import {
   AddSigningKeyRequestBody,
   AddSigningKeyResponse,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 
 type NewSigningKeyDialogProps = {
   children: React.ReactNode;

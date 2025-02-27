@@ -1,4 +1,4 @@
-import { AddDomainRequest, CustomDomainStatus } from '@activeboxes/ee-shared'
+import { AddDomainRequest, CustomDomainStatus } from '@activeboxes/shared'
 import { PlatformRole, PrincipalType } from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import { FastifyInstance } from 'fastify'

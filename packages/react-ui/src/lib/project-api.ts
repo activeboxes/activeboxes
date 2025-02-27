@@ -3,7 +3,7 @@ import { authenticationSession } from '@/lib/authentication-session';
 import {
   CreatePlatformProjectRequest,
   UpdateProjectPlatformRequest,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import {
   ListProjectRequestForUserQueryParams,
   ProjectWithLimits,

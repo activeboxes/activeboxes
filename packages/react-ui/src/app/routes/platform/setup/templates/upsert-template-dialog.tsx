@@ -20,7 +20,7 @@ import { Label } from '@/components/ui/label';
 import { TagInput } from '@/components/ui/tag-input';
 import { INTERNAL_ERROR_TOAST, useToast } from '@/components/ui/use-toast';
 import { templatesApi } from '@/features/templates/lib/templates-api';
-import { CreateFlowTemplateRequest } from '@activeboxes/ee-shared';
+import { CreateFlowTemplateRequest } from '@activeboxes/shared';
 import {
   FlowTemplate,
   FlowVersionTemplate,

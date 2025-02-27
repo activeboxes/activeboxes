@@ -17,7 +17,7 @@ import {
   ActivepiecesClientShowConnectionIframe,
   ActivepiecesVendorEventName,
   ActivepiecesVendorInit,
-} from 'ee-embed-sdk';
+} from '@activeboxes/embed-sdk';
 
 const notifyVendorPostAuthentication = () => {
   const authenticationSuccessEvent: ActivepiecesClientAuthenticationSuccess = {

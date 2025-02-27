@@ -22,7 +22,7 @@ import { PasswordValidator } from '@/features/authentication/components/password
 import { passwordValidation } from '@/features/authentication/lib/password-validation-utils';
 import { HttpError } from '@/lib/api';
 import { authenticationApi } from '@/lib/authentication-api';
-import { ResetPasswordRequestBody } from '@activeboxes/ee-shared';
+import { ResetPasswordRequestBody } from '@activeboxes/shared';
 
 const ChangePasswordForm = () => {
   const navigate = useNavigate();

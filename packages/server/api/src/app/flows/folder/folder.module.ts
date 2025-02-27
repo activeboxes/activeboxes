@@ -1,4 +1,4 @@
-import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { ApplicationEventName } from '@activeboxes/shared'
 import {
     CreateFolderRequest,
     DeleteFolderRequest,

@@ -1,7 +1,7 @@
-import { rolePermissions } from '@activeboxes/ee-shared'
+import { rolePermissions } from '@activeboxes/shared'
 import { DefaultProjectRole, ProjectRole, RoleType } from '@activeboxes/shared'
 import { repoFactory } from '../../core/db/repo-factory'
-import { ProjectRoleEntity } from '../../ee/project-role/project-role.entity'
+import { ProjectRoleEntity } from '../../project-role/project-role.entity'
 import { system } from '../../helper/system/system'
 import { DataSeed } from './data-seed'
 

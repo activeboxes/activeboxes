@@ -3,7 +3,7 @@ import {
   ListProjectMembersRequestQuery,
   ProjectMemberWithUser,
   UpdateProjectMemberRoleRequestBody,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { SeekPage } from '@activeboxes/shared';
 
 export const projectMembersApi = {

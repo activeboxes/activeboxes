@@ -1,5 +1,5 @@
 
-import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { ApplicationEventName } from '@activeboxes/shared'
 import {
     ActivepiecesError,
     ApId,
@@ -29,8 +29,8 @@ import dayjs from 'dayjs'
 import { StatusCodes } from 'http-status-codes'
 import { authenticationUtils } from '../../authentication/authentication-utils'
 import { entitiesMustBeOwnedByCurrentProject } from '../../authentication/authorization'
-import { assertUserHasPermissionToFlow } from '../../ee/authentication/project-role/rbac-middleware'
-import { gitRepoService } from '../../ee/project-release/git-sync/git-sync.service'
+import { assertUserHasPermissionToFlow } from '../../authentication/project-role/rbac-middleware'
+import { gitRepoService } from '../../project-release/git-sync/git-sync.service'
 import { eventsHooks } from '../../helper/application-events'
 import { flowService } from './flow.service'
 

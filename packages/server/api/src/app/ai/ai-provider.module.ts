@@ -11,7 +11,7 @@ import {
     Type,
 } from '@fastify/type-provider-typebox'
 import { StatusCodes } from 'http-status-codes'
-import { platformMustBeOwnedByCurrentUser } from '../ee/authentication/ee-authorization'
+import { platformMustBeOwnedByCurrentUser } from '../authentication/ee-authorization'
 import { proxyController } from './ai-provider-proxy'
 import { aiProviderService } from './ai-provider.service'
 

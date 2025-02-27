@@ -32,7 +32,7 @@ import {
   ConfigureRepoRequest,
   GitBranchType,
   GitRepo,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { ApErrorParams, ErrorCode } from '@activeboxes/shared';
 
 import { gitSyncApi } from '../lib/git-sync-api';

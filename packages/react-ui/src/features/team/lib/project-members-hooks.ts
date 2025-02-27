@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { ProjectMemberWithUser } from '@activeboxes/ee-shared';
+import { ProjectMemberWithUser } from '@activeboxes/shared';
 
 import { authenticationSession } from '../../../lib/authentication-session';
 

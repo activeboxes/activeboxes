@@ -20,7 +20,7 @@ import { TableTitle } from '@/components/ui/table-title';
 import { projectRoleApi } from '@/features/platform-admin-panel/lib/project-role-api';
 import { platformProjectMembersApi } from '@/features/team/lib/platform-project-members-api';
 import { platformHooks } from '@/hooks/platform-hooks';
-import { ProjectMemberWithUser } from '@activeboxes/ee-shared';
+import { ProjectMemberWithUser } from '@activeboxes/shared';
 import { assertNotNullOrUndefined, isNil } from '@activeboxes/shared';
 
 export const ProjectRoleUsersTable = () => {

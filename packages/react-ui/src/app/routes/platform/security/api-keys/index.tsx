@@ -13,7 +13,7 @@ import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { apiKeyApi } from '@/features/platform-admin-panel/lib/api-key-api';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { formatUtils } from '@/lib/utils';
-import { ApiKeyResponseWithoutValue } from '@activeboxes/ee-shared';
+import { ApiKeyResponseWithoutValue } from '@activeboxes/shared';
 
 const ApiKeysPage = () => {
   const queryClient = useQueryClient();

@@ -34,7 +34,7 @@ import {
   ApplicationEvent,
   ApplicationEventName,
   summarizeApplicationEvent,
-} from '@activeboxes/ee-shared';
+} from '@activeboxes/shared';
 import { isNil } from '@activeboxes/shared';
 
 export default function AuditLogsPage() {
