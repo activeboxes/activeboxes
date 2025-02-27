@@ -8,8 +8,9 @@ const publishPiece = async (nxProjectPath: string): Promise<void> => {
 
 const main = async () => {
   const piecesSource = await findAllPiecesDirectoryInSource()
-  const publishResults = piecesSource.map(p => publishPiece(p))
-  await Promise.all(publishResults)
+  for (const piece of piecesSource) {
+    await publishPiece(piece)
+  }
 }
 
 main()
