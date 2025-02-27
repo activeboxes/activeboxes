@@ -41,22 +41,10 @@ export const LockedFeatureGuard = ({
             {lockDescription}
           </p>
 
-          <div className="my-4">
-            <RequestTrial featureKey={featureKey} />
-          </div>
+          <p className="text-md leading-relaxed text-muted-foreground">
+            Fork and reimplement!
+          </p>
         </div>
-
-        {lockVideoUrl && (
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="max-w-[70vh] rounded-lg"
-            controls={false}
-            src={lockVideoUrl}
-          />
-        )}
       </div>
     </div>
   );
