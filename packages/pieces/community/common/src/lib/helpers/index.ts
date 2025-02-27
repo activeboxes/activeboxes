@@ -147,11 +147,16 @@ i.e ${getBaseUrlForDescription(baseUrl,auth)}/resource or /resource`,
         required: false,
         ...(props?.timeout ?? {}),
       }),
+      rejectUnauthorized: Property.Checkbox({
+        displayName: 'Require valid SSL certificate',
+        required: false,
+        defaultValue: true,
+      }),
       ...extraProps,
     },
 
     run: async (context) => {
-      const { method, url, headers, queryParams, body, failsafe, timeout } =
+      const { method, url, headers, queryParams, body, failsafe, timeout, rejectUnauthorized } =
         context.propsValue;
 
       assertNotNullOrUndefined(method, 'Method');
@@ -176,6 +181,7 @@ i.e ${getBaseUrlForDescription(baseUrl,auth)}/resource or /resource`,
         headers: headersValue,
         queryParams: queryParams as QueryParams,
         timeout: timeout ? timeout * 1000 : 0,
+        rejectUnauthorized: rejectUnauthorized,
       };
 
       if (body) {
