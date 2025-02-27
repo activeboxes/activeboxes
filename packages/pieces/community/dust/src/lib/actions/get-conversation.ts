@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { getConversationContent, timeoutProp } from '../common';
 import { dustAuth } from '../..';
 

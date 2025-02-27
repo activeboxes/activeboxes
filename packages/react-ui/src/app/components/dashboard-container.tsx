@@ -15,7 +15,7 @@ import { issueHooks } from '@/features/issues/hooks/issue-hooks';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
-import { isNil, Permission } from '@activepieces/shared';
+import { isNil, Permission } from '@activeboxes/shared';
 
 import { authenticationSession } from '../../lib/authentication-session';
 

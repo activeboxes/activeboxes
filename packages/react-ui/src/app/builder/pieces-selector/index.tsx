@@ -29,7 +29,7 @@ import {
   isNil,
   Trigger,
   TriggerType,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { SearchInput } from '../../../components/ui/search-input';
 

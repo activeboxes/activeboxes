@@ -1,4 +1,4 @@
-import { PieceTag, Platform, Tag } from '@activepieces/shared'
+import { PieceTag, Platform, Tag } from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import { BaseColumnSchemaPart } from '../../database/database-common'
 

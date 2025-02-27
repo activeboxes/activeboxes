@@ -2,13 +2,13 @@ import {
   Property,
   DynamicPropsValue,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { bannerbearAuth } from '../../';
 
 export const bannerbearCreateImageAction = createAction({

@@ -1,4 +1,4 @@
-import { assertNotNullOrUndefined, FlowVersion, isNil, parseToJsonIfPossible } from '@activepieces/shared'
+import { assertNotNullOrUndefined, FlowVersion, isNil, parseToJsonIfPossible } from '@activeboxes/shared'
 
 let webhookSecrets: Record<string, { webhookSecret: string }> | undefined = undefined
 

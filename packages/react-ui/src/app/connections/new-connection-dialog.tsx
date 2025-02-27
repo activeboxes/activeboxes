@@ -14,8 +14,8 @@ import {
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { piecesHooks } from '@/features/pieces/lib/pieces-hook';
-import { PieceMetadataModelSummary } from '@activepieces/pieces-framework';
-import { isNil } from '@activepieces/shared';
+import { PieceMetadataModelSummary } from '@activeboxes/pieces-framework';
+import { isNil } from '@activeboxes/shared';
 
 import { CreateOrEditConnectionDialog } from './create-edit-connection-dialog';
 

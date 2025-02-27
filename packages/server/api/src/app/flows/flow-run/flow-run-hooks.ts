@@ -1,4 +1,4 @@
-import { FlowRun } from '@activepieces/shared'
+import { FlowRun } from '@activeboxes/shared'
 import { hooksFactory } from '../../helper/hooks-factory'
 
 export type FlowRunHooks = {

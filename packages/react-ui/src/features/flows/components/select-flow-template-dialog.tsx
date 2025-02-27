@@ -37,7 +37,7 @@ import {
   FlowOperationType,
   FlowTemplate,
   PopulatedFlow,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { flowsApi } from '../lib/flows-api';
 

@@ -4,7 +4,7 @@ import { Trash } from 'lucide-react';
 
 import { PermissionNeededTooltip } from '@/components/ui/permission-needed-tooltip';
 import { useAuthorization } from '@/hooks/authorization-hooks';
-import { Permission, UserInvitation } from '@activepieces/shared';
+import { Permission, UserInvitation } from '@activeboxes/shared';
 
 import { ConfirmationDeleteDialog } from '../../../components/delete-dialog';
 import { Avatar, AvatarImage } from '../../../components/ui/avatar';

@@ -1,9 +1,9 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   httpClient,
   HttpMethod,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 import { bubbleAuth } from '../../index';
 import { bubbleCommon } from '../common';

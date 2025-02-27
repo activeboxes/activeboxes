@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { OAuth2PropertyValue, PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { OAuth2PropertyValue, PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { todoistCreateTaskAction } from './lib/actions/create-task-action';
 import { todoistTaskCompletedTrigger } from './lib/triggers/task-completed-trigger';
 import { todoistUpdateTaskAction } from './lib/actions/update-task.action';
@@ -18,7 +18,7 @@ export const todoist = createPiece({
 	displayName: 'Todoist',
 	description: 'To-do list and task manager',
 	minimumSupportedRelease: '0.5.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/todoist.png',
+	logoUrl: 'https://cdn.activeboxes.org/pieces/todoist.png',
 	authors: ['MyWay', 'kishanprmr', 'MoShizzle', 'khaledmashaly', 'abuaboud'],
 	categories: [PieceCategory.PRODUCTIVITY],
 	auth: todoistAuth,

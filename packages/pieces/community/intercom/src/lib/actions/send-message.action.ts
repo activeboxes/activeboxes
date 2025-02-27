@@ -2,7 +2,7 @@ import {
   createAction,
   DynamicPropsValue,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { commonProps, intercomClient } from '../common';
 import { intercomAuth } from '../..';
 import { MessageType, RecipientType, Role } from 'intercom-client';

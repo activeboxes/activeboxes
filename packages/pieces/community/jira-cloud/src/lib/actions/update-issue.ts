@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { JiraAuth, jiraCloudAuth } from '../../auth';
 import {
 	getIssueIdDropdown,

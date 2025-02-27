@@ -1,4 +1,4 @@
-import { Action } from '@activepieces/shared'
+import { Action } from '@activeboxes/shared'
 import { codeExecutor } from '../../src/lib/handler/code-executor'
 import { ExecutionVerdict, FlowExecutorContext } from '../../src/lib/handler/context/flow-execution-context'
 import { flowExecutor } from '../../src/lib/handler/flow-executor'

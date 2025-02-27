@@ -1,6 +1,6 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
 import { catchWebhook } from './lib/triggers/catch-hook';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 import { returnResponse } from './lib/actions/return-response';
 
 export const webhook = createPiece({
@@ -9,7 +9,7 @@ export const webhook = createPiece({
   auth: PieceAuth.None(),
   categories: [PieceCategory.CORE],
   minimumSupportedRelease: '0.27.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/webhook.svg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/webhook.svg',
   authors: ['abuaboud', 'pfernandez98', 'kishanprmr'],
   actions: [returnResponse],
   triggers: [catchWebhook],

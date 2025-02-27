@@ -1,10 +1,10 @@
-import { HttpError } from '@activepieces/pieces-common';
+import { HttpError } from '@activeboxes/pieces-common';
 import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import FormData from 'form-data';
 import { sendEmail } from './lib/actions/send-email';
 import { sendFromTemplate } from './lib/actions/send-from-template';
@@ -105,7 +105,7 @@ export const maileroo = createPiece({
   displayName: 'Maileroo',
   auth: mailerooAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/maileroo.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/maileroo.png',
   categories: [
     PieceCategory.MARKETING,
     PieceCategory.BUSINESS_INTELLIGENCE,

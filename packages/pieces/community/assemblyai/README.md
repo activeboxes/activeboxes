@@ -5,7 +5,7 @@ Use the AssemblyAI piece for Activepieces to use AssemblyAI's models to
 
 Learn more about this piece:
 
-- [Activepieces Integrations](https://www.activepieces.com/pieces/assemblyai)
+- [Activepieces Integrations](https://www.activeboxes.org/pieces/assemblyai)
 - [AssemblyAI Documentation](https://www.assemblyai.com/docs/integrations/activepieces)
 
 This library was built upon the [AssemblyAI JavaScript SDK](https://github.com/AssemblyAI/assemblyai-node-sdk).

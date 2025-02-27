@@ -1,10 +1,10 @@
 import { pipedriveAuth } from '../../index';
-import { HttpMethod } from '@activepieces/pieces-common';
-import { createTrigger, TriggerStrategy } from '@activepieces/pieces-framework';
+import { HttpMethod } from '@activeboxes/pieces-common';
+import { createTrigger, TriggerStrategy } from '@activeboxes/pieces-framework';
 import { filterIdProp } from '../common/props';
 import { pipedriveApiCall, pipedrivePaginatedApiCall } from '../common';
 import { LeadListResponse } from '../common/types';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 export const activityMatchingFilterTrigger = createTrigger({
 	auth: pipedriveAuth,

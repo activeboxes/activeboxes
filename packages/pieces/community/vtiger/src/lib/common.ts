@@ -4,13 +4,13 @@ import {
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   DropdownState,
   DynamicPropsValue,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import * as crypto from 'crypto-js';
 import { Challenge, Instance } from './models';
 import { vtigerAuth } from '..';

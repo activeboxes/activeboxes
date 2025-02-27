@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { makeClient, pastebinCommon } from '../common';
 import { pastebinAuth } from '../..';
 

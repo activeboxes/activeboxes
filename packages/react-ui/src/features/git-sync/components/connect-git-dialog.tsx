@@ -32,8 +32,8 @@ import {
   ConfigureRepoRequest,
   GitBranchType,
   GitRepo,
-} from '@activepieces/ee-shared';
-import { ApErrorParams, ErrorCode } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { ApErrorParams, ErrorCode } from '@activeboxes/shared';
 
 import { gitSyncApi } from '../lib/git-sync-api';
 import { gitSyncHooks } from '../lib/git-sync-hooks';
@@ -121,7 +121,7 @@ const ConnectGitDialog = ({ open, setOpen, showButton }: ConnectGitProps) => {
                     <FormLabel>{t('Remote URL')}</FormLabel>
                     <FormControl>
                       <Input
-                        placeholder="git@github.com:activepieces/activepieces.git"
+                        placeholder="git@github.com:activeboxes/activeboxes.git"
                         {...field}
                       />
                     </FormControl>

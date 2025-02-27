@@ -1,5 +1,5 @@
-import { createAction } from '@activepieces/pieces-framework';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { createAction } from '@activeboxes/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 
 import { retableAuth } from '../..';
 import { retableCommon } from '../common';

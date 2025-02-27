@@ -2,7 +2,7 @@ import {
     ActivepiecesError,
     ErrorCode,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 import { BaseSecurityHandler } from '../security-handler'
 

@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { trackEvent } from './lib/actions/track-event';
 
 export const mixpanelAuth = PieceAuth.SecretText({
@@ -15,7 +15,7 @@ export const mixpanel = createPiece({
   displayName: 'Mixpanel',
   description: 'Simple and powerful product analytics that helps everyone make better decisions',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/mixpanel.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/mixpanel.png',
   authors: ["yann120","kishanprmr","MoShizzle","abuaboud"],
   auth: mixpanelAuth,
   categories: [PieceCategory.BUSINESS_INTELLIGENCE],

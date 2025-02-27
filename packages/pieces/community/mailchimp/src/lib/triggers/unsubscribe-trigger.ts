@@ -1,5 +1,5 @@
-import { createTrigger, TriggerStrategy } from '@activepieces/pieces-framework';
-import { getAccessTokenOrThrow } from '@activepieces/pieces-common';
+import { createTrigger, TriggerStrategy } from '@activeboxes/pieces-framework';
+import { getAccessTokenOrThrow } from '@activeboxes/pieces-common';
 import { mailchimpCommon } from '../common';
 import { MailChimpSubscribeWebhookRequest } from '../common/types';
 import { mailchimpAuth } from '../..';

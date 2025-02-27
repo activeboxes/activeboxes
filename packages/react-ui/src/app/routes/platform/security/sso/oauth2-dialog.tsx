@@ -20,7 +20,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { platformApi } from '@/lib/platforms-api';
-import { Platform, UpdatePlatformRequestBody } from '@activepieces/shared';
+import { Platform, UpdatePlatformRequestBody } from '@activeboxes/shared';
 
 type NewOAuth2DialogProps = {
   providerName: 'google' | 'github';
@@ -120,7 +120,7 @@ export const NewOAuth2Dialog = ({
         <div className="mb-4">
           <ApMarkdown
             markdown={t(
-              'Read more information about how to configure {provider} SSO [here](https://www.activepieces.com/docs/security/sso).',
+              'Read more information about how to configure {provider} SSO [here](https://www.activeboxes.org/docs/security/sso).',
               { provider: providerDisplayName },
             )}
           />

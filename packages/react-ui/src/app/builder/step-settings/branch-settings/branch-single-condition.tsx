@@ -13,7 +13,7 @@ import {
   textConditions,
   singleValueConditions,
   RouterAction,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { InvalidStepIcon } from '../../../../components/custom/alert-icon';
 import {

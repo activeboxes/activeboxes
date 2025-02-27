@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { formatDate, makeClient, pastefyCommon } from '../common';
 import { pastefyAuth } from '../..';
 import CryptoJS from 'crypto-js';

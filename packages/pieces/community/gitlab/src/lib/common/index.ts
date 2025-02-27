@@ -1,5 +1,5 @@
-import { getAccessTokenOrThrow } from '@activepieces/pieces-common';
-import { OAuth2PropertyValue, Property } from '@activepieces/pieces-framework';
+import { getAccessTokenOrThrow } from '@activeboxes/pieces-common';
+import { OAuth2PropertyValue, Property } from '@activeboxes/pieces-framework';
 import { GitlabApi } from './client';
 
 export const gitlabCommon = {

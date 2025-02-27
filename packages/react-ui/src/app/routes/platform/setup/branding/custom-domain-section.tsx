@@ -14,7 +14,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { customDomainApi } from '@/features/platform-admin-panel/lib/custom-domain-api';
-import { CustomDomain, CustomDomainStatus } from '@activepieces/ee-shared';
+import { CustomDomain, CustomDomainStatus } from '@activeboxes/ee-shared';
 
 const CustomDomainsCard = () => {
   const { data, isLoading, isError, isSuccess, refetch } = useQuery({

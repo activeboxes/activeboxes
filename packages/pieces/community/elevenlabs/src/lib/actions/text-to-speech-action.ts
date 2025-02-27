@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { ElevenLabsClient } from 'elevenlabs';
 
 export const textToSpeech = createAction({

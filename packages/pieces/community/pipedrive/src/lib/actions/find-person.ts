@@ -1,4 +1,4 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { pipedriveAuth } from '../../index';
 import {
 	pipedriveApiCall,
@@ -6,8 +6,8 @@ import {
 	pipedriveTransformCustomFields,
 } from '../common';
 import { GetField } from '../common/types';
-import { HttpMethod } from '@activepieces/pieces-common';
-import { isNil } from '@activepieces/shared';
+import { HttpMethod } from '@activeboxes/pieces-common';
+import { isNil } from '@activeboxes/shared';
 import { searchFieldProp, searchFieldValueProp } from '../common/props';
 
 export const findPersonAction = createAction({

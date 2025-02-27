@@ -1,4 +1,4 @@
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { pipedriveApiCall, pipedrivePaginatedApiCall } from '.';
 import { pipedriveAuth } from '../../index';
 import {
@@ -6,9 +6,9 @@ import {
 	DynamicPropsValue,
 	PiecePropValueSchema,
 	Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { GetField, StageWithPipelineInfo } from './types';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 export async function fetchFiltersOptions(
 	auth: PiecePropValueSchema<typeof pipedriveAuth>,

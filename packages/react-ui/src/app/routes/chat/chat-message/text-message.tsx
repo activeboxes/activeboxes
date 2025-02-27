@@ -13,7 +13,7 @@ import { useTheme } from '@/components/theme-provider';
 import { Button } from '@/components/ui/button';
 import { CopyButton } from '@/components/ui/copy-button';
 import { cn } from '@/lib/utils';
-import { FileResponseInterface } from '@activepieces/shared';
+import { FileResponseInterface } from '@activeboxes/shared';
 
 interface TextMessageProps {
   content: string;

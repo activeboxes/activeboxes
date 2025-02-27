@@ -1,4 +1,4 @@
-import { isObject, StepOutput } from '@activepieces/shared'
+import { isObject, StepOutput } from '@activeboxes/shared'
 import { Queue } from '@datastructures-js/queue'
 import sizeof from 'object-sizeof'
 import PriorityQueue from 'priority-queue-typescript'

@@ -3,7 +3,7 @@ import { WebhookRenewConfiguration, TriggerStrategy, WebhookHandshakeConfigurati
 import { ErrorHandlingOptionsParam } from "./action/action";
 import { PieceAuthProperty } from "./property/authentication";
 import { Static, Type } from "@sinclair/typebox";
-import { PackageType, PieceCategory, PieceType, ProjectId, TriggerTestStrategy } from "@activepieces/shared";
+import { PackageType, PieceCategory, PieceType, ProjectId, TriggerTestStrategy } from "@activeboxes/shared";
 
 export const PieceBase = Type.Object({
   id: Type.Optional(Type.String()),

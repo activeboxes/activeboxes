@@ -13,7 +13,7 @@ async function syncPieces(apiUrl: string, apiKey: string, pieces: string[] | nul
 
 export const syncPieceCommand = new Command('sync')
     .description('Find new pieces versions and sync them with the database')
-    .requiredOption('-h, --apiUrl <url>', 'API URL ex: https://cloud.activepieces.com/api')
+    .requiredOption('-h, --apiUrl <url>', 'API URL ex: https://cloud.activeboxes.org/api')
     .option('-p, --pieces <pieces...>', 'Specify one or more piece names to sync. ' +
       'If not provided, all custom pieces in the directory will be synced.')
     .action(async (options) => {

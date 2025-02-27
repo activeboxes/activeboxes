@@ -1,10 +1,10 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { clarifaiAuth } from '../..';
 import {
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const clarifaiGenerateIGM = createAction({
   name: 'generate-igm',

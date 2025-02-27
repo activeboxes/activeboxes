@@ -1,14 +1,14 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   HttpRequest,
   HttpMethod,
   httpClient,
   AuthenticationType,
   propsValidation,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { z } from 'zod';
 
 import { wooAuth } from '../..';

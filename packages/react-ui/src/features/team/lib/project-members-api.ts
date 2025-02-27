@@ -3,8 +3,8 @@ import {
   ListProjectMembersRequestQuery,
   ProjectMemberWithUser,
   UpdateProjectMemberRoleRequestBody,
-} from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const projectMembersApi = {
   list(request: ListProjectMembersRequestQuery) {

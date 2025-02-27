@@ -2,9 +2,9 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { BasicAuthConnectionValue } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { BasicAuthConnectionValue } from '@activeboxes/shared';
 
 export const scenarioAuth = PieceAuth.BasicAuth({
   description:
@@ -25,7 +25,7 @@ export const scenario = createPiece({
   displayName: 'Scenario',
   auth: scenarioAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/scenario.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/scenario.png',
   authors: ['AdamSelene'],
   actions: [
     createCustomApiCallAction({

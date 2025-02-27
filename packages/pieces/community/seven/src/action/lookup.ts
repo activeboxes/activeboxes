@@ -1,5 +1,5 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { sevenAuth } from '../index';
 import { callSevenApi } from '../common';
 

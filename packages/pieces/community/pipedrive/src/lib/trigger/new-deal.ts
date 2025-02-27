@@ -1,5 +1,5 @@
-import { createTrigger } from '@activepieces/pieces-framework';
-import { TriggerStrategy } from '@activepieces/pieces-framework';
+import { createTrigger } from '@activeboxes/pieces-framework';
+import { TriggerStrategy } from '@activeboxes/pieces-framework';
 import {
 	pipedriveApiCall,
 	pipedriveCommon,
@@ -7,9 +7,9 @@ import {
 	pipedriveTransformCustomFields,
 } from '../common';
 import { pipedriveAuth } from '../..';
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { GetDealResponse, GetField, ListDealsResponse } from '../common/types';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 export const newDeal = createTrigger({
 	auth: pipedriveAuth,

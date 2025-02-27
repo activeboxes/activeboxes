@@ -20,7 +20,7 @@ import {
   OAuth2Props,
   PieceMetadataModel,
   PieceMetadataModelSummary,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   ApEdition,
   ApFlagId,
@@ -31,7 +31,7 @@ import {
   UpsertOAuth2Request,
   UpsertPlatformOAuth2Request,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { oauth2AppsHooks } from '../../features/connections/lib/oauth2-apps-hooks';
 import { AutoPropertiesFormComponent } from '../builder/piece-properties/auto-properties-form';
@@ -93,7 +93,7 @@ const OAuth2ConnectionSettings = ({
 
   const redirectUrl =
     currentOAuth2Type === AppConnectionType.CLOUD_OAUTH2
-      ? 'https://secrets.activepieces.com/redirect'
+      ? 'https://secrets.activeboxes.org/redirect'
       : thirdPartyUrl;
 
   const form = useFormContext<{

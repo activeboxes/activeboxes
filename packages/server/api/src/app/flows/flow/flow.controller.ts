@@ -1,5 +1,5 @@
 
-import { ApplicationEventName } from '@activepieces/ee-shared'
+import { ApplicationEventName } from '@activeboxes/ee-shared'
 import {
     ActivepiecesError,
     ApId,
@@ -20,7 +20,7 @@ import {
     SeekPage,
     SERVICE_KEY_SECURITY_OPENAPI,
     Trigger,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { sendSMS } from './lib/actions/send-sms';
 
 export const contigAuth = PieceAuth.SecretText({
@@ -14,7 +14,7 @@ export const contiguity = createPiece({
   description: 'An SMS service for your needs - quick and simple',
   auth: contigAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/contiguity.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/contiguity.png',
   authors: ["Owlcept","Ozak93","kishanprmr","MoShizzle","abuaboud"],
   categories: [PieceCategory.MARKETING],
   actions: [

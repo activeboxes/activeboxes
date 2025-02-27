@@ -1,5 +1,5 @@
-import { AppSystemProp } from '@activepieces/server-shared'
-import { ActivepiecesError, AiProviderConfig, AiProviderWithoutSensitiveData, ApEdition, apId, ErrorCode, isNil, PlatformId, SeekPage } from '@activepieces/shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
+import { ActivepiecesError, AiProviderConfig, AiProviderWithoutSensitiveData, ApEdition, apId, ErrorCode, isNil, PlatformId, SeekPage } from '@activeboxes/shared'
 import { repoFactory } from '../core/db/repo-factory'
 import { encryptUtils } from '../helper/encryption'
 import { system } from '../helper/system/system'

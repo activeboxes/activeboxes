@@ -14,7 +14,7 @@ import {
   CodeAction,
   FlowOperationType,
   MarkdownVariant,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { useBuilderStateContext } from '../../builder-hooks';
 import { DictionaryProperty } from '../../piece-properties/dictionary-property';

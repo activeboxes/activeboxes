@@ -3,13 +3,13 @@ import {
   PieceAuth,
   PiecePropValueSchema,
   OAuth2PropertyValue,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createChannelAction } from './lib/actions/create-channel';
 import { sendChannelMessageAction } from './lib/actions/send-channel-message';
 import { Client } from '@microsoft/microsoft-graph-client';
 import { sendChatMessageAction } from './lib/actions/send-chat-message';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 
 export const microsoftTeamsAuth = PieceAuth.OAuth2({
   required: true,
@@ -46,7 +46,7 @@ export const microsoftTeams = createPiece({
   displayName: 'Microsoft Teams',
   auth: microsoftTeamsAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/microsoft-teams.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/microsoft-teams.png',
   categories: [
     PieceCategory.BUSINESS_INTELLIGENCE,
     PieceCategory.COMMUNICATION,

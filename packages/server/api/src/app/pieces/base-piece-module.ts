@@ -1,5 +1,5 @@
-import { PieceMetadata, PieceMetadataModel, PieceMetadataModelSummary } from '@activepieces/pieces-framework'
-import { apVersionUtil, UserInteractionJobType } from '@activepieces/server-shared'
+import { PieceMetadata, PieceMetadataModel, PieceMetadataModelSummary } from '@activeboxes/pieces-framework'
+import { apVersionUtil, UserInteractionJobType } from '@activeboxes/server-shared'
 import {
     ALL_PRINCIPAL_TYPES,
     ApEdition,
@@ -12,7 +12,7 @@ import {
     PieceCategory,
     PieceOptionRequest,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

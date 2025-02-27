@@ -1,6 +1,6 @@
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 import { googleDriveAuth } from '../../index';
-import { Property, createAction } from "@activepieces/pieces-framework";
+import { Property, createAction } from "@activeboxes/pieces-framework";
 import querystring from 'querystring';
 
 export const googleDriveListFiles = createAction({

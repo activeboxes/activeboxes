@@ -2,8 +2,8 @@ import {
   PieceAuth,
   Property,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { readFile } from './lib/actions/read-file';
 import { amazons3UploadFile } from './lib/actions/upload-file';
 import { createS3 } from './lib/common';
@@ -189,7 +189,7 @@ export const amazonS3 = createPiece({
   displayName: 'Amazon S3',
   description: 'Scalable storage in the cloud',
 
-  logoUrl: 'https://cdn.activepieces.com/pieces/amazon-s3.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/amazon-s3.png',
   minimumSupportedRelease: '0.30.0',
   authors: ["Willianwg","kishanprmr","MoShizzle","AbdulTheActivePiecer","khaledmashaly","abuaboud"],
   categories: [PieceCategory.DEVELOPER_TOOLS],

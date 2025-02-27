@@ -1,7 +1,7 @@
-import { createPiece } from '@activepieces/pieces-framework';
+import { createPiece } from '@activeboxes/pieces-framework';
 
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceCategory } from '@activeboxes/shared';
 import { JiraAuth, jiraCloudAuth } from './auth';
 import { createIssue } from './lib/actions/create-issue';
 import { searchIssues } from './lib/actions/search-issues';
@@ -21,7 +21,7 @@ export const jiraCloud = createPiece({
 
 	auth: jiraCloudAuth,
 	minimumSupportedRelease: '0.30.0',
-	logoUrl: 'https://cdn.activepieces.com/pieces/jira.png',
+	logoUrl: 'https://cdn.activeboxes.org/pieces/jira.png',
 	categories: [PieceCategory.PRODUCTIVITY],
 	authors: ['kishanprmr', 'MoShizzle', 'abuaboud'],
 	actions: [

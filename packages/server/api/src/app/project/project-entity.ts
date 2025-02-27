@@ -6,7 +6,7 @@ import {
     Project,
     TriggerEvent,
     User,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import { ApIdSchema, BaseColumnSchemaPart, TIMESTAMP_COLUMN_TYPE } from '../database/database-common'
 

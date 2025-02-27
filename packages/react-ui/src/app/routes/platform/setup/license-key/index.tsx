@@ -29,7 +29,7 @@ import { flagsHooks } from '@/hooks/flags-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { platformApi } from '@/lib/platforms-api';
 import { formatUtils } from '@/lib/utils';
-import { ApEdition, ApFlagId, isNil } from '@activepieces/shared';
+import { ApEdition, ApFlagId, isNil } from '@activeboxes/shared';
 
 import { ActivateLicenseDialog } from './activate-license-dialog';
 
@@ -99,7 +99,7 @@ const LicenseKeyPage = () => {
         <p className="text-md text-gray-500 w-full">
           {showPlatformDemo &&
             t(
-              'This feature is not self serve in the cloud yet, please contact sales@activepieces.com. ',
+              'This feature is not self serve in the cloud yet, please contact sales@activeboxes.org. ',
             )}
           {edition === ApEdition.COMMUNITY && (
             <>
@@ -108,7 +108,7 @@ const LicenseKeyPage = () => {
                 <Link
                   className="text-primary"
                   target="_blank"
-                  to="https://www.activepieces.com/docs/install/configuration/overview"
+                  to="https://www.activeboxes.org/docs/install/configuration/overview"
                 >
                   {t('Learn how to upgrade')}
                 </Link>

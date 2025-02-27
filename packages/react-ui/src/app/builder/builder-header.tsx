@@ -35,7 +35,7 @@ import {
   FlowVersionState,
   Permission,
   supportUrl,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import FlowActionMenu from '../components/flow-actions-menu';
 

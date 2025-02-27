@@ -1,5 +1,5 @@
-import { ApplicationEventName } from '@activepieces/ee-shared'
-import { AppSystemProp, networkUtils } from '@activepieces/server-shared'
+import { ApplicationEventName } from '@activeboxes/ee-shared'
+import { AppSystemProp, networkUtils } from '@activeboxes/server-shared'
 import {
     ALL_PRINCIPAL_TYPES,
     assertNotNullOrUndefined,
@@ -8,7 +8,7 @@ import {
     SwitchPlatformRequest,
     SwitchProjectRequest,
     UserIdentityProvider,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { RateLimitOptions } from '@fastify/rate-limit'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
 import { eventsHooks } from '../helper/application-events'

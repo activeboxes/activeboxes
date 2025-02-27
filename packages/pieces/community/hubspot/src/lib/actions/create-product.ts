@@ -1,12 +1,12 @@
 import { hubspotAuth } from '../../';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
     getDefaultPropertiesForObject,
     standardObjectDynamicProperties,
     standardObjectPropertiesDropdown,
 } from '../common/props';
 import { OBJECT_TYPE } from '../common/constants';
-import { MarkdownVariant } from '@activepieces/shared';
+import { MarkdownVariant } from '@activeboxes/shared';
 import { Client } from '@hubspot/api-client';
 
 export const createProductAction = createAction({

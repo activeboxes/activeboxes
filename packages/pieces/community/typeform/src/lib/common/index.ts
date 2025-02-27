@@ -2,13 +2,13 @@ import {
   Property,
   OAuth2PropertyValue,
   DropdownOption,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   HttpRequest,
   HttpMethod,
   AuthenticationType,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 type FormListResponse = {
   page_count: number;

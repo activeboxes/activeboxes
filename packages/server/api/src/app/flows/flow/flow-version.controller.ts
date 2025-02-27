@@ -1,4 +1,4 @@
-import { FlowVersionMetadata, ListFlowVersionRequest, SeekPage } from '@activepieces/shared'
+import { FlowVersionMetadata, ListFlowVersionRequest, SeekPage } from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

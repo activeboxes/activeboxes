@@ -1,10 +1,10 @@
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 import { getFields } from './helper';
 import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const mauticCommon = {
   contactFields: { ...getFields('contact'), ...getFields('lead') },

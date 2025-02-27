@@ -7,7 +7,7 @@ import {
     PiecePropertyMap,
     PropertyType,
     StaticPropsValue,
-} from '@activepieces/pieces-framework'
+} from '@activeboxes/pieces-framework'
 import {
     BasicAuthConnectionValue,
     CustomAuthConnectionValue,
@@ -17,7 +17,7 @@ import {
     ExecuteValidateAuthResponse,
     OAuth2ConnectionValueWithApp,
     SecretTextConnectionValue,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { EngineConstants } from '../handler/context/engine-constants'
 import { FlowExecutorContext } from '../handler/context/flow-execution-context'
 import { createFlowsContext } from '../services/flows.service'

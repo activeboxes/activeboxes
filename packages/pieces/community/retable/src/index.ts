@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { retableCreateProjectAction } from './lib/actions/create-project';
 import { retableCreateWorkspaceAction } from './lib/actions/create-workspace';
 import { retableGetAllProjectsAction } from './lib/actions/get-all-projects';
@@ -37,7 +37,7 @@ export const retable = createPiece({
 
   auth: retableAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/retable.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/retable.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: ["kishanprmr","MoShizzle","abuaboud"],
   actions: [

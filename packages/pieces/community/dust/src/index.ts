@@ -2,7 +2,7 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { createConversation } from './lib/actions/create-conversation';
 import { replyToConversation } from './lib/actions/reply-to-conversation';
 import { upsertDocument } from './lib/actions/upsert-document';
@@ -35,7 +35,7 @@ export const dust = createPiece({
   description: 'Secure messaging and collaboration',
   auth: dustAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/dust.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/dust.png',
   authors: ['AdamSelene', 'abuaboud'],
   actions: [
     createConversation,

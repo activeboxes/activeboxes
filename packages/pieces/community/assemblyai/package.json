@@ -1,5 +1,5 @@
 {
-  "name": "@activepieces/piece-assemblyai",
+  "name": "@activeboxes/piece-assemblyai",
   "version": "1.0.0",
   "scripts": {
     "generate": "tsx ./scripts/generateFromSpec.ts"

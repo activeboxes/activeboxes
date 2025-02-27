@@ -3,12 +3,12 @@ import {
   createTrigger,
   Property,
   PiecePropValueSchema,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   DedupeStrategy,
   Polling,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { TotalCMSAuthType, cmsAuth } from '../auth';
 import { getContent } from '../api';
 

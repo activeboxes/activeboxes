@@ -1,4 +1,4 @@
-import { PieceAuth, Property } from '@activepieces/pieces-framework';
+import { PieceAuth, Property } from '@activeboxes/pieces-framework';
 
 export interface ContentfulAuth {
   apiKey: string;

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { discourseAuth } from '../../index';
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 
 export const addUsersToGroup = createAction({
   auth: discourseAuth,

@@ -1,5 +1,5 @@
-import { createAction } from "@activepieces/pieces-framework";
-import { getAccessTokenOrThrow } from "@activepieces/pieces-common";
+import { createAction } from "@activeboxes/pieces-framework";
+import { getAccessTokenOrThrow } from "@activeboxes/pieces-common";
 import { clickupCommon, listAccessibleCustomFields } from "../../common"
 import { clickupAuth } from "../../../";
 

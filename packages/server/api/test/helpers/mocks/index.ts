@@ -13,7 +13,7 @@ import {
     OtpType,
     ProjectMember,
     SigningKey,
-} from '@activepieces/ee-shared'
+} from '@activeboxes/ee-shared'
 import {
     apId,
     assertNotNullOrUndefined,
@@ -51,7 +51,7 @@ import {
     UserIdentityProvider,
     UserInvitation,
     UserStatus,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import bcrypt from 'bcrypt'
 import dayjs from 'dayjs'

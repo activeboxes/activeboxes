@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { endClient, getClient, getProtocolBackwardCompatibility, sftpAuth } from '../..';
 import { Client as FTPClient } from 'basic-ftp';
 import Client from 'ssh2-sftp-client';

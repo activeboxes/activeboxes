@@ -1,4 +1,4 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { quickzuAuth } from '../../..';
 import { makeClient } from '../../common';
 import { BusinessTimingInput } from '../../common/types';

@@ -14,7 +14,7 @@ Now, let's establish authentication for this piece, which necessitates the inclu
 Modify `src/index.ts` file to add authentication,
 
 ```ts
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
 
 export const gelatoAuth = PieceAuth.SecretText({
   displayName: 'API Key',
@@ -24,7 +24,7 @@ export const gelatoAuth = PieceAuth.SecretText({
 
 export const gelato = createPiece({
   displayName: 'Gelato',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gelato.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/gelato.png',
   auth: gelatoAuth,
   authors: [],
   actions: [],

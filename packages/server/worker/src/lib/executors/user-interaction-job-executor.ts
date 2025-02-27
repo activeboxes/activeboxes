@@ -1,5 +1,5 @@
-import { UserInteractionJobData, UserInteractionJobType } from '@activepieces/server-shared'
-import { AppConnectionValue } from '@activepieces/shared'
+import { UserInteractionJobData, UserInteractionJobType } from '@activeboxes/server-shared'
+import { AppConnectionValue } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { workerApiService } from '../api/server-api.service'
 import { engineRunner } from '../engine'

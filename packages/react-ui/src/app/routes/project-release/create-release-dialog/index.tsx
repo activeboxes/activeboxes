@@ -30,7 +30,7 @@ import {
   DiffReleaseRequest,
   ProjectReleaseType,
   ProjectSyncPlan,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { OperationChange } from './operation-change';
 

@@ -1,4 +1,4 @@
-import { PiecePropValueSchema, Property } from '@activepieces/pieces-framework';
+import { PiecePropValueSchema, Property } from '@activeboxes/pieces-framework';
 import { PastebinClient } from './client';
 import { pastebinAuth } from '../..';
 

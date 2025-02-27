@@ -2,8 +2,8 @@ import {
   HttpRequest,
   HttpMethod,
   httpClient,
-} from '@activepieces/pieces-common';
-import { TriggerStrategy, createTrigger } from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-common';
+import { TriggerStrategy, createTrigger } from '@activeboxes/pieces-framework';
 import { dripCommon } from '../common';
 import { dripAuth } from '../../';
 

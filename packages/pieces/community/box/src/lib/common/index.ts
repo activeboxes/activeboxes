@@ -3,8 +3,8 @@ import {
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
-import { OAuth2PropertyValue } from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-common';
+import { OAuth2PropertyValue } from '@activeboxes/pieces-framework';
 
 export interface WebhookInformation {
   id: string;

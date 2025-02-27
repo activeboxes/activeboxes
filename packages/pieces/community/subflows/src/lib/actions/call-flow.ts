@@ -2,9 +2,9 @@ import {
   createAction,
   DynamicPropsValue,
   Property,
-} from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
-import { ExecutionType, FlowStatus, isNil, PauseType, TriggerType } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
+import { ExecutionType, FlowStatus, isNil, PauseType, TriggerType } from '@activeboxes/shared';
 import { CallableFlowRequest, CallableFlowResponse } from '../common';
 
 type FlowValue = {
@@ -28,7 +28,7 @@ export const callFlow = createAction({
             flow.status === FlowStatus.ENABLED &&
             flow.version.trigger.type === TriggerType.PIECE &&
             flow.version.trigger.settings.pieceName ==
-            '@activepieces/piece-subflows'
+            '@activeboxes/piece-subflows'
         );
         return {
           options: flows.map((flow) => ({

@@ -3,7 +3,7 @@ import {
   PieceAuth,
   Property,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 const markdown = `
 To set up the trigger for new form submissions, follow these steps:

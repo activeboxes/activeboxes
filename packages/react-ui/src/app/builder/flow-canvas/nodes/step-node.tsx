@@ -29,7 +29,7 @@ import {
   TriggerType,
   flowStructureUtil,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { StepStatusIcon } from '../../../../features/flow-runs/components/step-status-icon';
 import { flowUtilConsts, STEP_CONTEXT_MENU_ATTRIBUTE } from '../utils/consts';

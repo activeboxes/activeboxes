@@ -49,7 +49,7 @@ import {
   Permission,
   PlatformRole,
   UserInvitationWithLink,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { userInvitationsHooks } from '../lib/user-invitations-hooks';
 

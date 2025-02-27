@@ -1,4 +1,4 @@
-import { ActivepiecesError, ErrorCode, PrincipalType } from '@activepieces/shared'
+import { ActivepiecesError, ErrorCode, PrincipalType } from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 import { requestUtils } from '../../request/request-utils'
 import { BaseSecurityHandler } from '../security-handler'

@@ -3,8 +3,8 @@ import {
   Property,
   createPiece,
   OAuth2PropertyValue,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createNewObject } from './lib/action/create-new-object';
 import { runQuery } from './lib/action/run-sf-query';
 import { UpdateObjectById } from './lib/action/update-object-by-id';
@@ -12,8 +12,8 @@ import { upsertByExternalId } from './lib/action/upsert-by-external-id';
 import { upsertByExternalIdBulk } from './lib/action/upsert-by-external-id-bulk';
 import { newRecord } from './lib/trigger/new-record';
 import { newOrUpdatedRecord } from './lib/trigger/new-updated-record';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { ntfyAuth } from '@activepieces/piece-ntfy';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { ntfyAuth } from '@activeboxes/piece-ntfy';
 
 export const salesforceAuth = PieceAuth.OAuth2({
   props: {
@@ -49,7 +49,7 @@ export const salesforce = createPiece({
   description: 'CRM software solutions and enterprise cloud computing',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/salesforce.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/salesforce.png',
   authors: [
     'HKudria',
     'tanoggy',

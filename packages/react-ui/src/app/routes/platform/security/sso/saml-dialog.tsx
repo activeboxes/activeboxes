@@ -26,7 +26,7 @@ import {
   ApFlagId,
   Platform,
   UpdatePlatformRequestBody,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 type ConfigureSamlDialogProps = {
   platform: Platform;
@@ -126,7 +126,7 @@ export const ConfigureSamlDialog = ({
               markdown={t(
                 `
 **Setup Instructions**:
-Please check the following documentation: [SAML SSO](https://activepieces.com/docs/security/sso)
+Please check the following documentation: [SAML SSO](https://activeboxes.org/docs/security/sso)
 
 **Single sign-on URL**:
 \`\`\`text

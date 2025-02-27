@@ -1,11 +1,11 @@
-import { AppSystemProp } from '@activepieces/server-shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     apId,
     ErrorCode,
     isNil,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyRequest } from 'fastify'
 import { system } from '../../../helper/system/system'
 import { BaseSecurityHandler } from '../security-handler'

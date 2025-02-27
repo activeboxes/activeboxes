@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { authenticationSession } from '@/lib/authentication-session';
-import { ListFlowsRequest } from '@activepieces/shared';
+import { ListFlowsRequest } from '@activeboxes/shared';
 
 import { flowsApi } from './flows-api';
 

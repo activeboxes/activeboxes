@@ -1,7 +1,7 @@
 import { t } from 'i18next';
 
 import { piecesHooks } from '@/features/pieces/lib/pieces-hook';
-import { Action, Trigger } from '@activepieces/shared';
+import { Action, Trigger } from '@activeboxes/shared';
 
 import { flowUtilConsts } from './utils/consts';
 

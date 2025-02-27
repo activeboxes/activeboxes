@@ -30,7 +30,7 @@ You will be asked three questions to define your new piece:
 npm run cli pieces create
 
 ? Enter the piece name: gelato
-? Enter the package name: @activepieces/piece-gelato
+? Enter the package name: @activeboxes/piece-gelato
 ? Select the piece type: community
 ```
 
@@ -38,11 +38,11 @@ The piece will be generated at `packages/pieces/community/gelato/`,
 the `src/index.ts` file should contain the following code
 
 ```ts
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
 
 export const gelato = createPiece({
   displayName: 'Gelato',
-  logoUrl: 'https://cdn.activepieces.com/pieces/gelato.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/gelato.png',
   auth: PieceAuth.None(),
   authors: [],
   actions: [],

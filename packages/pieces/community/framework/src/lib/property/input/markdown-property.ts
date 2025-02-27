@@ -1,7 +1,7 @@
 import { Type } from '@sinclair/typebox';
 import { BasePropertySchema, TPropertyValue } from './common';
 import { PropertyType } from './property-type';
-import { MarkdownVariant } from '@activepieces/shared';
+import { MarkdownVariant } from '@activeboxes/shared';
 
 export const MarkDownProperty = Type.Composite([
   BasePropertySchema,

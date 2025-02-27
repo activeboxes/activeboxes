@@ -1,15 +1,15 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { dustAuth } from '../..';
 import { DUST_BASE_URL } from '../common';
 import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import mime from 'mime-types';
 
 export const addFragmentToConversation = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'addFragmentToConversation',
   displayName: 'Add fragment to conversation',
   description:

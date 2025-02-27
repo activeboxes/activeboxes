@@ -1,11 +1,11 @@
-import { HttpMethod, httpClient } from '@activepieces/pieces-common';
+import { HttpMethod, httpClient } from '@activeboxes/pieces-common';
 import {
   DropdownState,
   DynamicPropsValue,
   PiecePropValueSchema,
   Property,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { vtigerAuth } from '../..';
 import {
   instanceLogin,

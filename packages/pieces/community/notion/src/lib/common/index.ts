@@ -2,7 +2,7 @@ import {
   OAuth2PropertyValue,
   Property,
   DynamicPropsValue,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { Client } from '@notionhq/client';
 import { NotionFieldMapping } from './models';
 

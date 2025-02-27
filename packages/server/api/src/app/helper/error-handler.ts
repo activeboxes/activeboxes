@@ -1,5 +1,5 @@
-import { exceptionHandler } from '@activepieces/server-shared'
-import { ActivepiecesError, ErrorCode } from '@activepieces/shared'
+import { exceptionHandler } from '@activeboxes/server-shared'
+import { ActivepiecesError, ErrorCode } from '@activeboxes/shared'
 import { FastifyError, FastifyReply, FastifyRequest } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
 

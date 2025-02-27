@@ -14,13 +14,13 @@
       "@/*": [
         "./src/*"
       ],
-      "@activepieces/shared": [
+      "@activeboxes/shared": [
         "../../packages/shared/src"
       ],
-      "@activepieces/pieces-framework": [
+      "@activeboxes/pieces-framework": [
         "../../packages/pieces/community/framework/src" 
       ],
-      "@activepieces/pieces-common": [
+      "@activeboxes/pieces-common": [
         "../../packages/pieces/community/common/src" 
       ]
     }

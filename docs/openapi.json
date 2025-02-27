@@ -14367,12 +14367,12 @@
   },
   "servers": [
     {
-      "url": "https://cloud.activepieces.com/api",
+      "url": "https://cloud.activeboxes.org/api",
       "description": "Production Server"
     }
   ],
   "externalDocs": {
-    "url": "https://www.activepieces.com/docs",
+    "url": "https://www.activeboxes.org/docs",
     "description": "Find more info here"
   }
 }

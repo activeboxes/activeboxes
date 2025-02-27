@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import {
   Dimension,
   googleSheetsCommon,
@@ -7,8 +7,8 @@ import {
   ValueInputOption,
 } from '../common/common';
 import { googleSheetsAuth } from '../..';
-import { isNil } from '@activepieces/shared';
-import { AuthenticationType, httpClient, HttpMethod, HttpRequest } from '@activepieces/pieces-common';
+import { isNil } from '@activeboxes/shared';
+import { AuthenticationType, httpClient, HttpMethod, HttpRequest } from '@activeboxes/pieces-common';
 
 export const insertRowAction = createAction({
   auth: googleSheetsAuth,

@@ -1,5 +1,5 @@
 import { api } from '@/lib/api';
-import { WorkerMachineWithStatus } from '@activepieces/shared';
+import { WorkerMachineWithStatus } from '@activeboxes/shared';
 
 export const workersApi = {
   list() {

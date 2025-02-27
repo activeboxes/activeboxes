@@ -7,8 +7,8 @@ import {
   HttpRequest,
   AuthenticationType,
   HttpHeaders,
-} from '@activepieces/pieces-common';
-import { PiecePropValueSchema } from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-common';
+import { PiecePropValueSchema } from '@activeboxes/pieces-framework';
 
 interface ListAPIResponse<T> {
   '@odata.context': string;

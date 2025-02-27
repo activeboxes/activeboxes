@@ -1,11 +1,11 @@
-import { ActionBase, TriggerBase } from '@activepieces/pieces-framework'
+import { ActionBase, TriggerBase } from '@activeboxes/pieces-framework'
 
 import {
     isNil,
     PieceCategory,
     PlatformId,
     SuggestionType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import Fuse from 'fuse.js'
 import { platformService } from '../../../platform/platform.service'
 import { PieceMetadataSchema } from '../../piece-metadata-entity'

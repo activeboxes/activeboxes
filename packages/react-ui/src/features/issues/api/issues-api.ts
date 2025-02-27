@@ -4,8 +4,8 @@ import {
   ListIssuesParams,
   PopulatedIssue,
   UpdateIssueRequestBody,
-} from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const issuesApi = {
   list(request: ListIssuesParams): Promise<SeekPage<PopulatedIssue>> {

@@ -6,7 +6,7 @@ import {
     ErrorCode,
     Principal,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyInstance, FastifyRequest } from 'fastify'
 import { nanoid } from 'nanoid'
 import { securityHandlerChain } from '../../../../src/app/core/security/security-handler-chain'

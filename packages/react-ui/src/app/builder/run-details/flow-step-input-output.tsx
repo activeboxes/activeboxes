@@ -7,7 +7,7 @@ import { JsonViewer } from '@/components/json-viewer';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { StepStatusIcon } from '@/features/flow-runs/components/step-status-icon';
 import { formatUtils } from '@/lib/utils';
-import { flowStructureUtil, StepOutput } from '@activepieces/shared';
+import { flowStructureUtil, StepOutput } from '@activeboxes/shared';
 
 const FlowStepInputOutput = React.memo(
   ({ stepDetails }: { stepDetails: StepOutput }) => {

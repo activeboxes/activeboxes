@@ -1,8 +1,8 @@
 import { AI, AIChatRole, AIFactory } from '../..';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 import OpenAI from 'openai';
 import { imageMapper, model, ModelType } from '../utils';
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 import {
 	ChatCompletionMessageParam,
 	FunctionParameters,

@@ -1,6 +1,6 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { discordAddRoleToMember } from './lib/actions/add-role-to-member';
 import { discordFindChannel } from './lib/actions/find-channel';
 import { discordFindGuildMemberByUsername } from './lib/actions/find-guild-member';
@@ -36,7 +36,7 @@ export const discord = createPiece({
   displayName: 'Discord',
   description: 'Instant messaging and VoIP social platform',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/discord.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/discord.png',
   categories: [PieceCategory.COMMUNICATION],
   auth: discordAuth,
   actions: [

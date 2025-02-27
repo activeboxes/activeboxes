@@ -1,4 +1,4 @@
-import { Flow, FlowVersion, User } from '@activepieces/shared'
+import { Flow, FlowVersion, User } from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import {
     ApIdSchema,

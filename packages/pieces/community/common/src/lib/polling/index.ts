@@ -1,5 +1,5 @@
-import { FilesService, Store } from '@activepieces/pieces-framework';
-import { isNil } from '@activepieces/shared';
+import { FilesService, Store } from '@activeboxes/pieces-framework';
+import { isNil } from '@activeboxes/shared';
 
 
 interface TimebasedPolling<AuthValue, PropsValue> {

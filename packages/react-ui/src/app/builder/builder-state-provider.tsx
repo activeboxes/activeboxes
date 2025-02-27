@@ -10,7 +10,7 @@ import {
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { projectHooks } from '@/hooks/project-hooks';
 import { NEW_FLOW_QUERY_PARAM } from '@/lib/utils';
-import { Permission } from '@activepieces/shared';
+import { Permission } from '@activeboxes/shared';
 
 type BuilderStateProviderProps = React.PropsWithChildren<BuilderInitialState>;
 

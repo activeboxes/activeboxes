@@ -1,13 +1,13 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import OpenAI from 'openai';
 import {
   AuthenticationType,
   httpClient,
   HttpMethod,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { localaiAuth } from '../..';
 import { json } from 'stream/consumers';
 

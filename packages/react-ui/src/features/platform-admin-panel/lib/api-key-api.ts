@@ -3,8 +3,8 @@ import {
   ApiKeyResponseWithoutValue,
   ApiKeyResponseWithValue,
   CreateApiKeyRequest,
-} from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const apiKeyApi = {
   list() {

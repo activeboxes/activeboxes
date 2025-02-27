@@ -1,6 +1,6 @@
 import { api } from '@/lib/api';
-import { AddDomainRequest, CustomDomain } from '@activepieces/ee-shared';
-import { SeekPage } from '@activepieces/shared';
+import { AddDomainRequest, CustomDomain } from '@activeboxes/ee-shared';
+import { SeekPage } from '@activeboxes/shared';
 
 export const customDomainApi = {
   list() {

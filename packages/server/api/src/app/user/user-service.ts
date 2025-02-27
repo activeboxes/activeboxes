@@ -10,7 +10,7 @@ import {
     UserId,
     UserStatus,
     UserWithMetaInformation,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import dayjs from 'dayjs'
 import { userIdentityService } from '../authentication/user-identity/user-identity-service'
 import { repoFactory } from '../core/db/repo-factory'

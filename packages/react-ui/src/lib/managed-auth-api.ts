@@ -1,6 +1,6 @@
 import { api } from '@/lib/api';
-import { ManagedAuthnRequestBody } from '@activepieces/ee-shared';
-import { AuthenticationResponse } from '@activepieces/shared';
+import { ManagedAuthnRequestBody } from '@activeboxes/ee-shared';
+import { AuthenticationResponse } from '@activeboxes/shared';
 
 export const managedAuthApi = {
   generateApToken: async (request: ManagedAuthnRequestBody) => {

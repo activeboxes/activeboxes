@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { typeformNewSubmission } from './lib/trigger/new-submission';
 
 export const typeformAuth = PieceAuth.OAuth2({
@@ -19,7 +19,7 @@ export const typeform = createPiece({
   description: 'Create beautiful online forms and surveys',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/typeform.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/typeform.png',
   categories: [PieceCategory.FORMS_AND_SURVEYS],
   actions: [
     createCustomApiCallAction({

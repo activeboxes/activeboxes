@@ -3,8 +3,8 @@ import {
   DynamicPropsValue,
   Property,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
-import { assertNotNullOrUndefined, MarkdownVariant } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { assertNotNullOrUndefined, MarkdownVariant } from '@activeboxes/shared';
 
 const liveMarkdown = `**Live URL:**
 \`\`\`text

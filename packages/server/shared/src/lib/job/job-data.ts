@@ -7,7 +7,7 @@ import {
     RunEnvironment,
     TriggerHookType,
     TriggerType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { Static, Type } from '@sinclair/typebox'
 
 export const LATEST_JOB_DATA_SCHEMA_VERSION = 4

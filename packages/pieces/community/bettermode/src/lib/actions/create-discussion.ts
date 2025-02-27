@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { createDiscussion } from '../api';
 import { buildMemberSpacesDropdown } from '../props';
 import { bettermodeAuth, BettermodeAuthType } from '../auth';

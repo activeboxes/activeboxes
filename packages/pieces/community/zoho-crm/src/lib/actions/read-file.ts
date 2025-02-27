@@ -1,5 +1,5 @@
 import { zohoCrmAuth } from '../../index';
-import { Property, createAction } from "@activepieces/pieces-framework";
+import { Property, createAction } from "@activeboxes/pieces-framework";
 
 
 export const readFile = createAction({

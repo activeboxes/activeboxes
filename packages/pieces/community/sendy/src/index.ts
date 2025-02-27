@@ -1,5 +1,5 @@
-import { createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { countAction } from './lib/actions/count-subscriber';
 import { createCampaignAction } from './lib/actions/create-campaign';
 import { deleteAction } from './lib/actions/delete-subscriber';
@@ -17,7 +17,7 @@ export const sendy = createPiece({
   description: 'Self-hosted email marketing software',
   auth: sendyAuth,
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/sendy.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/sendy.png',
   categories: [PieceCategory.MARKETING],
   authors: ["joeworkman","kishanprmr","abuaboud"],
   actions: [

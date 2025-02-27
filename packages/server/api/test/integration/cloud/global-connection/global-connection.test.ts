@@ -3,7 +3,7 @@ import {
     PackageType,
     PlatformRole,
     PrincipalType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger, FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
 import { databaseConnection } from '../../../../src/app/database/database-connection'

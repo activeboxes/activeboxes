@@ -1,4 +1,4 @@
-import { OAuth2AuthorizationMethod } from '@activepieces/pieces-framework'
+import { OAuth2AuthorizationMethod } from '@activeboxes/pieces-framework'
 import {
     ActivepiecesError,
     AppConnectionType,
@@ -7,7 +7,7 @@ import {
     isNil,
     OAuth2ConnectionValueWithApp,
     OAuth2GrantType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import axios from 'axios'
 import { FastifyBaseLogger } from 'fastify'
 import {

@@ -2,7 +2,7 @@ import {
   DynamicPropsValue,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { baserowAuth } from '../../';
 import { BaserowClient } from './client';
 import { BaserowFieldType } from './constants';

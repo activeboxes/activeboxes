@@ -3,12 +3,12 @@ import { authenticationSession } from '@/lib/authentication-session';
 import {
   CreatePlatformProjectRequest,
   UpdateProjectPlatformRequest,
-} from '@activepieces/ee-shared';
+} from '@activeboxes/ee-shared';
 import {
   ListProjectRequestForUserQueryParams,
   ProjectWithLimits,
   SeekPage,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const projectApi = {
   current: async () => {

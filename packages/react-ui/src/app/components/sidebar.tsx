@@ -14,7 +14,7 @@ import {
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { flagsHooks } from '@/hooks/flags-hooks';
 import { cn, determineDefaultRoute } from '@/lib/utils';
-import { ApFlagId, supportUrl } from '@activepieces/shared';
+import { ApFlagId, supportUrl } from '@activeboxes/shared';
 
 import { ShowPoweredBy } from '../../components/show-powered-by';
 import { platformHooks } from '../../hooks/platform-hooks';
@@ -157,7 +157,7 @@ export function Sidebar({
                       newWindow={true}
                     />
                     <CustomTooltipLink
-                      to="https://activepieces.com/docs"
+                      to="https://activeboxes.org/docs"
                       label={t('Docs')}
                       Icon={FileTextIcon}
                       newWindow={true}

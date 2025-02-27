@@ -3,7 +3,7 @@ import {
 	DynamicPropsValue,
 	PiecePropValueSchema,
 	Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 import { WebflowApiClient } from './client';
 import { webflowAuth } from '../..';

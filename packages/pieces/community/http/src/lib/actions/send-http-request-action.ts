@@ -4,13 +4,13 @@ import {
   HttpHeaders,
   HttpRequest,
   QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   createAction,
   DynamicPropsValue,
   Property,
-} from '@activepieces/pieces-framework';
-import { assertNotNullOrUndefined } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { assertNotNullOrUndefined } from '@activeboxes/shared';
 import FormData from 'form-data';
 import { httpMethodDropdown } from '../common/props';
 import { HttpsProxyAgent } from 'https-proxy-agent';

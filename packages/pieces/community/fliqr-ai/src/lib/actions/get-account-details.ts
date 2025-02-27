@@ -1,11 +1,11 @@
-import { createAction } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createAction } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { fliqrAuth } from '../../index';
 import { fliqrConfig } from '../common/models';
 
 
 export const getFliqrAccountDetails = createAction({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'get_fliqr_account_details',
   auth: fliqrAuth,
   displayName: 'Get Business Account details',

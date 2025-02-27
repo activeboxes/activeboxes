@@ -3,7 +3,7 @@ import {
   AiProviderConfig,
   AiProviderWithoutSensitiveData,
   SeekPage,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const aiProviderApi = {
   list() {

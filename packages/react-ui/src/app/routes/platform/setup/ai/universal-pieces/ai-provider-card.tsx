@@ -4,8 +4,8 @@ import { Pencil, Trash } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { platformHooks } from '@/hooks/platform-hooks';
-import type { AiProviderMetadata } from '@activepieces/pieces-common';
-import { AiProviderConfig } from '@activepieces/shared';
+import type { AiProviderMetadata } from '@activeboxes/pieces-common';
+import { AiProviderConfig } from '@activeboxes/shared';
 
 import { UpsertAIProviderDialog } from './upsert-provider-dialog';
 

@@ -1,11 +1,11 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   OAuth2PropertyValue,
   PieceAuth,
   createPiece,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createContact } from './lib/actions/create-contact.action';
 import { getOrCreateContact } from './lib/actions/create-or-get-contact.action';
 import { sendMessage } from './lib/actions/send-message.action';
@@ -48,7 +48,7 @@ export const intercom = createPiece({
   displayName: 'Intercom',
   description: 'Customer messaging platform for sales, marketing, and support',
   minimumSupportedRelease: '0.29.0', // introduction of new intercom APP_WEBHOOK
-  logoUrl: 'https://cdn.activepieces.com/pieces/intercom.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/intercom.png',
   categories: [PieceCategory.CUSTOMER_SUPPORT],
   auth: intercomAuth,
   triggers: [

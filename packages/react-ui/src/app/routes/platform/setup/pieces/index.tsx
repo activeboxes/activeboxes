@@ -22,8 +22,8 @@ import { platformHooks } from '@/hooks/platform-hooks';
 import {
   PieceMetadataModelSummary,
   PropertyType,
-} from '@activepieces/pieces-framework';
-import { ApEdition, ApFlagId, PieceScope } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { ApEdition, ApFlagId, PieceScope } from '@activeboxes/shared';
 
 import { TableTitle } from '../../../../../components/ui/table-title';
 
@@ -169,7 +169,7 @@ const PlatformPiecesPage = () => {
       lockDescription={t(
         "Show the pieces that matter most to your users and hide the ones that you don't like",
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/pieces.mp4"
+      lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/pieces.mp4"
     >
       <div className="flex w-full flex-col items-center justify-center gap-4">
         <div className="mx-auto w-full flex-col">

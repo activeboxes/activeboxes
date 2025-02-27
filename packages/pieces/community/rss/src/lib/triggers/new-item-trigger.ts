@@ -2,7 +2,7 @@ import {
   DedupeStrategy,
   Polling,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   PieceAuthProperty,
   PiecePropValueSchema,
@@ -10,11 +10,11 @@ import {
   StoreScope,
   TriggerStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { rssFeedUrl } from '../common/props';
 import FeedParser from 'feedparser';
 import axios from 'axios';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 import dayjs from 'dayjs';
 
 export const rssNewItemTrigger = createTrigger({

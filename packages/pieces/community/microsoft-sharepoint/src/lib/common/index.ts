@@ -4,7 +4,7 @@ import {
   DynamicPropsValue,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { Client, PageCollection } from '@microsoft/microsoft-graph-client';
 import {
   Site,

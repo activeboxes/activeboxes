@@ -1,5 +1,5 @@
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { newLead } from './lib/triggers/new-lead';
 
 export const facebookLeadsAuth = PieceAuth.OAuth2({
@@ -19,7 +19,7 @@ export const facebookLeads = createPiece({
   displayName: 'Facebook Leads',
   description: 'Capture leads from Facebook',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/facebook.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/facebook.png',
   authors: ["kishanprmr","MoShizzle","khaledmashaly","abuaboud","AbdulTheActivePiecer"],
   categories: [PieceCategory.MARKETING],
   auth: facebookLeadsAuth,

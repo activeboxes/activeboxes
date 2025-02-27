@@ -1,6 +1,6 @@
 import { webflowCommon } from '../common/common';
-import { createTrigger, TriggerStrategy, Property } from '@activepieces/pieces-framework';
-import { getAccessTokenOrThrow } from '@activepieces/pieces-common';
+import { createTrigger, TriggerStrategy, Property } from '@activeboxes/pieces-framework';
+import { getAccessTokenOrThrow } from '@activeboxes/pieces-common';
 import { webflowAuth } from '../..';
 import { webflowProps } from '../common/props';
 

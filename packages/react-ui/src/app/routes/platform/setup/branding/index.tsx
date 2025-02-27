@@ -16,7 +16,7 @@ export const BrandingPage = () => {
       lockDescription={t(
         'Give your users an experience that looks like you by customizing the color, logo and more',
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/appearance.mp4"
+      lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/appearance.mp4"
     >
       <div className="flex flex-col gap-4">
         <div className="flex flex-col gap-2">

@@ -1,4 +1,4 @@
-import { DynamicPropsValue, Property } from '@activepieces/pieces-framework';
+import { DynamicPropsValue, Property } from '@activeboxes/pieces-framework';
 
 export type LeverFieldType = {
   id: string;

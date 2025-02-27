@@ -5,12 +5,12 @@ import {
   HttpMethod,
   Polling,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   createTrigger,
   OAuth2PropertyValue,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import dayjs from 'dayjs';
 import { zohoCrmAuth } from '../..';
 
@@ -24,7 +24,7 @@ export const newContact = createTrigger({
     Owner: {
       name: 'Activepieces Apps',
       id: '560094000000343001',
-      email: 'apps@activepieces.com',
+      email: 'apps@activeboxes.org',
     },
     Email: 'capla-paprocki@yahoo.com',
     Description: null,
@@ -56,7 +56,7 @@ export const newContact = createTrigger({
     Modified_By: {
       name: 'Activepieces Apps',
       id: '560094000000343001',
-      email: 'apps@activepieces.com',
+      email: 'apps@activeboxes.org',
     },
     $review: null,
     $state: 'save',
@@ -83,7 +83,7 @@ export const newContact = createTrigger({
     Created_By: {
       name: 'Activepieces Apps',
       id: '560094000000343001',
-      email: 'apps@activepieces.com',
+      email: 'apps@activeboxes.org',
     },
     $zia_owner_assignment: 'owner_recommendation_unavailable',
     Secondary_Email: null,

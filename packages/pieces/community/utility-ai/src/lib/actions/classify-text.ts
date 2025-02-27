@@ -1,5 +1,5 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { AI, AIChatRole, aiProps } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { AI, AIChatRole, aiProps } from '@activeboxes/pieces-common';
 
 export const classifyText = createAction({
   name: 'classifyText',

@@ -1,12 +1,12 @@
 import {
   createTrigger,
   TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { intercomAuth } from '../..';
 import { intercomClient } from '../common';
 
 export const replyFromAdmin = createTrigger({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'replyFromAdmin',
   displayName: 'Reply from an Intercom admin',
   description:

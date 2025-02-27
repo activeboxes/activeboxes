@@ -1,6 +1,6 @@
 import { docsCommon } from '../common';
 import { googleDocsAuth } from '../..';
-import { Property, createAction } from "@activepieces/pieces-framework";
+import { Property, createAction } from "@activeboxes/pieces-framework";
 
 export const appendText = createAction({
     auth: googleDocsAuth,

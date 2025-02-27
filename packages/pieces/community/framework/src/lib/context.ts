@@ -7,7 +7,7 @@ import {
   ResumePayload,
   SeekPage,
   TriggerPayload,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 import { TriggerStrategy } from './trigger/trigger';
 import {
   InputPropertyMap,
@@ -15,7 +15,7 @@ import {
   StaticPropsValue,
 } from './property';
 import { PieceAuthProperty } from './property/authentication';
-import { StopResponse, DelayPauseMetadata, PauseMetadata, WebhookPauseMetadata } from '@activepieces/shared';
+import { StopResponse, DelayPauseMetadata, PauseMetadata, WebhookPauseMetadata } from '@activeboxes/shared';
 
 type BaseContext<
   PieceAuth extends PieceAuthProperty,

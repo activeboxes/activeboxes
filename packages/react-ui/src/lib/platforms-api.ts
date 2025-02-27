@@ -2,7 +2,7 @@ import {
   LicenseKeyEntity,
   PlatformWithoutSensitiveData,
   UpdatePlatformRequestBody,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { api } from './api';
 import { authenticationSession } from './authentication-session';

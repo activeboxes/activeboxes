@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises'
 import { join, resolve, sep } from 'node:path'
-import { ApLock, filePiecesUtils, memoryLock, packageManager } from '@activepieces/server-shared'
-import { assertEqual, assertNotNullOrUndefined, PackageType, PiecePackage } from '@activepieces/shared'
+import { ApLock, filePiecesUtils, memoryLock, packageManager } from '@activeboxes/server-shared'
+import { assertEqual, assertNotNullOrUndefined, PackageType, PiecePackage } from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { workerMachine } from '../utils/machine'
 import { PIECES_BUILDER_MUTEX_KEY } from './development/pieces-builder'
@@ -28,9 +28,9 @@ export class LocalPieceManager extends PieceManager {
             const packages = workerMachine.getSettings().DEV_PIECES || []
 
             const frameworkPackages = {
-                '@activepieces/pieces-common': `link:${baseLinkPath}/common`,
-                '@activepieces/pieces-framework': `link:${baseLinkPath}/framework`,
-                '@activepieces/shared': `link:${basePath}/dist/packages/shared`,
+                '@activeboxes/pieces-common': `link:${baseLinkPath}/common`,
+                '@activeboxes/pieces-framework': `link:${baseLinkPath}/framework`,
+                '@activeboxes/shared': `link:${basePath}/dist/packages/shared`,
             }
 
             await linkFrameworkPackages(projectPath, baseLinkPath, frameworkPackages, params.log)
@@ -63,13 +63,13 @@ const linkFrameworkPackages = async (
 ): Promise<void> => {
     await updatePackageJson(join(baseLinkPath, 'framework'), frameworkPackages)
     await packageManager(log).link({
-        packageName: '@activepieces/pieces-framework',
+        packageName: '@activeboxes/pieces-framework',
         path: projectPath,
         linkPath: `${baseLinkPath}/framework`,
     })
     await updatePackageJson(join(baseLinkPath, 'common'), frameworkPackages)
     await packageManager(log).link({
-        packageName: '@activepieces/pieces-common',
+        packageName: '@activeboxes/pieces-common',
         path: projectPath,
         linkPath: `${baseLinkPath}/common`,
     })

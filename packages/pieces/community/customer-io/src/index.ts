@@ -2,12 +2,12 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { createEvent } from './lib/actions/create_event';
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import { customerIOCommon } from './lib/common';
 import { Buffer } from 'buffer';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 
 const markdown = `
 **Site ID:**\n
@@ -69,7 +69,7 @@ export const customerIo: any = createPiece({
     'Create personalized journeys across all channels with our customer engagement platform.',
   categories: [PieceCategory.MARKETING],
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/customerio.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/customerio.png',
   authors: ['hamedsh', 'AbuAboud', 'AdamSelene'],
   actions: [
     createEvent,

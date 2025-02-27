@@ -1,5 +1,5 @@
 import { googleGeminiAuth } from '../../index';
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { defaultLLM, getGeminiModelOptions } from '../common/common';
 

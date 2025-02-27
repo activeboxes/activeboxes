@@ -1,5 +1,5 @@
 rm -rf ~/.activepieces
 docker compose down
-docker volume rm activepieces_redis_data
-docker volume rm activepieces_postgres_data
-echo "Deleted activepieces dockers and volumes."
+docker volume rm activeboxes_redis_data
+docker volume rm activeboxes_postgres_data
+echo "Deleted activeboxes dockers and volumes."

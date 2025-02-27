@@ -1,5 +1,5 @@
-import { exceptionHandler, rejectedPromiseHandler } from '@activepieces/server-shared'
-import { EnginePrincipal, PrincipalType, TelemetryEventName } from '@activepieces/shared'
+import { exceptionHandler, rejectedPromiseHandler } from '@activeboxes/server-shared'
+import { EnginePrincipal, PrincipalType, TelemetryEventName } from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,

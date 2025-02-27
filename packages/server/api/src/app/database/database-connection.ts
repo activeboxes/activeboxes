@@ -1,5 +1,5 @@
-import { AppSystemProp } from '@activepieces/server-shared'
-import { ApEdition, ApEnvironment, isNil } from '@activepieces/shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
+import { ApEdition, ApEnvironment, isNil } from '@activeboxes/shared'
 import {
     ArrayContains,
     DataSource,

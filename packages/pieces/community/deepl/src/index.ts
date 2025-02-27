@@ -1,10 +1,10 @@
-import { createCustomApiCallAction } from '@activepieces/pieces-common';
+import { createCustomApiCallAction } from '@activeboxes/pieces-common';
 import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { translateText } from './lib/actions/translate-text';
 
 const markdownDescription = `
@@ -48,7 +48,7 @@ export const deepl = createPiece({
   description: 'AI-powered language translation',
   auth: deeplAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/deepl.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/deepl.png',
   categories: [],
   authors: ["BBND","kishanprmr","MoShizzle","abuaboud"],
   actions: [

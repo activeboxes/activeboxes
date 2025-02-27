@@ -9,7 +9,7 @@ import {
   ObjectProperty,
   Property,
   ShortTextProperty,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { ContentFields, FieldType } from 'contentful-management';
 import { getLinkHelperText } from '../common';
 

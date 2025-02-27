@@ -16,7 +16,7 @@ import {
   Trigger,
   TriggerType,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 type ActionErrorHandlingFormProps = {
   hideContinueOnFailure?: boolean;

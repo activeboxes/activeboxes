@@ -1,6 +1,6 @@
 import { whatsappAuth } from '../..';
-import { AuthenticationType, httpClient, HttpMethod } from '@activepieces/pieces-common';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { AuthenticationType, httpClient, HttpMethod } from '@activeboxes/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { commonProps } from '../common/utils';
 
 export const sendTemplateMessageAction = createAction({

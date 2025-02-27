@@ -2,8 +2,8 @@
       PieceAuth,
       Property,
       createPiece,
-    } from '@activepieces/pieces-framework';
-    import { PieceCategory } from '@activepieces/shared';
+    } from '@activeboxes/pieces-framework';
+    import { PieceCategory } from '@activeboxes/shared';
     import { createUser } from './lib/actions/createUser';
 
     export const aminosAuth = PieceAuth.CustomAuth({
@@ -40,7 +40,7 @@
       auth: aminosAuth,
       categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
       minimumSupportedRelease: '0.30.0',
-      logoUrl: "https://cdn.activepieces.com/pieces/aminos.png",
+      logoUrl: "https://cdn.activeboxes.org/pieces/aminos.png",
       authors: ["buttonsbond"],
       actions: [createUser],
       triggers: [],

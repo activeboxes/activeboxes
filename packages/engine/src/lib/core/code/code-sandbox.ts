@@ -1,4 +1,4 @@
-import { assertNotNullOrUndefined, ExecutionMode } from '@activepieces/shared'
+import { assertNotNullOrUndefined, ExecutionMode } from '@activeboxes/shared'
 import { CodeSandbox } from '../../core/code/code-sandbox-common'
 
 const EXECUTION_MODE = (process.env.AP_EXECUTION_MODE as ExecutionMode)

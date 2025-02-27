@@ -1,4 +1,4 @@
-import { ApLock } from '@activepieces/server-shared'
+import { ApLock } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     apId,
@@ -8,7 +8,7 @@ import {
     isNil,
     ProjectId,
     WebhookSimulation,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { repoFactory } from '../../core/db/repo-factory'
 import { distributedLock } from '../../helper/lock'

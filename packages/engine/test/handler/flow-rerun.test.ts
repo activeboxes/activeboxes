@@ -4,10 +4,10 @@ import { buildPieceAction, generateMockEngineConstants } from './test-helper'
 
 const failedHttpAction = buildPieceAction({
     name: 'send_http',
-    pieceName: '@activepieces/piece-http',
+    pieceName: '@activeboxes/piece-http',
     actionName: 'send_request',
     input: {
-        'url': 'https://cloud.activepieces.com/api/v1/asd',
+        'url': 'https://cloud.activeboxes.org/api/v1/asd',
         'method': 'GET',
         'headers': {},
         'body_type': 'none', 
@@ -18,10 +18,10 @@ const failedHttpAction = buildPieceAction({
 
 const successHttpAction =  buildPieceAction({
     name: 'send_http',
-    pieceName: '@activepieces/piece-http',
+    pieceName: '@activeboxes/piece-http',
     actionName: 'send_request',
     input: {
-        'url': 'https://cloud.activepieces.com/api/v1/pieces',
+        'url': 'https://cloud.activeboxes.org/api/v1/pieces',
         'method': 'GET',
         'headers': {},
         'body_type': 'none', 

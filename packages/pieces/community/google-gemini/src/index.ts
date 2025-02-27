@@ -2,9 +2,9 @@ import {
   createCustomApiCallAction,
   httpClient,
   HttpMethod,
-} from '@activepieces/pieces-common';
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { chatGemini } from './lib/actions/chat-gemini.action';
 import { generateContentFromImageAction } from './lib/actions/generate-content-from-image.action';
 import { generateContentAction } from './lib/actions/generate-content.action';
@@ -50,7 +50,7 @@ export const googleGemini = createPiece({
   auth: googleGeminiAuth,
   description: 'Use the new Gemini models from Google',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/google-gemini.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/google-gemini.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   authors: ["pfernandez98","kishanprmr","MoShizzle","AbdulTheActivePiecer","abuaboud"],
   actions: [

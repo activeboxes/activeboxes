@@ -5,8 +5,8 @@ import {
 	HttpMethod,
 	HttpRequest,
 	QueryParams,
-} from '@activepieces/pieces-common';
-import { isNil } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { isNil } from '@activeboxes/shared';
 
 export type ConfluenceApiCallParams = {
 	domain: string;

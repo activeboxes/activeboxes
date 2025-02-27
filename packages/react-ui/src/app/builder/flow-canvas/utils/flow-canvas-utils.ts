@@ -9,7 +9,7 @@ import {
   RouterAction,
   StepLocationRelativeToParent,
   Trigger,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { flowUtilConsts } from './consts';
 import {

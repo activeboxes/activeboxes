@@ -1,5 +1,5 @@
-import { UpsertOAuth2AppRequest } from '@activepieces/ee-shared'
-import { PlatformRole, PrincipalType } from '@activepieces/shared'
+import { UpsertOAuth2AppRequest } from '@activeboxes/ee-shared'
+import { PlatformRole, PrincipalType } from '@activeboxes/shared'
 import { faker } from '@faker-js/faker'
 import { FastifyInstance } from 'fastify'
 import { StatusCodes } from 'http-status-codes'

@@ -9,7 +9,7 @@ import {
   PieceActionSettings,
   PieceTrigger,
   PieceTriggerSettings,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { AutoPropertiesFormComponent } from '../../piece-properties/auto-properties-form';
 import { useStepSettingsContext } from '../step-settings-context';

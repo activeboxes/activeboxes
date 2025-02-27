@@ -2,7 +2,7 @@ import {
   TriggerStrategy,
   createTrigger,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { MoxieCRMEventType } from '.';
 import { moxieCRMAuth } from '../../';
 export const moxieCRMRegisterTrigger = ({

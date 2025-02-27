@@ -2,7 +2,7 @@ import {
 	createTrigger,
 	PiecePropValueSchema,
 	TriggerStrategy,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import dayjs from 'dayjs';
 import { TodoistCompletedListResponse, TodoistCompletedTask } from '../common/models';
 import { todoistProjectIdDropdown } from '../common/props';
@@ -15,7 +15,7 @@ import {
 	Polling,
 	pollingHelper,
 	QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 const ISO_FORMAT = 'YYYY-MM-DDTHH:mm:ss';
 

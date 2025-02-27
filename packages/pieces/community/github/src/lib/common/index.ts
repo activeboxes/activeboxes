@@ -1,4 +1,4 @@
-import { Property, OAuth2PropertyValue } from '@activepieces/pieces-framework';
+import { Property, OAuth2PropertyValue } from '@activeboxes/pieces-framework';
 import { Octokit } from 'octokit';
 
 export const githubCommon = {

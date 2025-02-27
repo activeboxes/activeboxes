@@ -5,7 +5,7 @@ import {
 	TriggerStrategy,
 	WebhookRenewStrategy,
 	createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 import {
 	createFileNotification,

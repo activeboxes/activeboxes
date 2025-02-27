@@ -1,5 +1,5 @@
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { concat } from './lib/actions/concat';
 import { find } from './lib/actions/find';
 import { htmlToMarkdown } from './lib/actions/html-to-markdown';
@@ -15,7 +15,7 @@ export const textHelper = createPiece({
   description: 'Tools for text processing',
   auth: PieceAuth.None(),
   minimumSupportedRelease: '0.36.1',
-  logoUrl: 'https://cdn.activepieces.com/pieces/text-helper.svg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/text-helper.svg',
   authors: [
     'joeworkman',
     'kishanprmr',

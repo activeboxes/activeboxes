@@ -2,13 +2,13 @@ import {
   createAction,
   Property,
   BasicAuthPropertyValue,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   HttpRequest,
   HttpMethod,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { generatebannersAuth } from '../../';
 
 export const renderTemplate = createAction({

@@ -23,7 +23,7 @@ import {
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { cn } from '@/lib/utils';
-import { ApFlagId } from '@activepieces/shared';
+import { ApFlagId } from '@activeboxes/shared';
 
 import { useNewWindow } from '../../../../components/embed-provider';
 import { flagsHooks } from '../../../../hooks/flags-hooks';
@@ -150,7 +150,7 @@ export function LanguageSwitcher() {
             <span
               className="text-primary ml-2 cursor-pointer"
               onClick={() =>
-                openNewIndow('https://www.activepieces.com/docs/about/i18n')
+                openNewIndow('https://www.activeboxes.org/docs/about/i18n')
               }
             >
               {t('Learn more')}

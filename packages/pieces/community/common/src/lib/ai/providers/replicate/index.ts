@@ -1,5 +1,5 @@
-import { Property } from '@activepieces/pieces-framework';
-import { isNil } from '@activepieces/shared';
+import { Property } from '@activeboxes/pieces-framework';
+import { isNil } from '@activeboxes/shared';
 import Replicate from 'replicate';
 import { AI, AIChatRole, AIFactory } from '../..';
 import { chatMapper, ChatModelMapper, imageMapper, ImageModelMapper, model, ModelType } from '../utils';

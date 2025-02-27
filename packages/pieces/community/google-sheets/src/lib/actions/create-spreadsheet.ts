@@ -3,7 +3,7 @@ import {
   OAuth2PropertyValue,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   googleSheetsCommon,
 } from '../common/common';
@@ -13,7 +13,7 @@ import {
   httpClient,
   HttpMethod,
   HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { drive_v3, sheets_v4 } from 'googleapis';
 
 export const createSpreadsheetAction = createAction({

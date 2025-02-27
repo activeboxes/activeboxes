@@ -13,7 +13,7 @@ import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { apiKeyApi } from '@/features/platform-admin-panel/lib/api-key-api';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { formatUtils } from '@/lib/utils';
-import { ApiKeyResponseWithoutValue } from '@activepieces/ee-shared';
+import { ApiKeyResponseWithoutValue } from '@activeboxes/ee-shared';
 
 const ApiKeysPage = () => {
   const queryClient = useQueryClient();
@@ -68,7 +68,7 @@ const ApiKeysPage = () => {
       lockDescription={t(
         'Create and manage API keys to access Activepieces APIs.',
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/api-keys.mp4"
+      lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/api-keys.mp4"
     >
       <div className="flex-col w-full">
         <div className="mb-4 flex">

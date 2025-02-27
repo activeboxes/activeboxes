@@ -1,4 +1,4 @@
-import { FolderDto } from '@activepieces/shared';
+import { FolderDto } from '@activeboxes/shared';
 
 export const foldersUtils = {
   extractUncategorizedFlows: (

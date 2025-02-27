@@ -1,6 +1,6 @@
 <img src="https://www.seven.io/wp-content/uploads/Logo.svg" width="250" />
 
-Official seven piece for [Activepieces](https://www.activepieces.com/)
+Official seven piece for [Activepieces](https://www.activeboxes.org/)
 
 ## Installation
 ### Dashboard

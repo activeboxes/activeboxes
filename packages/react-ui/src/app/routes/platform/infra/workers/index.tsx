@@ -16,7 +16,7 @@ import {
   ApFlagId,
   WorkerMachineStatus,
   WorkerMachineWithStatus,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { WorkerConfigsModal } from './worker-configs-dialog';
 

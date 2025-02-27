@@ -6,7 +6,7 @@ import {
     FlowVersionId,
     isNil,
     ProjectId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyBaseLogger } from 'fastify'
 import { flowService } from '../../flows/flow/flow.service'
 import { triggerHooks } from '../../flows/trigger'

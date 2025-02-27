@@ -1,14 +1,14 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
 import {
   AuthenticationType,
   HttpMethod,
   createCustomApiCallAction,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { baseUrl } from './lib/common/common';
 import { promptCompletion } from './lib/actions/prompt-completion';
 import { imageGeneration } from './lib/actions/image-generation';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 
 const markdownDescription = `
 Follow these instructions to get your Straico API Key:
@@ -49,7 +49,7 @@ export const straico = createPiece({
   displayName: 'Straico',
   auth: straicoAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/straico.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/straico.png',
   categories: [PieceCategory.ARTIFICIAL_INTELLIGENCE],
   description: 'All-in-one generative AI platform',
   authors: ['dennisrongo'],

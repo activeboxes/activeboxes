@@ -6,7 +6,7 @@ import {
 	HttpRequest,
 	QueryParams,
 	httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { JiraAuth } from '../../auth';
 
 export async function sendJiraRequest(request: HttpRequest & { auth: JiraAuth }) {

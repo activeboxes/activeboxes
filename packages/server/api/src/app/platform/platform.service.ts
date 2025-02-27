@@ -11,7 +11,7 @@ import {
     spreadIfDefined,
     UpdatePlatformRequestBody,
     UserId,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { In } from 'typeorm'
 import { repoFactory } from '../core/db/repo-factory'
 import { defaultTheme } from '../flags/theme'

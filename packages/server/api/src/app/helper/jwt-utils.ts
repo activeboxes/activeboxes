@@ -1,12 +1,12 @@
 import { randomBytes } from 'crypto'
 import { promisify } from 'util'
-import { AppSystemProp } from '@activepieces/server-shared'
+import { AppSystemProp } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ErrorCode,
     isNil,
     spreadIfDefined,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import jwtLibrary, {
     DecodeOptions,
     SignOptions,

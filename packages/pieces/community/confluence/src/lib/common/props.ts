@@ -1,7 +1,7 @@
-import { HttpMethod } from '@activepieces/pieces-common';
+import { HttpMethod } from '@activeboxes/pieces-common';
 import { confluencePaginatedApiCall } from '.';
 import { confluenceAuth } from '../../index';
-import { DropdownOption, PiecePropValueSchema, Property } from '@activepieces/pieces-framework';
+import { DropdownOption, PiecePropValueSchema, Property } from '@activeboxes/pieces-framework';
 
 export const spaceIdProp = Property.Dropdown({
 	displayName: 'Space',

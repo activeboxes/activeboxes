@@ -1,5 +1,5 @@
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createColumnAction } from './lib/actions/create-column';
 import { createGroupAction } from './lib/actions/create-group';
 import { createItemAction } from './lib/actions/create-item';
@@ -30,7 +30,7 @@ export const monday = createPiece({
   description: 'Work operating system for businesses',
 
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/monday.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/monday.png',
   categories: [PieceCategory.PRODUCTIVITY],
   authors: [
     'kanarelo',

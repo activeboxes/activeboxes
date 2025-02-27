@@ -1,5 +1,5 @@
 import { hubspotAuth } from '../../';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { Client } from '@hubspot/api-client';
 
 export const getPipelineStageDeatilsAction = createAction({

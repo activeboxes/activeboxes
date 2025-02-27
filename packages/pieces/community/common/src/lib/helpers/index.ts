@@ -6,7 +6,7 @@ import {
   createAction,
   StaticPropsValue,
   InputPropertyMap,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   HttpError,
   HttpHeaders,
@@ -15,7 +15,7 @@ import {
   QueryParams,
   httpClient,
 } from '../http';
-import { assertNotNullOrUndefined } from '@activepieces/shared';
+import { assertNotNullOrUndefined } from '@activeboxes/shared';
 
 export const getAccessTokenOrThrow = (
   auth: OAuth2PropertyValue | undefined

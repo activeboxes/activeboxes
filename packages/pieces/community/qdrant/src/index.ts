@@ -2,8 +2,8 @@ import {
   createPiece,
   PieceAuth,
   Property,
-} from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { addPointsToCollection } from './lib/actions/add-points';
 import { deleteCollection } from './lib/actions/delete-collection';
 import { deletePoints } from './lib/actions/delete-points';
@@ -45,7 +45,7 @@ export const qdrant = createPiece({
   description: 'Make any action on your qdrant vector database',
   auth: qdrantAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/qdrant.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/qdrant.png',
   authors: ["ArmanGiau3","kishanprmr","abuaboud"],
   categories: [PieceCategory.DEVELOPER_TOOLS],
   actions: [

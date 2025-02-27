@@ -5,7 +5,7 @@ import {
   AppConnectionOwners,
   AppConnectionWithoutSensitiveData,
   ListAppConnectionsRequestQuery,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { appConnectionsApi } from './app-connections-api';
 

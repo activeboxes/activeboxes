@@ -1,6 +1,6 @@
-import { DropdownOption, Property } from '@activepieces/pieces-framework';
+import { DropdownOption, Property } from '@activeboxes/pieces-framework';
 import { ContentfulAuth, makeClient } from '../common';
-import { isEmpty } from '@activepieces/shared';
+import { isEmpty } from '@activeboxes/shared';
 
 const ContentModel = Property.Dropdown<string>({
   displayName: 'Content Model',

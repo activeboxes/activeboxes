@@ -4,7 +4,7 @@ import {
   httpClient,
   HttpResponse,
   QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
   ContactCreateRequest,
   ClientCreateRequest,

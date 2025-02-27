@@ -12,7 +12,7 @@ import { Navigate } from 'react-router-dom';
 import SidebarLayout, { SidebarItem } from '@/app/components/sidebar-layout';
 import { useAuthorization } from '@/hooks/authorization-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
-import { isNil, Permission } from '@activepieces/shared';
+import { isNil, Permission } from '@activeboxes/shared';
 
 import { authenticationSession } from '../../lib/authentication-session';
 

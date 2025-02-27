@@ -3,7 +3,7 @@ import {
   HttpMethod,
   HttpRequest,
   QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { MatomoAuthType } from './auth';
 
 const matomoAPI = async (

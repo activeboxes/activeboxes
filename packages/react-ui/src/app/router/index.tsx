@@ -25,7 +25,7 @@ import { ProjectPiecesPage } from '@/app/routes/settings/pieces';
 import { useEmbedding } from '@/components/embed-provider';
 import { VerifyEmail } from '@/features/authentication/components/verify-email';
 import { AcceptInvitation } from '@/features/team/component/accept-invitation';
-import { Permission } from '@activepieces/shared';
+import { Permission } from '@activeboxes/shared';
 import {
   ActivepiecesClientEventName,
   ActivepiecesVendorEventName,

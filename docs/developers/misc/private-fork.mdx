@@ -13,14 +13,14 @@ For private piece installation, you will need the paid edition. However, you can
 
 ## Create a Private Fork (Private Pieces)
 
-By following these steps, you can create a private fork on GitHub, GitLab or another platform and configure the "activepieces" repository as the upstream source, allowing you to incorporate changes from the "activepieces" repository.
+By following these steps, you can create a private fork on GitHub, GitLab or another platform and configure the "activeboxes" repository as the upstream source, allowing you to incorporate changes from the "activeboxes" repository.
 
 1. **Clone the Repository:**
 
 Begin by creating a bare clone of the repository. Remember that this is a temporary step and will be deleted later.
 
 ```bash
-git clone --bare git@github.com:activepieces/activepieces.git
+git clone --bare git@github.com:activeboxes/activeboxes.git
  ```
 
 2. **Create a Private Git Repository**
@@ -29,27 +29,27 @@ Generate a new private repository on GitHub or your chosen platform. When initia
    
 3. **Mirror-Push to the Private Repository:**
 
-Mirror-push the bare clone you created earlier to your newly created "activepieces" repository. Make sure to replace `<your_username>` in the URL below with your actual GitHub username.
+Mirror-push the bare clone you created earlier to your newly created "activeboxes" repository. Make sure to replace `<your_username>` in the URL below with your actual GitHub username.
 
 ```bash
-cd activepieces.git
-git push --mirror git@github.com:<your_username>/activepieces.git
+cd activeboxes.git
+git push --mirror git@github.com:<your_username>/activeboxes.git
 ```
 
 4. **Remove the Temporary Local Repository:**
   
 ```bash
 cd ..
-rm -rf activepieces.git
+rm -rf activeboxes.git
 ```
 
 5. **Clone Your Private Repository:**
 
-Now, you can clone your "activepieces" repository onto your local machine into your desired directory.
+Now, you can clone your "activeboxes" repository onto your local machine into your desired directory.
 
 ```bash
 cd ~/path/to/directory
-git clone git@github.com:<your_username>/activepieces.git
+git clone git@github.com:<your_username>/activeboxes.git
 ```
 
 6. **Add the Original Repository as a Remote:**
@@ -57,16 +57,16 @@ git clone git@github.com:<your_username>/activepieces.git
 If desired, you can add the original repository as a remote to fetch potential future changes. However, remember to disable push operations for this remote, as you are not permitted to push changes to it.
 
 ```bash
-git remote add upstream git@github.com:activepieces/activepieces.git
+git remote add upstream git@github.com:activeboxes/activeboxes.git
 git remote set-url --push upstream DISABLE
 ```
 
 You can view a list of all your remotes using `git remote -v`. It should resemble the following:
 
 ```
-origin	git@github.com:<your_username>/activepieces.git (fetch)
-origin	git@github.com:<your_username>/activepieces.git (push)
-upstream	git@github.com:activepieces/activepieces.git (fetch)
+origin	git@github.com:<your_username>/activeboxes.git (fetch)
+origin	git@github.com:<your_username>/activeboxes.git (push)
+upstream	git@github.com:activeboxes/activeboxes.git (fetch)
 upstream	DISABLE (push)
 ```
 

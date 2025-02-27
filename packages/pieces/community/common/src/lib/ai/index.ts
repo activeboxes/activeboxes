@@ -1,4 +1,4 @@
-import { ApFile, ServerContext } from '@activepieces/pieces-framework';
+import { ApFile, ServerContext } from '@activeboxes/pieces-framework';
 import { AI_PROVIDERS, AiProvider } from './providers';
 
 export type AI = {

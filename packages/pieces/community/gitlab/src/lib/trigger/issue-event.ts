@@ -2,7 +2,7 @@ import {
   createTrigger,
   TriggerStrategy,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 
 import { gitlabCommon, makeClient } from '../common';
 import { gitlabAuth } from '../..';

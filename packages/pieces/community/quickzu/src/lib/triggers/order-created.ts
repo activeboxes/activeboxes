@@ -3,7 +3,7 @@ import {
   TriggerStrategy,
   WebhookHandshakeStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { quickzuAuth } from '../../';
 
 const markdown = `

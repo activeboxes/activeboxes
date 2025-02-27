@@ -2,7 +2,7 @@ import {
     AppSystemProp,
     JobType,
     LATEST_JOB_DATA_SCHEMA_VERSION,
-    pinoLogging } from '@activepieces/server-shared'
+    pinoLogging } from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ALL_PRINCIPAL_TYPES,
@@ -16,7 +16,7 @@ import {
     isMultipartFile,
     isNil,
     WebhookUrlParams,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
 import { FastifyBaseLogger, FastifyRequest } from 'fastify'
 import { StatusCodes } from 'http-status-codes'

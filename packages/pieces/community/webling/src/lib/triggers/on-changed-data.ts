@@ -2,12 +2,12 @@ import {
   createTrigger,
   TriggerStrategy,
   PiecePropValueSchema,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   DedupeStrategy,
   Polling,
   pollingHelper,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { weblingAuth } from '../../index';
 import { WeblingChanges } from '../common/types';
 import { getChanges } from '../common/helpers';

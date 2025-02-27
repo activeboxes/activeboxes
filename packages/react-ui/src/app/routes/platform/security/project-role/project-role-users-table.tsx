@@ -20,8 +20,8 @@ import { TableTitle } from '@/components/ui/table-title';
 import { projectRoleApi } from '@/features/platform-admin-panel/lib/project-role-api';
 import { platformProjectMembersApi } from '@/features/team/lib/platform-project-members-api';
 import { platformHooks } from '@/hooks/platform-hooks';
-import { ProjectMemberWithUser } from '@activepieces/ee-shared';
-import { assertNotNullOrUndefined, isNil } from '@activepieces/shared';
+import { ProjectMemberWithUser } from '@activeboxes/ee-shared';
+import { assertNotNullOrUndefined, isNil } from '@activeboxes/shared';
 
 export const ProjectRoleUsersTable = () => {
   const { platform } = platformHooks.useCurrentPlatform();
@@ -116,7 +116,7 @@ export const ProjectRoleUsersTable = () => {
       lockDescription={t(
         'Define custom roles and permissions to control what your team members can access and modify',
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/roles.mp4"
+      lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/roles.mp4"
     >
       <div className="flex-col w-full">
         <div className="mb-4 flex items-center justify-between">

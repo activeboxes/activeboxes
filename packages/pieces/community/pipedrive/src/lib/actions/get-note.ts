@@ -1,7 +1,7 @@
 import { pipedriveAuth } from "../../index";
-import { createAction, Property } from "@activepieces/pieces-framework";
+import { createAction, Property } from "@activeboxes/pieces-framework";
 import { pipedriveApiCall } from "../common";
-import { HttpMethod } from "@activepieces/pieces-common";
+import { HttpMethod } from "@activeboxes/pieces-common";
 
 export const getNoteAction = createAction({
     auth:pipedriveAuth,

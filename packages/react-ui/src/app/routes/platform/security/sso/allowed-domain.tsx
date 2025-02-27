@@ -19,7 +19,7 @@ import { Form, FormField, FormItem, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { INTERNAL_ERROR_TOAST, toast } from '@/components/ui/use-toast';
 import { platformApi } from '@/lib/platforms-api';
-import { Platform, UpdatePlatformRequestBody } from '@activepieces/shared';
+import { Platform, UpdatePlatformRequestBody } from '@activeboxes/shared';
 
 type AllowedDomainDialogProps = {
   platform: Platform;

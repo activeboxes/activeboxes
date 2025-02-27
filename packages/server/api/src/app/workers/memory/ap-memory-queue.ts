@@ -1,5 +1,5 @@
-import { ApSemaphore } from '@activepieces/server-shared'
-import { assertNotNullOrUndefined, isNil } from '@activepieces/shared'
+import { ApSemaphore } from '@activeboxes/server-shared'
+import { assertNotNullOrUndefined, isNil } from '@activeboxes/shared'
 import cronParser from 'cron-parser'
 import dayjs from 'dayjs'
 

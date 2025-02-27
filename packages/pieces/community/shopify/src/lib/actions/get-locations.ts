@@ -1,4 +1,4 @@
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { shopifyAuth } from '../..';
 import { getLocations } from '../common';
 

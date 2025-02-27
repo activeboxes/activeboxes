@@ -1,9 +1,9 @@
 import { pipedriveAuth } from '../../index';
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { activityTypeIdProp, filterIdProp, ownerIdProp } from '../common/props';
 import { pipedrivePaginatedApiCall } from '../common';
-import { HttpMethod } from '@activepieces/pieces-common';
-import { isNil } from '@activepieces/shared';
+import { HttpMethod } from '@activeboxes/pieces-common';
+import { isNil } from '@activeboxes/shared';
 
 export const findActivityAction = createAction({
 	auth: pipedriveAuth,

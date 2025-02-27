@@ -4,7 +4,7 @@ import {
 	QueryParams,
 	httpClient,
 	HttpRequest,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import {
 	BaseResponse,
 	GetTableResponse,

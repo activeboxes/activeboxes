@@ -1,5 +1,5 @@
-import { AppSystemProp, exceptionHandler, JobStatus, memoryLock, QueueName, rejectedPromiseHandler } from '@activepieces/server-shared'
-import { assertNotNullOrUndefined, isNil } from '@activepieces/shared'
+import { AppSystemProp, exceptionHandler, JobStatus, memoryLock, QueueName, rejectedPromiseHandler } from '@activeboxes/server-shared'
+import { assertNotNullOrUndefined, isNil } from '@activeboxes/shared'
 import { Job, Worker } from 'bullmq'
 import dayjs from 'dayjs'
 import { FastifyBaseLogger } from 'fastify'

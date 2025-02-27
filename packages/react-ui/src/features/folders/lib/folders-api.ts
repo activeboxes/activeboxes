@@ -7,7 +7,7 @@ import {
   ListFolderRequest,
   SeekPage,
   UpdateFolderRequest,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const foldersApi = {
   async list(): Promise<FolderDto[]> {

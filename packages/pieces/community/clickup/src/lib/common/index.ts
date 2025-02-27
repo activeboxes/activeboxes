@@ -1,4 +1,4 @@
-import { Property, OAuth2PropertyValue } from '@activepieces/pieces-framework';
+import { Property, OAuth2PropertyValue } from '@activeboxes/pieces-framework';
 import {
   getAccessTokenOrThrow,
   HttpMethod,
@@ -6,7 +6,7 @@ import {
   HttpResponse,
   httpClient,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { ClickupTask, ClickupWorkspace } from './models';
 
 export const clickupCommon = {

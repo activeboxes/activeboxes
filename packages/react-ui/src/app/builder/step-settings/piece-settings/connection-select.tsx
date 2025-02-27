@@ -19,14 +19,14 @@ import {
 import {
   PieceMetadataModel,
   PieceMetadataModelSummary,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   AppConnectionScope,
   AppConnectionWithoutSensitiveData,
   PieceAction,
   PieceTrigger,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import { appConnectionsHooks } from '../../../../features/connections/lib/app-connections-hooks';
 

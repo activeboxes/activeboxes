@@ -17,8 +17,8 @@ import { PieceIcon } from '@/features/pieces/components/piece-icon';
 import { piecesApi } from '@/features/pieces/lib/pieces-api';
 import { piecesHooks } from '@/features/pieces/lib/pieces-hook';
 import { platformHooks } from '@/hooks/platform-hooks';
-import { PieceMetadataModelSummary } from '@activepieces/pieces-framework';
-import { isNil, PieceType } from '@activepieces/shared';
+import { PieceMetadataModelSummary } from '@activeboxes/pieces-framework';
+import { isNil, PieceType } from '@activeboxes/shared';
 
 import { TableTitle } from '../../../../components/ui/table-title';
 
@@ -132,7 +132,7 @@ const ProjectPiecesPage = () => {
       lockDescription={t(
         "Show the pieces that matter most to your users and hide the ones that you don't like",
       )}
-      lockVideoUrl="https://cdn.activepieces.com/videos/showcase/pieces.mp4"
+      lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/pieces.mp4"
     >
       <div className="flex w-full flex-col items-center justify-center gap-4">
         <div className="mx-auto w-full flex-col">

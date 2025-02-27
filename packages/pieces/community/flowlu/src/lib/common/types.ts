@@ -1,4 +1,4 @@
-import { HttpMessageBody } from '@activepieces/pieces-common';
+import { HttpMessageBody } from '@activeboxes/pieces-common';
 
 export interface Task {
   id: number;

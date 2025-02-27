@@ -3,12 +3,12 @@ import {
   TriggerStrategy,
   Property,
   OAuth2PropertyValue,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { intercomAuth } from '../..';
 import { intercomClient } from '../common';
 
 export const conversationPartTagged = createTrigger({
-  // auth: check https://www.activepieces.com/docs/developers/piece-reference/authentication,
+  // auth: check https://www.activeboxes.org/docs/developers/piece-reference/authentication,
   name: 'conversationPartTagged',
   displayName: 'Tag added to a conversation part',
   description: 'Triggers when a conversation part is tagged',

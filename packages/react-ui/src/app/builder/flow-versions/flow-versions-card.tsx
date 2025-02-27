@@ -46,7 +46,7 @@ import {
   FlowVersionState,
   Permission,
   PopulatedFlow,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 type UseAsDraftOptionProps = {
   versionNumber: number;

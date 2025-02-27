@@ -20,7 +20,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table';
-import { SeekPage } from '@activepieces/shared';
+import { SeekPage } from '@activeboxes/shared';
 
 import { Button } from '../button';
 import {

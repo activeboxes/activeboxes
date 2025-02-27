@@ -4,7 +4,7 @@ import {
   HttpMethod,
   HttpResponse,
   httpClient,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export async function calltidycalapi<T extends HttpMessageBody>(
   method: HttpMethod,

@@ -8,7 +8,7 @@ import {
   Trigger,
   assertNotNullOrUndefined,
   isNil,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 const removeIntroplationBrackets = (text: string) => {
   return text.slice(2, text.length - 2);

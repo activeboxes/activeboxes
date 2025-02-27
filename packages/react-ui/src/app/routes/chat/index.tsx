@@ -19,7 +19,7 @@ import {
   isNil,
   USE_DRAFT_QUERY_PARAM_NAME,
   HumanInputFormResultTypes,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 import NotFoundPage from '../404-page';
 

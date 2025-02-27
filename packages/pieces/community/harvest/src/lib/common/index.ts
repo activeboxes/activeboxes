@@ -1,11 +1,11 @@
-import { DynamicPropsValue } from '@activepieces/pieces-framework';
+import { DynamicPropsValue } from '@activeboxes/pieces-framework';
 import {
   HttpMethod,
   HttpMessageBody,
   HttpResponse,
   httpClient,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export async function callHarvestApi<T extends HttpMessageBody = any>(
   method: HttpMethod,

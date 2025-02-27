@@ -2,8 +2,8 @@ import {
   ActionContext,
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
-import { ExecutionType, PauseType } from '@activepieces/shared';
+} from '@activeboxes/pieces-framework';
+import { ExecutionType, PauseType } from '@activeboxes/shared';
 import { TranscriptParams } from 'assemblyai';
 import { assemblyaiAuth } from '../../auth';
 import { getAssemblyAIClient } from '../../client';

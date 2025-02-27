@@ -28,7 +28,7 @@ import {
 import { projectReleaseApi } from '@/features/project-version/lib/project-release-api';
 import { projectHooks } from '@/hooks/project-hooks';
 import { formatUtils } from '@/lib/utils';
-import { ProjectRelease, ProjectReleaseType } from '@activepieces/shared';
+import { ProjectRelease, ProjectReleaseType } from '@activeboxes/shared';
 
 import { ApplyButton } from './apply-plan';
 import { SelectionButton } from './selection-dialog';
@@ -148,7 +148,7 @@ const ProjectReleasesPage = () => {
               'Track and manage your project version history and deployments. ',
             )}
             <a
-              href="https://www.activepieces.com/docs/operations/git-sync"
+              href="https://www.activeboxes.org/docs/operations/git-sync"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"

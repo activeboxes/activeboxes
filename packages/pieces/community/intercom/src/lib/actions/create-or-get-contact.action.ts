@@ -1,7 +1,7 @@
-import { Property, createAction } from '@activepieces/pieces-framework';
+import { Property, createAction } from '@activeboxes/pieces-framework';
 import {
   HttpResponse,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import { intercomClient } from '../common';
 import { intercomAuth } from '../..';
 

@@ -28,8 +28,8 @@ import {
   GitBranchType,
   GitPushOperationType,
   PushGitRepoRequest,
-} from '@activepieces/ee-shared';
-import { assertNotNullOrUndefined } from '@activepieces/shared';
+} from '@activeboxes/ee-shared';
+import { assertNotNullOrUndefined } from '@activeboxes/shared';
 
 import { gitSyncApi } from '../lib/git-sync-api';
 import { gitSyncHooks } from '../lib/git-sync-hooks';

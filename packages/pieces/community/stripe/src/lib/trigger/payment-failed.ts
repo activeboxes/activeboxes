@@ -1,5 +1,5 @@
-import { createTrigger } from '@activepieces/pieces-framework';
-import { TriggerStrategy } from '@activepieces/pieces-framework';
+import { createTrigger } from '@activeboxes/pieces-framework';
+import { TriggerStrategy } from '@activeboxes/pieces-framework';
 import { stripeCommon } from '../common';
 import { stripeAuth } from '../..';
 
@@ -146,7 +146,7 @@ export const stripePaymentFailed = createTrigger({
       usage: 'reusable',
     },
     source_transfer: null,
-    statement_descriptor: 'www.activepieces.com',
+    statement_descriptor: 'www.activeboxes.org',
     statement_descriptor_suffix: null,
     status: 'failed',
     transfer_data: null,

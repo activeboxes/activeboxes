@@ -1,8 +1,8 @@
 import {
   createAction,
   Property,
-} from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { talkableAuth } from '../../..';
 
 export const createEvent = createAction({

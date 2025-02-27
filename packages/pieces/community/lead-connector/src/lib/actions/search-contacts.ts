@@ -1,4 +1,4 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
+import { createAction, Property } from '@activeboxes/pieces-framework';
 import { getContacts } from '../common';
 import { leadConnectorAuth } from '../..';
 

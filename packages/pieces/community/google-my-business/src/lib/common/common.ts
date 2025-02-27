@@ -2,13 +2,13 @@ import {
   Property,
   OAuth2PropertyValue,
   DropdownOption,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import {
   httpClient,
   HttpMethod,
   AuthenticationType,
   QueryParams,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 
 export const googleBusinessCommon = {
   account: Property.Dropdown({

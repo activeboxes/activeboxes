@@ -1,5 +1,5 @@
-import { createAction } from '@activepieces/pieces-framework';
-import { ExecutionType, PauseType } from '@activepieces/shared';
+import { createAction } from '@activeboxes/pieces-framework';
+import { ExecutionType, PauseType } from '@activeboxes/shared';
 
 export const waitForApprovalLink = createAction({
   name: 'wait_for_approval',

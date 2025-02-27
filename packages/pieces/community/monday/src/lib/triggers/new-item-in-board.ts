@@ -2,7 +2,7 @@ import {
   TriggerStrategy,
   WebhookHandshakeStrategy,
   createTrigger,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { mondayAuth } from '../..';
 import { makeClient, mondayCommon } from '../common';
 import { MondayWebhookEventType } from '../common/constants';

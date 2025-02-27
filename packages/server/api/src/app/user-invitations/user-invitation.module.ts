@@ -16,7 +16,7 @@ import {
     SERVICE_KEY_SECURITY_OPENAPI,
     UserInvitation,
     UserInvitationWithLink,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox, Type } from '@fastify/type-provider-typebox'
 import dayjs from 'dayjs'
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify'

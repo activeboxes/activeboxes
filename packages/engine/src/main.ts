@@ -2,7 +2,7 @@ import { argv } from 'process'
 import {
     EngineOperation,
     EngineOperationType,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { EngineConstants } from './lib/handler/context/engine-constants'
 import { execute } from './lib/operations'
 import { utils } from './lib/utils'

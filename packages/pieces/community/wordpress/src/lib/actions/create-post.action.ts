@@ -2,13 +2,13 @@ import {
   createAction,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { wordpressCommon, WordPressMedia } from '../common';
 import {
   httpClient,
   HttpMethod,
   AuthenticationType,
-} from '@activepieces/pieces-common';
+} from '@activeboxes/pieces-common';
 import FormData from 'form-data';
 import { wordpressAuth } from '../..';
 

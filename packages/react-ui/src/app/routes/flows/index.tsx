@@ -54,8 +54,8 @@ import { useAuthorization } from '@/hooks/authorization-hooks';
 import { platformHooks } from '@/hooks/platform-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
 import { formatUtils, NEW_FLOW_QUERY_PARAM } from '@/lib/utils';
-import { GitBranchType } from '@activepieces/ee-shared';
-import { FlowStatus, Permission, PopulatedFlow } from '@activepieces/shared';
+import { GitBranchType } from '@activeboxes/ee-shared';
+import { FlowStatus, Permission, PopulatedFlow } from '@activeboxes/shared';
 
 import FlowActionMenu from '../../../app/components/flow-actions-menu';
 import { TableTitle } from '../../../components/ui/table-title';

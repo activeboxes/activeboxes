@@ -10,8 +10,8 @@ import {
   FormLabel,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { BasicAuthProperty } from '@activepieces/pieces-framework';
-import { UpsertBasicAuthRequest } from '@activepieces/shared';
+import { BasicAuthProperty } from '@activeboxes/pieces-framework';
+import { UpsertBasicAuthRequest } from '@activeboxes/shared';
 
 type BasicAuthConnectionSettingsProps = {
   authProperty: BasicAuthProperty;

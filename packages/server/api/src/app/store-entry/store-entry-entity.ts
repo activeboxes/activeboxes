@@ -1,4 +1,4 @@
-import { STORE_KEY_MAX_LENGTH, StoreEntry } from '@activepieces/shared'
+import { STORE_KEY_MAX_LENGTH, StoreEntry } from '@activeboxes/shared'
 import { EntitySchema } from 'typeorm'
 import {
     ApIdSchema,

@@ -1,4 +1,4 @@
-import { ProjectId } from '@activepieces/shared'
+import { ProjectId } from '@activeboxes/shared'
 import { Dayjs } from 'dayjs'
 
 export enum SystemJobName {

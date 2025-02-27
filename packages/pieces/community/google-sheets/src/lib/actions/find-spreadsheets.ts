@@ -1,5 +1,5 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod, AuthenticationType } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod, AuthenticationType } from '@activeboxes/pieces-common';
 import { googleSheetsCommon } from '../common/common';
 import { googleSheetsAuth } from '../..';
 

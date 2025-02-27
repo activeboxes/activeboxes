@@ -2,7 +2,7 @@ import {
   FilesService,
   PiecePropValueSchema,
   Property,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { ImapFlow } from 'imapflow';
 import { imapAuth } from '../../';
 

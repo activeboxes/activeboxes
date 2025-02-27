@@ -11,8 +11,8 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip';
 import { cn } from '@/lib/utils';
-import { PieceProperty, PropertyType } from '@activepieces/pieces-framework';
-import { Action, Trigger } from '@activepieces/shared';
+import { PieceProperty, PropertyType } from '@activeboxes/pieces-framework';
+import { Action, Trigger } from '@activeboxes/shared';
 
 import { TextInputWithMentions } from './text-input-with-mentions';
 

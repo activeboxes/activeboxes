@@ -1,9 +1,9 @@
-import { Property } from '@activepieces/pieces-framework';
+import { Property } from '@activeboxes/pieces-framework';
 import {
   AiProviderWithoutSensitiveData,
   isNil,
   SeekPage,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 import { Static, Type } from '@sinclair/typebox';
 import { httpClient, HttpMethod } from '../../http';
 import { anthropic } from './anthropic';
@@ -33,7 +33,7 @@ It is strongly recommended that you add your credit card information to your Ope
 
 export const AI_PROVIDERS = [
   {
-    logoUrl: 'https://cdn.activepieces.com/pieces/openai.png',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/openai.png',
     defaultBaseUrl: 'https://api.openai.com',
     label: 'OpenAI' as const,
     value: 'openai' as const,
@@ -43,7 +43,7 @@ export const AI_PROVIDERS = [
     instructionsMarkdown: AI_PROVIDERS_MAKRDOWN.openai,
   },
   {
-    logoUrl: 'https://cdn.activepieces.com/pieces/claude.png',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/claude.png',
     defaultBaseUrl: 'https://api.anthropic.com',
     label: 'Anthropic' as const,
     value: 'anthropic' as const,
@@ -79,7 +79,7 @@ export const AI_PROVIDERS = [
     instructionsMarkdown: AI_PROVIDERS_MAKRDOWN.anthropic,
   },
   {
-    logoUrl: 'https://cdn.activepieces.com/pieces/replicate.png',
+    logoUrl: 'https://cdn.activeboxes.org/pieces/replicate.png',
     defaultBaseUrl: 'https://api.replicate.com',
     label: 'Replicate' as const,
     value: 'replicate' as const,

@@ -1,4 +1,4 @@
-import { apId } from '@activepieces/shared'
+import { apId } from '@activeboxes/shared'
 import { MigrationInterface, QueryRunner } from 'typeorm'
 import { system } from '../../../helper/system/system'
 
@@ -815,9 +815,9 @@ async function migrateProjects(queryRunner: QueryRunner) {
             '${ownerId}',
             'Activepieces',
             '#6e41e2',
-            'https://cdn.activepieces.com/brand/logo.svg',
-            'https://cdn.activepieces.com/brand/full-logo.png',
-            'https://cdn.activepieces.com/brand/favicon.ico',
+            'https://cdn.activeboxes.org/brand/logo.svg',
+            'https://cdn.activeboxes.org/brand/full-logo.png',
+            'https://cdn.activeboxes.org/brand/favicon.ico',
             '',
             'BLOCKED',
             NULL,

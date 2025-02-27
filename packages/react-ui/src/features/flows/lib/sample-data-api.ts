@@ -3,7 +3,7 @@ import {
   GetSampleDataRequest,
   SaveSampleDataRequest,
   SaveSampleDataResponse,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 export const sampleDataApi = {
   save(request: SaveSampleDataRequest) {

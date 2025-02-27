@@ -32,7 +32,7 @@ import {
   isNil,
   Permission,
   PopulatedFlow,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 type FlowRunCardProps = {
   run: FlowRun;

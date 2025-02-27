@@ -1,5 +1,5 @@
-    import { createCustomApiCallAction } from "@activepieces/pieces-common";
-    import { createPiece, PieceAuth, Property } from "@activepieces/pieces-framework";
+    import { createCustomApiCallAction } from "@activeboxes/pieces-common";
+    import { createPiece, PieceAuth, Property } from "@activeboxes/pieces-framework";
     import { generateRazorpayAuthHeader, RazorpayCredentials, razorpayURL } from "./lib/common/utils";
     import { createPaymentlink } from "./lib/actions/create-payment-link";
 
@@ -30,7 +30,7 @@
       displayName: "Razorpay",
       auth: razorpayAuth,
       minimumSupportedRelease: '0.30.0',
-      logoUrl: "https://cdn.activepieces.com/pieces/razorpay.png",
+      logoUrl: "https://cdn.activeboxes.org/pieces/razorpay.png",
       authors: ['drona2938'],
       actions: [
         createCustomApiCallAction({

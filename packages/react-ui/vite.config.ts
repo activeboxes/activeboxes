@@ -34,11 +34,11 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
-      '@activepieces/shared': path.resolve(
+      '@activeboxes/shared': path.resolve(
         __dirname,
         '../../packages/shared/src',
       ),
-      '@activepieces/pieces-framework': path.resolve(
+      '@activeboxes/pieces-framework': path.resolve(
         __dirname,
         '../../packages/pieces/community/framework/src',
       ),

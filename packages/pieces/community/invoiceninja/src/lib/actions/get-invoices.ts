@@ -1,6 +1,6 @@
 // action to return invoices from InvoiceNinja with filtering by invoice status and client id
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { invoiceninjaAuth } from '../..';
 export const getInvoices = createAction({
   auth: invoiceninjaAuth,

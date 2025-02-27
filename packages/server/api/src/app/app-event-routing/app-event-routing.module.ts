@@ -1,13 +1,13 @@
-import { facebookLeads } from '@activepieces/piece-facebook-leads'
-import { intercom } from '@activepieces/piece-intercom'
-import { slack } from '@activepieces/piece-slack'
-import { square } from '@activepieces/piece-square'
-import { Piece } from '@activepieces/pieces-framework'
+import { facebookLeads } from '@activeboxes/piece-facebook-leads'
+import { intercom } from '@activeboxes/piece-intercom'
+import { slack } from '@activeboxes/piece-slack'
+import { square } from '@activeboxes/piece-square'
+import { Piece } from '@activeboxes/pieces-framework'
 import {
     JobType,
     LATEST_JOB_DATA_SCHEMA_VERSION,
     rejectedPromiseHandler,
-} from '@activepieces/server-shared'
+} from '@activeboxes/server-shared'
 import {
     ActivepiecesError,
     ALL_PRINCIPAL_TYPES,
@@ -16,7 +16,7 @@ import {
     ErrorCode,
     GetFlowVersionForWorkerRequestType,
     isNil,
-} from '@activepieces/shared'
+} from '@activeboxes/shared'
 import { FastifyPluginAsyncTypebox } from '@fastify/type-provider-typebox'
 import { FastifyRequest } from 'fastify'
 import { StatusCodes } from 'http-status-codes'
@@ -32,10 +32,10 @@ const appWebhooks: Record<string, Piece> = {
     intercom,
 }
 const pieceNames: Record<string, string> = {
-    slack: '@activepieces/piece-slack',
-    square: '@activepieces/piece-square',
-    'facebook-leads': '@activepieces/piece-facebook-leads',
-    intercom: '@activepieces/piece-intercom',
+    slack: '@activeboxes/piece-slack',
+    square: '@activeboxes/piece-square',
+    'facebook-leads': '@activeboxes/piece-facebook-leads',
+    intercom: '@activeboxes/piece-intercom',
 }
 
 export const appEventRoutingModule: FastifyPluginAsyncTypebox = async (app) => {

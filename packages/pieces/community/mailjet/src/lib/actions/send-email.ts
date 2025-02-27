@@ -1,5 +1,5 @@
-import { createAction, Property } from '@activepieces/pieces-framework';
-import { AuthenticationType, httpClient, HttpMethod, HttpRequest } from '@activepieces/pieces-common';
+import { createAction, Property } from '@activeboxes/pieces-framework';
+import { AuthenticationType, httpClient, HttpMethod, HttpRequest } from '@activeboxes/pieces-common';
 import { mailjetAuth } from '../../';
 
 export const sendEmail = createAction({

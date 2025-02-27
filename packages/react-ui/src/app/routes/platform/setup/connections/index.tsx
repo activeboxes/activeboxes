@@ -39,7 +39,7 @@ import {
   AppConnectionStatus,
   AppConnectionWithoutSensitiveData,
   Permission,
-} from '@activepieces/shared';
+} from '@activeboxes/shared';
 
 const STATUS_QUERY_PARAM = 'status';
 const filters = [
@@ -359,7 +359,7 @@ const GlobalConnectionsTable = () => {
         lockDescription={t(
           'Manage platform-wide connections to external systems.',
         )}
-        lockVideoUrl="https://cdn.activepieces.com/videos/showcase/global-connections.mp4"
+        lockVideoUrl="https://cdn.activeboxes.org/videos/showcase/global-connections.mp4"
       >
         <TableTitle
           description={t(

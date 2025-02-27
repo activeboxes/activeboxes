@@ -1,5 +1,5 @@
-import { BasicAuthPropertyValue, Property } from '@activepieces/pieces-framework';
-import { httpClient, HttpRequest, HttpMethod } from '@activepieces/pieces-common';
+import { BasicAuthPropertyValue, Property } from '@activeboxes/pieces-framework';
+import { httpClient, HttpRequest, HttpMethod } from '@activeboxes/pieces-common';
 
 export interface WebhookInformation {
 	id: string;

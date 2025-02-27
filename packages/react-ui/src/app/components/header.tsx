@@ -9,7 +9,7 @@ import { ProjectSwitcher } from '@/features/projects/components/project-switcher
 import { InviteUserDialog } from '@/features/team/component/invite-user-dialog';
 import { useShowPlatformAdminDashboard } from '@/hooks/authorization-hooks';
 import { authenticationSession } from '@/lib/authentication-session';
-import { PlatformRole } from '@activepieces/shared';
+import { PlatformRole } from '@activeboxes/shared';
 
 import { useEmbedding } from '../../components/embed-provider';
 import { Separator } from '../../components/ui/separator';

@@ -1,11 +1,11 @@
-import { createPiece, PieceAuth } from '@activepieces/pieces-framework';
-import { httpClient, HttpMethod } from '@activepieces/pieces-common';
+import { createPiece, PieceAuth } from '@activeboxes/pieces-framework';
+import { httpClient, HttpMethod } from '@activeboxes/pieces-common';
 import { addContact } from './lib/actions/add-contact';
 import { deleteContacts } from './lib/actions/delete-contacts';
 import { sendSms } from './lib/actions/send-sms';
 import { sendMms } from './lib/actions/send-mms';
 import { triggers } from './lib/triggers';
-import { PieceCategory } from '@activepieces/shared';
+import { PieceCategory } from '@activeboxes/shared';
 
 export const krispcallAuth = PieceAuth.CustomAuth({
   props: {
@@ -42,7 +42,7 @@ export const KrispCall = createPiece({
   categories: [PieceCategory.COMMUNICATION],
   auth: krispcallAuth,
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/krispcall.svg',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/krispcall.svg',
   authors: ['deependra321'],
   actions: [addContact, deleteContacts, sendSms, sendMms],
   triggers: triggers,

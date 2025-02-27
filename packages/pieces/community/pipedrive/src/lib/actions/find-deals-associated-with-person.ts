@@ -1,9 +1,9 @@
 import { pipedriveAuth } from '../../index';
-import { createAction } from '@activepieces/pieces-framework';
+import { createAction } from '@activeboxes/pieces-framework';
 import { personIdProp } from '../common/props';
 import { pipedrivePaginatedApiCall, pipedriveTransformCustomFields } from '../common';
-import { HttpMethod } from '@activepieces/pieces-common';
-import { isNil } from '@activepieces/shared';
+import { HttpMethod } from '@activeboxes/pieces-common';
+import { isNil } from '@activeboxes/shared';
 import { GetField } from '../common/types';
 
 export const findDealsAssociatedWithPersonAction = createAction({

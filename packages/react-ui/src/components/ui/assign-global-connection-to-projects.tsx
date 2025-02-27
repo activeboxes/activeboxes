@@ -2,7 +2,7 @@ import { t } from 'i18next';
 import { Control } from 'react-hook-form';
 
 import { projectHooks } from '@/hooks/project-hooks';
-import { isNil } from '@activepieces/shared';
+import { isNil } from '@activeboxes/shared';
 
 import { MultiSelectPieceProperty } from '../custom/multi-select-piece-property';
 

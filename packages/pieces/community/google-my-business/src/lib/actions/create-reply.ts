@@ -1,9 +1,9 @@
 import {
   Property,
   createAction,
-} from '@activepieces/pieces-framework';
+} from '@activeboxes/pieces-framework';
 import { googleAuth } from '../..';
-import { HttpMethod, httpClient, propsValidation } from '@activepieces/pieces-common';
+import { HttpMethod, httpClient, propsValidation } from '@activeboxes/pieces-common';
 import { z } from 'zod';
 
 export const createReply = createAction({

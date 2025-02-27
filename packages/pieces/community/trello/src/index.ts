@@ -2,9 +2,9 @@ import {
   HttpMethod,
   HttpRequest,
   httpClient,
-} from '@activepieces/pieces-common';
-import { PieceAuth, createPiece } from '@activepieces/pieces-framework';
-import { PieceCategory } from '@activepieces/shared';
+} from '@activeboxes/pieces-common';
+import { PieceAuth, createPiece } from '@activeboxes/pieces-framework';
+import { PieceCategory } from '@activeboxes/shared';
 import { createCard } from './lib/actions/create-card';
 import { getCard } from './lib/actions/get-card';
 import { cardMovedTrigger } from './lib/triggers/cardMoved';
@@ -68,7 +68,7 @@ export const trello = createPiece({
   displayName: 'Trello',
   description: 'Project management tool for teams',
   minimumSupportedRelease: '0.30.0',
-  logoUrl: 'https://cdn.activepieces.com/pieces/trello.png',
+  logoUrl: 'https://cdn.activeboxes.org/pieces/trello.png',
   authors: ["Salem-Alaa","kishanprmr","MoShizzle","khaledmashaly","abuaboud"],
   categories: [PieceCategory.PRODUCTIVITY],
   auth: trelloAuth,

@@ -1,6 +1,6 @@
-import { HttpMethod, HttpRequest, httpClient } from '@activepieces/pieces-common';
+import { HttpMethod, HttpRequest, httpClient } from '@activeboxes/pieces-common';
 import { mauticAuth } from '../../index';
-import { Property, TriggerStrategy, createTrigger } from "@activepieces/pieces-framework";
+import { Property, TriggerStrategy, createTrigger } from "@activeboxes/pieces-framework";
 
 const contactTestData = {
   "contact": {
