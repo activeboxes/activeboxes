@@ -4,7 +4,6 @@ import {
     EnginePrincipal,
     PrincipalType,
     SeekPage,
-    TelemetryEventName,
 } from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
@@ -13,7 +12,6 @@ import {
 } from '@fastify/type-provider-typebox'
 import { StatusCodes } from 'http-status-codes'
 import { platformMustBeOwnedByCurrentUser } from '../ee/authentication/ee-authorization'
-import { telemetry } from '../helper/telemetry.utils'
 import { proxyController } from './ai-provider-proxy'
 import { aiProviderService } from './ai-provider.service'
 
@@ -45,21 +43,6 @@ const aiProviderController: FastifyPluginCallbackTypebox = (
 ) => {
     fastify.addHook('preHandler', platformMustBeOwnedByCurrentUser)
     fastify.post('/', CreateProxyConfigRequest, async (request) => {
-        telemetry(request.log)
-            .trackProject(request.principal.projectId, {
-                name: TelemetryEventName.AI_PROVIDER_CONFIGURED,
-                payload: {
-                    projectId: request.principal.projectId,
-                    platformId: request.principal.platform.id,
-                    provider: request.body.provider,
-                },
-            })
-            .catch((e) =>
-                fastify.log.error(
-                    e,
-                    '[ConfigureAiProvider#telemetry] telemetry.trackProject',
-                ),
-            )
         return aiProviderService.upsert(request.principal.platform.id, {
             config: request.body.config,
             baseUrl: request.body.baseUrl,

@@ -1,12 +1,11 @@
 import { exceptionHandler, rejectedPromiseHandler } from '@activeboxes/server-shared'
-import { EnginePrincipal, PrincipalType, TelemetryEventName } from '@activeboxes/shared'
+import { EnginePrincipal, PrincipalType } from '@activeboxes/shared'
 import {
     FastifyPluginAsyncTypebox,
     Type,
 } from '@fastify/type-provider-typebox'
 import { StatusCodes } from 'http-status-codes'
 import { BillingUsageType, usageService } from '../ee/platform-billing/usage/usage-service'
-import { telemetry } from '../helper/telemetry.utils'
 import { projectService } from '../project/project-service'
 import { aiProviderService } from './ai-provider.service'
 
@@ -53,14 +52,6 @@ export const proxyController: FastifyPluginAsyncTypebox = async (
 
             await usageService(request.log).increaseProjectAndPlatformUsage({ projectId, incrementBy: 1, usageType: BillingUsageType.AI_TOKENS })
 
-            rejectedPromiseHandler(telemetry(request.log).trackProject(projectId, {
-                name: TelemetryEventName.AI_PROVIDER_USED,
-                payload: {
-                    projectId,
-                    platformId,
-                    provider,
-                },
-            }), request.log)
             await reply.code(response.status).type(responseContentType ?? 'text/plain').send(data)
         }
         catch (error) {

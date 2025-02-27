@@ -423,10 +423,6 @@ const environmentVariables = [
         value: "600"
     },
     {
-        name: "AP_TELEMETRY_ENABLED",
-        value: "true"
-    },
-    {
         name: "AP_TEMPLATES_SOURCE_URL",
         value: "https://cloud.activeboxes.org/api/v1/flow-templates"
     }
